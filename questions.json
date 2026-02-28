@@ -1,0 +1,1717 @@
+[
+  {
+    "id": "q0001",
+    "theme": "Origines",
+    "question": "Quelle est la date de fondation d’Auto Union AG (les quatre anneaux) ?",
+    "choices": [
+      "29 juin 1931",
+      "29 juin 1932",
+      "29 juin 1933",
+      "29 juin 1934"
+    ],
+    "answerIndex": 1,
+    "explanation": "Auto Union AG est fondée le 29 juin 1932.",
+    "source": "Audi MediaCenter – History of the Four Rings",
+    "mnemonic": "4 anneaux = 4 marques ; Auto Union = 1932 (retenir 32)."
+  },
+  {
+    "id": "q0002",
+    "theme": "Origines",
+    "question": "Quelles marques composent la fusion Auto Union (1932) ?",
+    "choices": [
+      "Audi, DKW, Horch, Wanderer",
+      "Audi, NSU, Horch, Wanderer",
+      "DKW, NSU, Horch, Maybach",
+      "Audi, DKW, BMW, Wanderer"
+    ],
+    "answerIndex": 0,
+    "explanation": "Les quatre anneaux représentent Audi, DKW, Horch et Wanderer.",
+    "source": "Audi MediaCenter – History of the Four Rings"
+  },
+  {
+    "id": "q0003",
+    "theme": "Personnages",
+    "question": "Quelle est la date de création de l’entreprise Audi par August Horch à Zwickau ?",
+    "choices": [
+      "16 juillet 1908",
+      "16 juillet 1909",
+      "16 juillet 1910",
+      "16 juillet 1911"
+    ],
+    "answerIndex": 1,
+    "explanation": "Audi est fondée par August Horch à Zwickau le 16 juillet 1909.",
+    "source": "Audi MediaCenter (PDF) – The book on 30 years of Audi Sport (mentions la fondation en 1909)",
+    "mnemonic": "Horch → Audi (latin 'écoute !') ; Audi fondée à Zwickau (1909)."
+  },
+  {
+    "id": "q0004",
+    "theme": "Personnages",
+    "question": "Pourquoi August Horch choisit-il le nom « Audi » ?",
+    "choices": [
+      "C’est un acronyme technique",
+      "C’est la traduction latine de son nom (impératif : « écouter ! »)",
+      "C’est le nom d’un lieu",
+      "C’est le nom d’un modèle Horch"
+    ],
+    "answerIndex": 1,
+    "explanation": "Audi correspond à la traduction latine de « Horch » (impératif : écouter).",
+    "source": "Audi MediaCenter (PDF) – The book on 30 years of Audi Sport",
+    "mnemonic": "Horch → Audi (latin 'écoute !') ; Audi fondée à Zwickau (1909)."
+  },
+  {
+    "id": "q0005",
+    "theme": "Slogan",
+    "question": "En quel mois et quelle année le claim « Vorsprung durch Technik » apparaît-il pour la première fois dans une publicité grand format ?",
+    "choices": [
+      "Janvier 1970",
+      "Janvier 1971",
+      "Juillet 1971",
+      "Janvier 1972"
+    ],
+    "answerIndex": 1,
+    "explanation": "Première apparition dans une publicité grand format en janvier 1971.",
+    "source": "Audi MediaCenter – Ein Claim mit Geschichte… (photo/texte 50 ans Vorsprung durch Technik)"
+  },
+  {
+    "id": "q0006",
+    "theme": "Slogan",
+    "question": "Quel modèle est explicitement cité comme support publicitaire où figurait « Ro 80. Vorsprung durch Technik. » ?",
+    "choices": [
+      "NSU Prinz",
+      "NSU Ro 80",
+      "Audi 100 C3",
+      "DKW F1"
+    ],
+    "answerIndex": 1,
+    "explanation": "L’affiche « Ro 80. Vorsprung durch Technik. » est citée dans l’histoire NSU.",
+    "source": "Audi MediaCenter – The traditional NSU brand and the Audi Neckarsulm site (article)"
+  },
+  {
+    "id": "q0007",
+    "theme": "Entreprise",
+    "question": "À quelle date AUDI NSU AUTO UNION AG est-elle renommée AUDI AG ?",
+    "choices": [
+      "1er janvier 1984",
+      "1er janvier 1985",
+      "1er janvier 1986",
+      "1er janvier 1987"
+    ],
+    "answerIndex": 1,
+    "explanation": "Changement de nom au 1er janvier 1985 (et transfert du siège à Ingolstadt).",
+    "source": "Audi MediaCenter – The traditional NSU brand and the Audi Neckarsulm site (article)"
+  },
+  {
+    "id": "q0008",
+    "theme": "Origines",
+    "question": "Dans l’article historique Audi, quel constructeur est cité comme ayant fait appel à Ferdinand Porsche dès 1931 ?",
+    "choices": [
+      "Horch",
+      "Wanderer",
+      "DKW",
+      "Audi (pré-1932)"
+    ],
+    "answerIndex": 1,
+    "explanation": "Wanderer a déjà engagé les services de Ferdinand Porsche en 1931.",
+    "source": "Audi MediaCenter – History of the Four Rings"
+  },
+  {
+    "id": "q0009",
+    "theme": "Personnages",
+    "question": "Dans l’histoire Auto Union, Ferdinand Porsche est associé à quel type de contribution en 1933 ?",
+    "choices": [
+      "Design d’un V12 diesel",
+      "Développement d’une Grand Prix car (accord 1933)",
+      "Création du logo des anneaux",
+      "Conception de la DKW F1"
+    ],
+    "answerIndex": 1,
+    "explanation": "Accord dès 1933 pour développer une voiture de Grand Prix Auto Union.",
+    "source": "Audi MediaCenter – History of the Four Rings",
+    "mnemonic": "Porsche = cerveau technique Auto Union GP (années 30) → associer Porsche ↔ Silver Arrows."
+  },
+  {
+    "id": "q0010",
+    "theme": "Compétition (Auto Union)",
+    "question": "Quel circuit et quelle date marquent la première apparition en compétition des Auto Union Grand Prix à quatre anneaux ?",
+    "choices": [
+      "AVUS Berlin – 27 mai 1934",
+      "Nürburgring – 1er juin 1934",
+      "Monza – 27 mai 1934",
+      "AVUS Berlin – 1er juin 1933"
+    ],
+    "answerIndex": 0,
+    "explanation": "Première apparition : AVUS Berlin, 27 mai 1934.",
+    "source": "Audi MediaCenter – How the “Silver Arrow” legend was born"
+  },
+  {
+    "id": "q0011",
+    "theme": "Compétition (Auto Union)",
+    "question": "Quel choix décrit correctement l’architecture remarquable des Auto Union GP (années 30) ?",
+    "choices": [
+      "Moteur à l’avant, propulsion",
+      "Moteur derrière le pilote (mid-engine)",
+      "Traction avant",
+      "Moteur arrière en porte-à-faux type Coccinelle"
+    ],
+    "answerIndex": 1,
+    "explanation": "Le moteur est placé derrière le pilote (concept très en avance).",
+    "source": "Audi MediaCenter – How the “Silver Arrow” legend was born"
+  },
+  {
+    "id": "q0012",
+    "theme": "Compétition (Auto Union)",
+    "question": "Quel type de suralimentation est explicitement cité sur le V16 des Auto Union GP dans l’histoire Audi ?",
+    "choices": [
+      "Compresseur Roots",
+      "Twin-scroll",
+      "Biturbo",
+      "Compresseur centrifuge"
+    ],
+    "answerIndex": 0,
+    "explanation": "V16 avec compresseur Roots (mentionné dans l’article historique).",
+    "source": "Audi MediaCenter – History of the Four Rings"
+  },
+  {
+    "id": "q0013",
+    "theme": "Compétition (Auto Union)",
+    "question": "Dans l’article sur les Silver Arrows, quels gains de puissance sont donnés pour Type A → Type C ?",
+    "choices": [
+      "295 → 520 bhp",
+      "250 → 600 bhp",
+      "320 → 480 bhp",
+      "375 → 520 bhp"
+    ],
+    "answerIndex": 0,
+    "explanation": "Type A 295 bhp, Type C 520 bhp (valeurs indiquées).",
+    "source": "Audi MediaCenter – How the “Silver Arrow” legend was born"
+  },
+  {
+    "id": "q0014",
+    "theme": "Compétition (Auto Union)",
+    "question": "Quel moteur est associé à l’Auto Union Type D dans l’histoire Audi (nouvelle formule 1938) ?",
+    "choices": [
+      "V16 compressé",
+      "V12",
+      "V8",
+      "L6 compressé"
+    ],
+    "answerIndex": 1,
+    "explanation": "Type D : V12 (mention dans l’historique).",
+    "source": "Audi MediaCenter – History of the Four Rings"
+  },
+  {
+    "id": "q0015",
+    "theme": "Compétition (Le Mans)",
+    "question": "Quelle année correspond à la première victoire Audi aux 24 Heures du Mans (ère moderne) ?",
+    "choices": [
+      "1999",
+      "2000",
+      "2001",
+      "2002"
+    ],
+    "answerIndex": 1,
+    "explanation": "Première victoire : 2000.",
+    "source": "Audi MediaCenter – Audi 1-2-3 at Le Mans",
+    "mnemonic": "Le Mans : 2000 = 1re victoire Audi (R8) → 2000 = départ de la série."
+  },
+  {
+    "id": "q0016",
+    "theme": "Compétition (Le Mans)",
+    "question": "Quel résultat est mis en avant au Mans 2000 dans le communiqué Audi ?",
+    "choices": [
+      "1-2",
+      "1-2-3",
+      "1-3-4",
+      "2-3-4"
+    ],
+    "answerIndex": 1,
+    "explanation": "Le communiqué titre explicitement un 1-2-3.",
+    "source": "Audi MediaCenter – Audi 1-2-3 at Le Mans"
+  },
+  {
+    "id": "q0017",
+    "theme": "Compétition (Le Mans)",
+    "question": "Quel prototype Audi est associé au triplé du Mans 2000 dans le communiqué ?",
+    "choices": [
+      "Audi R8",
+      "Audi R10 TDI",
+      "Audi R15 TDI",
+      "Audi R18 e-tron quattro"
+    ],
+    "answerIndex": 0,
+    "explanation": "Le communiqué liste les équipages sur Audi R8.",
+    "source": "Audi MediaCenter – Audi 1-2-3 at Le Mans"
+  },
+  {
+    "id": "q0018",
+    "theme": "Compétition (Le Mans)",
+    "question": "Quel trio de pilotes est classé 1er au Mans 2000 dans le communiqué Audi ?",
+    "choices": [
+      "Aiello / McNish / Ortelli",
+      "Biela / Kristensen / Pirro",
+      "Abt / Alboreto / Capello",
+      "Duval / Kristensen / McNish"
+    ],
+    "answerIndex": 1,
+    "explanation": "1ers : Biela / Kristensen / Pirro.",
+    "source": "Audi MediaCenter – Audi 1-2-3 at Le Mans"
+  },
+  {
+    "id": "q0019",
+    "theme": "Compétition (Le Mans)",
+    "question": "Quel trio de pilotes est classé 2e au Mans 2000 dans le communiqué Audi ?",
+    "choices": [
+      "Aiello / McNish / Ortelli",
+      "Biela / Kristensen / Pirro",
+      "Abt / Alboreto / Capello",
+      "Raphanel / Katoh / O’Connell"
+    ],
+    "answerIndex": 0,
+    "explanation": "2e : Aiello / McNish / Ortelli.",
+    "source": "Audi MediaCenter – Audi 1-2-3 at Le Mans"
+  },
+  {
+    "id": "q0020",
+    "theme": "Compétition (Le Mans)",
+    "question": "Quel trio de pilotes est classé 3e au Mans 2000 dans le communiqué Audi ?",
+    "choices": [
+      "Abt / Alboreto / Capello",
+      "Capello / Kristensen / McNish",
+      "Bourdais / Grouillard / Clerico",
+      "Beretta / Wendlinger / Dupuy"
+    ],
+    "answerIndex": 0,
+    "explanation": "3e : Abt / Alboreto / Capello.",
+    "source": "Audi MediaCenter – Audi 1-2-3 at Le Mans"
+  },
+  {
+    "id": "q0021",
+    "theme": "Design / Modèles",
+    "question": "En quelle année débute la production série de l’Audi TT Coupé (Type 8N) ?",
+    "choices": [
+      "1997",
+      "1998",
+      "1999",
+      "2000"
+    ],
+    "answerIndex": 1,
+    "explanation": "Production série TT Coupé : 1998.",
+    "source": "Audi MediaCenter – A timeless design icon: The Audi TT turns 25",
+    "mnemonic": "TT = fin des 90s → 1998 (Coupé) puis 1999 (Roadster)."
+  },
+  {
+    "id": "q0022",
+    "theme": "Design / Modèles",
+    "question": "Combien d’années après le TT Coupé Audi lance le TT Roadster (1ère génération) ?",
+    "choices": [
+      "La même année",
+      "1 an après",
+      "2 ans après",
+      "3 ans après"
+    ],
+    "answerIndex": 1,
+    "explanation": "TT Roadster : un an après le Coupé (1999).",
+    "source": "Audi MediaCenter – A timeless design icon: The Audi TT turns 25"
+  },
+  {
+    "id": "q0023",
+    "theme": "Design / Modèles",
+    "question": "Quel total de TT Coupé (1ère génération) est indiqué sur la période de production (jusqu’à mi-2006) ?",
+    "choices": [
+      "178 765",
+      "90 733",
+      "662 762",
+      "240 168"
+    ],
+    "answerIndex": 0,
+    "explanation": "Le MediaCenter donne 178 765 TT Coupé (Type 8N) jusqu’à mi-2006.",
+    "source": "Audi MediaCenter – A timeless design icon: The Audi TT turns 25"
+  },
+  {
+    "id": "q0024",
+    "theme": "Design / Modèles",
+    "question": "Quel total de TT Roadster (1ère génération) est indiqué pour 1999–2006 ?",
+    "choices": [
+      "178 765",
+      "90 733",
+      "43 000",
+      "116 800"
+    ],
+    "answerIndex": 1,
+    "explanation": "Le MediaCenter donne 90 733 TT Roadsters (1999–2006).",
+    "source": "Audi MediaCenter – A timeless design icon: The Audi TT turns 25"
+  },
+  {
+    "id": "q0025",
+    "theme": "Sport (RS)",
+    "question": "En quelle année l’Audi RS 2 Avant est-elle citée comme point de départ historique de la lignée (dans une publication Audi RS) ?",
+    "choices": [
+      "1992",
+      "1993",
+      "1994",
+      "1995"
+    ],
+    "answerIndex": 2,
+    "explanation": "La publication situe la RS 2 Avant en 1994.",
+    "source": "Audi MediaCenter (PDF) – Basisinfo RS 4 Avant (historique RS 2)"
+  },
+  {
+    "id": "q0026",
+    "theme": "Sport (RS)",
+    "question": "Quelle puissance est donnée pour la RS 2 (moteur 5-cyl turbo 2.2) dans la publication Audi RS ?",
+    "choices": [
+      "210 kW (286 PS)",
+      "232 kW (315 PS)",
+      "250 kW (340 PS)",
+      "265 kW (360 PS)"
+    ],
+    "answerIndex": 1,
+    "explanation": "232 kW (315 PS) sont indiqués.",
+    "source": "Audi MediaCenter (PDF) – Basisinfo RS 4 Avant (RS2 : 232 kW/315 PS)"
+  },
+  {
+    "id": "q0027",
+    "theme": "Sport (RS)",
+    "question": "Quel partenaire est mentionné comme partenaire de développement/fabrication de pièces (freins/roues) pour la RS 2 ?",
+    "choices": [
+      "Cosworth",
+      "Porsche AG",
+      "Bosch Motorsport",
+      "Magna Steyr"
+    ],
+    "answerIndex": 1,
+    "explanation": "Porsche AG est citée comme partenaire (pièces comme freins/roues).",
+    "source": "Audi MediaCenter (PDF) – Basisinfo RS 4 Avant (RS2)"
+  },
+  {
+    "id": "q0028",
+    "theme": "NSU / Sites",
+    "question": "De quels cours d’eau provient l’origine du nom « NSU » selon l’article historique de Neckarsulm ?",
+    "choices": [
+      "Neckar et Sulm",
+      "Neckar et Ruhr",
+      "Main et Sulm",
+      "Moselle et Neckar"
+    ],
+    "answerIndex": 0,
+    "explanation": "NSU est dérivé de Neckarsulm (Neckar + Sulm).",
+    "source": "Audi MediaCenter – The traditional NSU brand and the Audi Neckarsulm site (PDF/article)"
+  },
+  {
+    "id": "q0029",
+    "theme": "Concepts",
+    "question": "Quelle longueur est annoncée pour l’Audi activesphere concept ?",
+    "choices": [
+      "4,88 m",
+      "4,98 m",
+      "5,08 m",
+      "5,18 m"
+    ],
+    "answerIndex": 1,
+    "explanation": "Longueur annoncée : 4,98 m.",
+    "source": "Audi France – Communiqué activesphere concept (dimensions)",
+    "mnemonic": "Active = 4,98 m / 2,97 m → '98' et '97' (facile à confondre, retenir le couple)."
+  },
+  {
+    "id": "q0030",
+    "theme": "Concepts",
+    "question": "Quel empattement est annoncé pour l’Audi activesphere concept ?",
+    "choices": [
+      "2,87 m",
+      "2,97 m",
+      "3,07 m",
+      "3,19 m"
+    ],
+    "answerIndex": 1,
+    "explanation": "Empattement annoncé : 2,97 m.",
+    "source": "Audi France – Communiqué activesphere concept (dimensions)",
+    "mnemonic": "Active = 4,98 m / 2,97 m → '98' et '97' (facile à confondre, retenir le couple)."
+  },
+  {
+    "id": "q0031",
+    "theme": "Concepts",
+    "question": "Quelle largeur est annoncée pour l’Audi activesphere concept ?",
+    "choices": [
+      "2,00 m",
+      "2,01 m",
+      "2,07 m",
+      "2,10 m"
+    ],
+    "answerIndex": 2,
+    "explanation": "Largeur annoncée : 2,07 m.",
+    "source": "Audi France – Communiqué activesphere concept (dimensions)",
+    "mnemonic": "Active = 4,98 m / 2,97 m → '98' et '97' (facile à confondre, retenir le couple)."
+  },
+  {
+    "id": "q0032",
+    "theme": "Concepts",
+    "question": "Quelle hauteur est annoncée pour l’Audi activesphere concept ?",
+    "choices": [
+      "1,50 m",
+      "1,55 m",
+      "1,60 m",
+      "1,65 m"
+    ],
+    "answerIndex": 2,
+    "explanation": "Hauteur annoncée : 1,60 m.",
+    "source": "Audi France – Communiqué activesphere concept (dimensions)",
+    "mnemonic": "Active = 4,98 m / 2,97 m → '98' et '97' (facile à confondre, retenir le couple)."
+  },
+  {
+    "id": "q0033",
+    "theme": "Concepts",
+    "question": "Sur l’Audi skysphere concept, quelle variation d’empattement/longueur est annoncée ?",
+    "choices": [
+      "150 mm",
+      "200 mm",
+      "250 mm",
+      "300 mm"
+    ],
+    "answerIndex": 2,
+    "explanation": "Variation annoncée : 250 mm.",
+    "source": "Audi.com (site) – Skysphere concept (caractéristiques)",
+    "mnemonic": "Sky = 4,94 ↔ 5,19 (+25 cm) → 494/519 + 250 mm."
+  },
+  {
+    "id": "q0034",
+    "theme": "Concepts",
+    "question": "Sur l’Audi skysphere concept, quelle variation de garde au sol est annoncée ?",
+    "choices": [
+      "±5 mm",
+      "±10 mm",
+      "±15 mm",
+      "±20 mm"
+    ],
+    "answerIndex": 1,
+    "explanation": "Variation annoncée : ±10 mm.",
+    "source": "Audi.com (site) – Skysphere concept (caractéristiques)",
+    "mnemonic": "Sky = 4,94 ↔ 5,19 (+25 cm) → 494/519 + 250 mm."
+  },
+  {
+    "id": "q0035",
+    "theme": "Origines",
+    "question": "Dans l’article historique Audi, à partir de quelle date (mois/année) la conception et les tests des GP Auto Union sont-ils supervisés à Zwickau (Horch) ?",
+    "choices": [
+      "Mars 1932",
+      "Mars 1933",
+      "Mars 1934",
+      "Mars 1935"
+    ],
+    "answerIndex": 1,
+    "explanation": "Supervision de la construction et des tests à partir de mars 1933.",
+    "source": "Audi MediaCenter – How the “Silver Arrow” legend was born"
+  },
+  {
+    "id": "q0036",
+    "theme": "Compétition (Auto Union)",
+    "question": "Quelle puissance minimale exigée (valeur de référence) était liée à l’approbation du design des GP Auto Union ?",
+    "choices": [
+      "250 ch à 4500 tr/min",
+      "300 ch à 4500 tr/min",
+      "250 ch à 6000 tr/min",
+      "300 ch à 6000 tr/min"
+    ],
+    "answerIndex": 0,
+    "explanation": "Le texte mentionne une approbation conditionnée à au moins 250 hp à 4500 rpm.",
+    "source": "Audi MediaCenter – How the “Silver Arrow” legend was born"
+  },
+  {
+    "id": "q0037",
+    "theme": "Modèles",
+    "question": "Quelle particularité de production inter-sites est décrite pour la TT (1ère génération) ?",
+    "choices": [
+      "Assemblage final à Ingolstadt uniquement",
+      "Carrosseries peintes envoyées par rail Ingolstadt → Győr",
+      "Assemblage final à Neckarsulm",
+      "Carrosseries envoyées par avion"
+    ],
+    "answerIndex": 1,
+    "explanation": "Carrosseries peintes transportées de nuit par rail vers Győr pour l’assemblage final.",
+    "source": "Audi MediaCenter – A timeless design icon: The Audi TT turns 25"
+  },
+  {
+    "id": "q0038",
+    "theme": "Compétition (Auto Union)",
+    "question": "Quel pilote est explicitement cité comme ayant réalisé un record de vitesse sur l’AVUS en mars 1934 avec un Auto Union GP ?",
+    "choices": [
+      "Bernd Rosemeyer",
+      "Hans Stuck",
+      "Tazio Nuvolari",
+      "Achille Varzi"
+    ],
+    "answerIndex": 1,
+    "explanation": "Hans Stuck est cité pour un record de vitesse en mars 1934.",
+    "source": "Audi MediaCenter – How the “Silver Arrow” legend was born"
+  },
+  {
+    "id": "q0039",
+    "theme": "Compétition (Auto Union)",
+    "question": "Quel est le mois et l’année du décès de Bernd Rosemeyer mentionnés dans l’historique Audi ?",
+    "choices": [
+      "Janvier 1937",
+      "Janvier 1938",
+      "Janvier 1939",
+      "Mai 1938"
+    ],
+    "answerIndex": 1,
+    "explanation": "Décès lors d’une tentative de record en janvier 1938.",
+    "source": "Audi MediaCenter – History of the Four Rings"
+  },
+  {
+    "id": "q0040",
+    "theme": "Compétition (Auto Union)",
+    "question": "Quel pilote est cité comme remplaçant Rosemeyer comme leader Auto Union (historique) ?",
+    "choices": [
+      "Hans Stuck",
+      "Tazio Nuvolari",
+      "Achille Varzi",
+      "Guy Moll"
+    ],
+    "answerIndex": 1,
+    "explanation": "Tazio Nuvolari est mentionné comme pilote de premier plan après 1938.",
+    "source": "Audi MediaCenter – History of the Four Rings"
+  },
+  {
+    "id": "q0041",
+    "theme": "Sport (RS)",
+    "question": "Quel 0–100 km/h est indiqué pour la RS 2 dans la publication Audi RS ?",
+    "choices": [
+      "5,0 s",
+      "5,4 s",
+      "5,9 s",
+      "6,2 s"
+    ],
+    "answerIndex": 1,
+    "explanation": "La publication indique 5,4 s.",
+    "source": "Audi MediaCenter (PDF) – Basisinfo RS 4 Avant (RS2)"
+  },
+  {
+    "id": "q0042",
+    "theme": "Sport (RS)",
+    "question": "Quelle vitesse maximale est indiquée pour la RS 2 dans la publication Audi RS ?",
+    "choices": [
+      "250 km/h",
+      "258 km/h",
+      "262 km/h",
+      "270 km/h"
+    ],
+    "answerIndex": 2,
+    "explanation": "La publication indique 262 km/h.",
+    "source": "Audi MediaCenter (PDF) – Basisinfo RS 4 Avant (RS2)"
+  },
+  {
+    "id": "q0043",
+    "theme": "TT",
+    "question": "Quel élément graphique est décrit comme motif signature de la TT (design) ?",
+    "choices": [
+      "Le triangle",
+      "Le cercle",
+      "Le hexagone",
+      "Le losange"
+    ],
+    "answerIndex": 1,
+    "explanation": "Le cercle est mis en avant comme motif graphique central.",
+    "source": "Audi MediaCenter – A timeless design icon: The Audi TT turns 25"
+  },
+  {
+    "id": "q0044",
+    "theme": "Sites",
+    "question": "Dans l’historique du site de Győr, quel événement est cité comme début de la production automobile en 1998 ?",
+    "choices": [
+      "Audi A3",
+      "Audi TT Coupé (production série)",
+      "Audi A8",
+      "Audi Q3"
+    ],
+    "answerIndex": 1,
+    "explanation": "La production automobile débute en 1998 avec la TT Coupé (série).",
+    "source": "Audi MediaCenter – Company history (Győr) / PDF Audi in Hungary 2025"
+  },
+  {
+    "id": "q0045",
+    "theme": "Origines",
+    "question": "Dans le récit Audi, quelle marque est explicitement citée comme ayant eu une part de marché >50% en 1937 sur le segment luxe (>4 L) ?",
+    "choices": [
+      "Audi",
+      "Horch",
+      "Wanderer",
+      "DKW"
+    ],
+    "answerIndex": 1,
+    "explanation": "Horch est mentionnée avec >50% en 1937 dans ce segment.",
+    "source": "Audi MediaCenter – History of the Four Rings"
+  },
+  {
+    "id": "q0046",
+    "theme": "Slogan",
+    "question": "Quelle année est associée dans l’article Neckarsulm à la création du slogan via la publicité NSU ?",
+    "choices": [
+      "1969",
+      "1970",
+      "1971",
+      "1972"
+    ],
+    "answerIndex": 2,
+    "explanation": "L’article mentionne 1971 comme année du ‘grand hit’ publicitaire NSU.",
+    "source": "Audi MediaCenter – The traditional NSU brand and the Audi Neckarsulm site (article)"
+  },
+  {
+    "id": "q0047",
+    "theme": "Compétition (Le Mans)",
+    "question": "Au Mans 2000, combien de tours est crédité le trio Biela/Kristensen/Pirro dans le communiqué Audi ?",
+    "choices": [
+      "360",
+      "368",
+      "372",
+      "378"
+    ],
+    "answerIndex": 1,
+    "explanation": "Le communiqué indique 368 tours.",
+    "source": "Audi MediaCenter – Audi 1-2-3 at Le Mans"
+  },
+  {
+    "id": "q0048",
+    "theme": "Compétition (Le Mans)",
+    "question": "Au Mans 2000, quel écart est donné entre le 1er et le 2e équipage Audi R8 dans le communiqué ?",
+    "choices": [
+      "1 tour",
+      "2 tours",
+      "3 tours",
+      "5 tours"
+    ],
+    "answerIndex": 0,
+    "explanation": "Le communiqué indique ‘-1 lap’ pour le 2e.",
+    "source": "Audi MediaCenter – Audi 1-2-3 at Le Mans"
+  },
+  {
+    "id": "q0049",
+    "theme": "Compétition (Le Mans)",
+    "question": "Au Mans 2000, quel écart est donné entre le 1er et le 3e équipage Audi R8 dans le communiqué ?",
+    "choices": [
+      "-2 tours",
+      "-3 tours",
+      "-4 tours",
+      "-5 tours"
+    ],
+    "answerIndex": 1,
+    "explanation": "Le 3e est à -3 laps dans le communiqué.",
+    "source": "Audi MediaCenter – Audi 1-2-3 at Le Mans"
+  },
+  {
+    "id": "q0050",
+    "theme": "Personnages",
+    "question": "Dans l’article sur les Silver Arrows, comment Ferdinand Porsche est-il qualifié concernant les Auto Union racing cars ?",
+    "choices": [
+      "Chef pilote",
+      "Le cerveau derrière les voitures",
+      "Directeur marketing",
+      "Concepteur du logo"
+    ],
+    "answerIndex": 1,
+    "explanation": "Le texte le présente comme ‘the brain behind the Auto Union racing cars’.",
+    "source": "Audi MediaCenter – How the “Silver Arrow” legend was born",
+    "mnemonic": "Porsche = cerveau technique Auto Union GP (années 30) → associer Porsche ↔ Silver Arrows."
+  },
+  {
+    "id": "q0051",
+    "theme": "Compétition (Auto Union)",
+    "question": "Dans l’article Silver Arrows, quel rythme moteur est mentionné avec la condition des 250 hp ?",
+    "choices": [
+      "3500 rpm",
+      "4500 rpm",
+      "5500 rpm",
+      "6500 rpm"
+    ],
+    "answerIndex": 1,
+    "explanation": "250 hp à 4500 rpm est explicitement cité.",
+    "source": "Audi MediaCenter – How the “Silver Arrow” legend was born"
+  },
+  {
+    "id": "q0052",
+    "theme": "TT",
+    "question": "Quelle plateforme est citée comme base technique du TT (1ère génération) ?",
+    "choices": [
+      "Plateforme longitudinale A4",
+      "Plateforme transversale (Golf IV)",
+      "Plateforme MLB Evo",
+      "Plateforme PPE"
+    ],
+    "answerIndex": 1,
+    "explanation": "Le texte cite la plateforme transversale du Golf IV.",
+    "source": "Audi MediaCenter – A timeless design icon: The Audi TT turns 25"
+  },
+  {
+    "id": "q0053",
+    "theme": "TT",
+    "question": "Quel ‘process’ est décrit comme unique à l’époque entre Ingolstadt et Győr pour la TT ?",
+    "choices": [
+      "Transport routier de jour",
+      "Transport rail nocturne des carrosseries peintes",
+      "Transport maritime",
+      "Assemblage final à Ingolstadt uniquement"
+    ],
+    "answerIndex": 1,
+    "explanation": "Rail nocturne Ingolstadt → Győr pour l’assemblage final.",
+    "source": "Audi MediaCenter – A timeless design icon: The Audi TT turns 25"
+  },
+  {
+    "id": "q0054",
+    "theme": "Sites",
+    "question": "Quelle date de neutralité carbone est mentionnée pour Audi Hungaria (Győr) dans le PDF de profil ?",
+    "choices": [
+      "1er janvier 2018",
+      "1er janvier 2019",
+      "1er janvier 2020",
+      "1er janvier 2021"
+    ],
+    "answerIndex": 2,
+    "explanation": "Le PDF mentionne une neutralité carbone depuis le 1er janvier 2020.",
+    "source": "Audi MediaCenter (PDF) – Audi in Hungary 2025 (profil du site)"
+  },
+  {
+    "id": "q0055",
+    "theme": "Sites",
+    "question": "Quelle année est donnée comme fin de production des modèles TT dans le PDF Audi in Hungary 2025 ?",
+    "choices": [
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "answerIndex": 2,
+    "explanation": "Le PDF indique l’arrêt de production TT en 2023.",
+    "source": "Audi MediaCenter (PDF) – Audi in Hungary 2025 (profil du site)"
+  },
+  {
+    "id": "q0056",
+    "theme": "TT",
+    "question": "Quel volume cumulé de TT est mentionné (héritage) dans le PDF Audi in Hungary 2025 ?",
+    "choices": [
+      "178 765",
+      "662 762",
+      "500 000",
+      "2 000 000"
+    ],
+    "answerIndex": 1,
+    "explanation": "Le PDF mentionne 662 762 véhicules iconiques.",
+    "source": "Audi MediaCenter (PDF) – Audi in Hungary 2025 (profil du site)"
+  },
+  {
+    "id": "q0057",
+    "theme": "quattro",
+    "question": "Quelle est la date exacte de la présentation de l’Audi quattro au Salon de Genève ?",
+    "choices": [
+      "3 mars 1979",
+      "3 mars 1980",
+      "6 mars 1980",
+      "16 octobre 1980"
+    ],
+    "answerIndex": 1,
+    "explanation": "L’Audi quattro est présentée à Genève le 3 mars 1980.",
+    "source": "Audi MediaCenter – 40 years quattro (dossier)",
+    "mnemonic": "quattro = 3/3/80 (3 mars 1980) → facile à visualiser : 3-3-80."
+  },
+  {
+    "id": "q0058",
+    "theme": "quattro",
+    "question": "Quel est le nombre total d’exemplaires produits de l’Audi quattro (1980–1991) ?",
+    "choices": [
+      "9 911",
+      "10 452",
+      "11 452",
+      "14 152"
+    ],
+    "answerIndex": 2,
+    "explanation": "Total indiqué : 11 452 exemplaires.",
+    "source": "Audi MediaCenter – 40 years quattro (dossier)"
+  },
+  {
+    "id": "q0059",
+    "theme": "quattro",
+    "question": "Quel est le prix de base (DM) indiqué pour l’Audi quattro lors de son lancement ?",
+    "choices": [
+      "39 900 DM",
+      "49 900 DM",
+      "59 900 DM",
+      "69 900 DM"
+    ],
+    "answerIndex": 1,
+    "explanation": "Prix de base indiqué : 49 900 DM.",
+    "source": "Audi MediaCenter – 40 years quattro (dossier)"
+  },
+  {
+    "id": "q0060",
+    "theme": "quattro",
+    "question": "Combien d’exemplaires de l’Audi Sport quattro (306 PS) sont produits ?",
+    "choices": [
+      "144",
+      "214",
+      "314",
+      "414"
+    ],
+    "answerIndex": 1,
+    "explanation": "Total indiqué : 214 exemplaires.",
+    "source": "Audi MediaCenter – 40 years quattro (dossier)"
+  },
+  {
+    "id": "q0061",
+    "theme": "quattro",
+    "question": "Quel est l’ordre de grandeur du prix (DM) indiqué pour l’Audi Sport quattro à son lancement ?",
+    "choices": [
+      "~95 000 DM",
+      "~125 000 DM",
+      "~195 000 DM",
+      "~295 000 DM"
+    ],
+    "answerIndex": 2,
+    "explanation": "Prix indiqué : environ 195 000 DM.",
+    "source": "Audi MediaCenter – 40 years quattro (dossier)"
+  },
+  {
+    "id": "q0062",
+    "theme": "Entreprise",
+    "question": "En quelle année a lieu la fusion créant Audi NSU Auto Union AG (Auto Union + NSU) ?",
+    "choices": [
+      "1965",
+      "1967",
+      "1969",
+      "1971"
+    ],
+    "answerIndex": 2,
+    "explanation": "Fusion : 1969.",
+    "source": "Audi MediaCenter – History (Ingolstadt / Neckarsulm timelines)"
+  },
+  {
+    "id": "q0063",
+    "theme": "Compétition (Le Mans)",
+    "question": "Quelle année correspond à la première victoire Audi aux 24 Heures du Mans avec un diesel ?",
+    "choices": [
+      "2004",
+      "2005",
+      "2006",
+      "2007"
+    ],
+    "answerIndex": 2,
+    "explanation": "La première victoire diesel est en 2006 (R10 TDI).",
+    "source": "Audi MediaCenter – Flashback Le Mans 2006 (first diesel success)",
+    "mnemonic": "Diesel = 2006 : pense 'D' + '6' (2006) = 1re victoire diesel."
+  },
+  {
+    "id": "q0064",
+    "theme": "Compétition (Le Mans)",
+    "question": "Quel type de moteur est associé à l’Audi R10 TDI (victoire 2006) ?",
+    "choices": [
+      "V8 TDI",
+      "V10 TDI",
+      "V12 TDI",
+      "W12 TDI"
+    ],
+    "answerIndex": 2,
+    "explanation": "R10 TDI : V12 TDI.",
+    "source": "Audi MediaCenter – Flashback Le Mans 2006 (first diesel success)",
+    "mnemonic": "R10 TDI = V12 (gros diesel) → V12 = '12' comme 2012 arrive plus tard en hybride."
+  },
+  {
+    "id": "q0065",
+    "theme": "Compétition (Le Mans)",
+    "question": "Quelle puissance est indiquée pour le V12 TDI de l’Audi R10 (Le Mans 2006) ?",
+    "choices": [
+      "550 ch",
+      "600 ch",
+      "650 ch",
+      "700 ch"
+    ],
+    "answerIndex": 2,
+    "explanation": "Puissance indiquée : 650 hp.",
+    "source": "Audi MediaCenter – Flashback Le Mans 2006 (first diesel success)"
+  },
+  {
+    "id": "q0066",
+    "theme": "Compétition (Le Mans)",
+    "question": "Quel couple minimal est indiqué pour le V12 TDI de l’Audi R10 (Le Mans 2006) ?",
+    "choices": [
+      ">900 Nm",
+      ">1 000 Nm",
+      ">1 100 Nm",
+      ">1 200 Nm"
+    ],
+    "answerIndex": 2,
+    "explanation": "Couple indiqué : plus de 1 100 Nm.",
+    "source": "Audi MediaCenter – Flashback Le Mans 2006 (first diesel success)"
+  },
+  {
+    "id": "q0067",
+    "theme": "Compétition (Le Mans)",
+    "question": "Quelle année correspond à la première victoire d’un prototype hybride aux 24 Heures du Mans (Audi) ?",
+    "choices": [
+      "2010",
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "answerIndex": 2,
+    "explanation": "Première victoire hybride : 2012 (R18 e-tron quattro).",
+    "source": "Audi MediaCenter – Flashback Le Mans 2012 (first hybrid victory)",
+    "mnemonic": "Hybride Audi au Mans = 2012 (R18 e-tron) → 12 = 'e-tron' première victoire hybride."
+  },
+  {
+    "id": "q0068",
+    "theme": "Compétition (Le Mans)",
+    "question": "Dans l’article “innovation boost”, quel jalon est associé à 2001 ?",
+    "choices": [
+      "Première victoire diesel",
+      "Première victoire VTG",
+      "Première victoire FSI / injection directe",
+      "Première victoire hybride"
+    ],
+    "answerIndex": 2,
+    "explanation": "2001 : mise en avant de l’injection directe (FSI/TFSI) comme jalon.",
+    "source": "Audi MediaCenter – Audi with innovation boost at Le Mans"
+  },
+  {
+    "id": "q0069",
+    "theme": "Compétition (Le Mans)",
+    "question": "Dans l’article “innovation boost”, quel jalon est associé à 2010 ?",
+    "choices": [
+      "Première victoire VTG",
+      "Première victoire FSI",
+      "Première victoire diesel",
+      "Première victoire hybride"
+    ],
+    "answerIndex": 0,
+    "explanation": "2010 : jalon VTG (géométrie variable de turbine) en endurance.",
+    "source": "Audi MediaCenter – Audi with innovation boost at Le Mans"
+  },
+  {
+    "id": "q0070",
+    "theme": "Compétition (Le Mans)",
+    "question": "En 2013, quelle voiture (numéro) remporte la victoire Audi aux 24 Heures du Mans ?",
+    "choices": [
+      "#1",
+      "#2",
+      "#3",
+      "#4"
+    ],
+    "answerIndex": 1,
+    "explanation": "Victoire 2013 : voiture n°2.",
+    "source": "Audi MediaCenter – e-tron quattro wins again at Le Mans (2013)"
+  },
+  {
+    "id": "q0071",
+    "theme": "Compétition (Le Mans)",
+    "question": "Quel trio remporte Le Mans 2013 dans le communiqué Audi ?",
+    "choices": [
+      "Fässler / Lotterer / Tréluyer",
+      "Duval / Kristensen / McNish",
+      "Capello / Kristensen / McNish",
+      "Bernhard / Dumas / Duval"
+    ],
+    "answerIndex": 1,
+    "explanation": "Vainqueurs 2013 : Duval / Kristensen / McNish.",
+    "source": "Audi MediaCenter – e-tron quattro wins again at Le Mans (2013)"
+  },
+  {
+    "id": "q0072",
+    "theme": "Compétition (Le Mans)",
+    "question": "Quelle technologie est mise en avant dans l’article “VTG technology for Le Mans success” ?",
+    "choices": [
+      "Injection directe FSI",
+      "Géométrie variable de turbine (VTG)",
+      "Hybrid e-tron quattro",
+      "Carrosserie carbone"
+    ],
+    "answerIndex": 1,
+    "explanation": "VTG : géométrie variable de turbine.",
+    "source": "Audi MediaCenter – VTG technology for Le Mans success"
+  },
+  {
+    "id": "q0073",
+    "theme": "Compétition (Le Mans)",
+    "question": "Dans l’article VTG, la motorisation décrite pour la voiture est :",
+    "choices": [
+      "V6 TDI",
+      "V8 TDI",
+      "V10 TDI",
+      "V12 TDI"
+    ],
+    "answerIndex": 0,
+    "explanation": "Le texte VTG met en avant un V6 TDI en prototype.",
+    "source": "Audi MediaCenter – VTG technology for Le Mans success"
+  },
+  {
+    "id": "q0074",
+    "theme": "Concepts",
+    "question": "Quelle longueur est annoncée pour l’Audi grandsphere concept ?",
+    "choices": [
+      "5,25 m",
+      "5,30 m",
+      "5,35 m",
+      "5,51 m"
+    ],
+    "answerIndex": 2,
+    "explanation": "Longueur grandsphere : 5,35 m.",
+    "source": "Audi.com / Audi Technology Portal – Audi grandsphere concept (dimensions)",
+    "mnemonic": "Grand = 5,35 m / 3,19 m → 'très grand empattement'."
+  },
+  {
+    "id": "q0075",
+    "theme": "Concepts",
+    "question": "Quel empattement est annoncé pour l’Audi grandsphere concept ?",
+    "choices": [
+      "2,97 m",
+      "3,09 m",
+      "3,19 m",
+      "3,29 m"
+    ],
+    "answerIndex": 2,
+    "explanation": "Empattement grandsphere : 3,19 m.",
+    "source": "Audi.com / Audi Technology Portal – Audi grandsphere concept (dimensions)",
+    "mnemonic": "Grand = 5,35 m / 3,19 m → 'très grand empattement'."
+  },
+  {
+    "id": "q0076",
+    "theme": "Concepts",
+    "question": "Quelle hauteur est annoncée pour l’Audi grandsphere concept ?",
+    "choices": [
+      "1,29 m",
+      "1,34 m",
+      "1,39 m",
+      "1,44 m"
+    ],
+    "answerIndex": 2,
+    "explanation": "Hauteur grandsphere : 1,39 m.",
+    "source": "Audi.com / Audi Technology Portal – Audi grandsphere concept (dimensions)",
+    "mnemonic": "Grand = 5,35 m / 3,19 m → 'très grand empattement'."
+  },
+  {
+    "id": "q0077",
+    "theme": "Concepts",
+    "question": "Quelle longueur est annoncée pour l’Audi urbansphere concept ?",
+    "choices": [
+      "5,35 m",
+      "5,41 m",
+      "5,51 m",
+      "5,61 m"
+    ],
+    "answerIndex": 2,
+    "explanation": "Longueur urbansphere : 5,51 m.",
+    "source": "Audi.com – Audi urbansphere concept (dimensions)",
+    "mnemonic": "Urban = 5,51 m (le plus long) → 5-5-1."
+  },
+  {
+    "id": "q0078",
+    "theme": "Concepts",
+    "question": "Quelle largeur est annoncée pour l’Audi urbansphere concept ?",
+    "choices": [
+      "1,96 m",
+      "2,01 m",
+      "2,06 m",
+      "2,07 m"
+    ],
+    "answerIndex": 1,
+    "explanation": "Largeur urbansphere : 2,01 m.",
+    "source": "Audi.com – Audi urbansphere concept (dimensions)",
+    "mnemonic": "Urban = 5,51 m (le plus long) → 5-5-1."
+  },
+  {
+    "id": "q0079",
+    "theme": "Concepts",
+    "question": "Quelle hauteur est annoncée pour l’Audi urbansphere concept ?",
+    "choices": [
+      "1,68 m",
+      "1,73 m",
+      "1,78 m",
+      "1,83 m"
+    ],
+    "answerIndex": 2,
+    "explanation": "Hauteur urbansphere : 1,78 m.",
+    "source": "Audi.com – Audi urbansphere concept (dimensions)",
+    "mnemonic": "Urban = 5,51 m (le plus long) → 5-5-1."
+  },
+  {
+    "id": "q0080",
+    "theme": "Concepts",
+    "question": "Quelle longueur est annoncée pour l’Audi skysphere concept en mode « Grand Touring » ?",
+    "choices": [
+      "4,94 m",
+      "5,04 m",
+      "5,19 m",
+      "5,35 m"
+    ],
+    "answerIndex": 2,
+    "explanation": "Skysphere Grand Touring : 5,19 m.",
+    "source": "Audi.com – Audi skysphere concept",
+    "mnemonic": "Sky = 4,94 ↔ 5,19 (+25 cm) → 494/519 + 250 mm."
+  },
+  {
+    "id": "q0081",
+    "theme": "Concepts",
+    "question": "Quelle longueur est annoncée pour l’Audi skysphere concept en mode « Sport » ?",
+    "choices": [
+      "4,84 m",
+      "4,94 m",
+      "5,09 m",
+      "5,19 m"
+    ],
+    "answerIndex": 1,
+    "explanation": "Skysphere Sport : 4,94 m.",
+    "source": "Audi.com – Audi skysphere concept",
+    "mnemonic": "Sky = 4,94 ↔ 5,19 (+25 cm) → 494/519 + 250 mm."
+  },
+  {
+    "id": "q0082",
+    "theme": "Concepts",
+    "question": "Quelle largeur est annoncée pour l’Audi skysphere concept ?",
+    "choices": [
+      "1,95 m",
+      "2,00 m",
+      "2,01 m",
+      "2,07 m"
+    ],
+    "answerIndex": 1,
+    "explanation": "Skysphere : 2,00 m de large.",
+    "source": "Audi.com – Audi skysphere concept",
+    "mnemonic": "Sky = 4,94 ↔ 5,19 (+25 cm) → 494/519 + 250 mm."
+  },
+  {
+    "id": "q0083",
+    "theme": "Concepts",
+    "question": "Quelle hauteur est annoncée pour l’Audi skysphere concept ?",
+    "choices": [
+      "1,19 m",
+      "1,23 m",
+      "1,29 m",
+      "1,39 m"
+    ],
+    "answerIndex": 1,
+    "explanation": "Skysphere : environ 1,23 m de haut.",
+    "source": "Audi.com – Audi skysphere concept",
+    "mnemonic": "Sky = 4,94 ↔ 5,19 (+25 cm) → 494/519 + 250 mm."
+  },
+  {
+    "id": "q0084",
+    "theme": "Origines",
+    "question": "Dans l’histoire Auto Union, quel constructeur est mentionné comme spécialisé dans la traction avant et les petits moteurs deux temps dans les années 30 ?",
+    "choices": [
+      "Horch",
+      "Wanderer",
+      "DKW",
+      "Audi (pré-1932)"
+    ],
+    "answerIndex": 2,
+    "explanation": "DKW est cité pour traction avant et moteurs deux temps sur le segment compact.",
+    "source": "Audi MediaCenter – History of the Four Rings"
+  },
+  {
+    "id": "q0085",
+    "theme": "Origines",
+    "question": "Quel événement est cité comme présentation de la DKW F1 à l’IAA de Berlin ?",
+    "choices": [
+      "Février 1930",
+      "Février 1931",
+      "Février 1932",
+      "Février 1933"
+    ],
+    "answerIndex": 1,
+    "explanation": "Présentation en février 1931.",
+    "source": "Audi MediaCenter – How DKW changed the automotive world"
+  },
+  {
+    "id": "q0086",
+    "theme": "Origines",
+    "question": "Comment la DKW F1 est-elle qualifiée dans l’histoire DKW ?",
+    "choices": [
+      "Première voiture de grande série à traction avant",
+      "Première traction intégrale",
+      "Première voiture diesel de série",
+      "Première voiture hybride"
+    ],
+    "answerIndex": 0,
+    "explanation": "Elle est décrite comme première voiture de grande série à traction avant.",
+    "source": "Audi MediaCenter – DKW / How DKW changed the automotive world"
+  },
+  {
+    "id": "q0087",
+    "theme": "Compétition (Auto Union)",
+    "question": "Quelle date correspond à la première apparition en compétition des Auto Union GP à l’AVUS (Berlin) ?",
+    "choices": [
+      "27 mai 1934",
+      "1er juin 1934",
+      "27 mai 1933",
+      "1er juin 1933"
+    ],
+    "answerIndex": 0,
+    "explanation": "AVUS Berlin : 27 mai 1934.",
+    "source": "Audi MediaCenter – How the “Silver Arrow” legend was born"
+  },
+  {
+    "id": "q0088",
+    "theme": "Compétition (Auto Union)",
+    "question": "Quel pilote remporte la première victoire Auto Union GP mentionnée (Eifel race 1934) ?",
+    "choices": [
+      "Hans Stuck",
+      "Tazio Nuvolari",
+      "Bernd Rosemeyer",
+      "Achille Varzi"
+    ],
+    "answerIndex": 0,
+    "explanation": "La victoire de l’Eifel race 1934 est attribuée à Hans Stuck.",
+    "source": "Audi MediaCenter – How the “Silver Arrow” legend was born"
+  },
+  {
+    "id": "q0089",
+    "theme": "Compétition (Auto Union)",
+    "question": "Quelle particularité technique est citée comme élément très distinctif des Auto Union GP dans l’article Silver Arrows ?",
+    "choices": [
+      "Moteur avant longitudinal",
+      "Moteur central derrière le pilote",
+      "Traction avant",
+      "Transmission par courroie"
+    ],
+    "answerIndex": 1,
+    "explanation": "Le moteur est placé derrière le pilote (concept de type mid-engine).",
+    "source": "Audi MediaCenter – How the “Silver Arrow” legend was born"
+  },
+  {
+    "id": "q0090",
+    "theme": "Compétition (Le Mans)",
+    "question": "Quelle date (jour/mois/année) est associée au communiqué « Audi 1-2-3 at Le Mans » ?",
+    "choices": [
+      "18 juin 1999",
+      "18 juin 2000",
+      "16 juin 2001",
+      "17 juin 2002"
+    ],
+    "answerIndex": 1,
+    "explanation": "Communiqué daté du 18 juin 2000.",
+    "source": "Audi MediaCenter – Audi 1-2-3 at Le Mans"
+  },
+  {
+    "id": "q0091",
+    "theme": "TT",
+    "question": "Quel total global de TT (toutes générations) est indiqué sur 25 ans dans l’article anniversaire ?",
+    "choices": [
+      "~240 000",
+      "~420 000",
+      "~662 000",
+      "~900 000"
+    ],
+    "answerIndex": 2,
+    "explanation": "L’article cite environ 662 762 Audi TT produites.",
+    "source": "Audi MediaCenter – A timeless design icon: The Audi TT turns 25"
+  },
+  {
+    "id": "q0092",
+    "theme": "TT",
+    "question": "Quelle année est donnée comme arrêt de la production TT (fin de l’histoire de production) dans l’article 25 ans TT ?",
+    "choices": [
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "answerIndex": 2,
+    "explanation": "L’article mentionne la fin de production en 2023.",
+    "source": "Audi MediaCenter – A timeless design icon: The Audi TT turns 25"
+  },
+  {
+    "id": "q0093",
+    "theme": "TT",
+    "question": "Dans l’article TT, quel modèle est cité comme première vitrine de design Audi (concept) avant la production ?",
+    "choices": [
+      "Audi TT concept car",
+      "Audi A2 concept",
+      "Audi A8 concept",
+      "Audi quattro concept 2007"
+    ],
+    "answerIndex": 0,
+    "explanation": "Le TT concept car (1995) est cité comme précurseur.",
+    "source": "Audi MediaCenter – A timeless design icon: The Audi TT turns 25"
+  },
+  {
+    "id": "q0094",
+    "theme": "Sport (RS)",
+    "question": "Quel modèle est cité comme premier ‘RS’ historique dans la publication RS (avant RS 4) ?",
+    "choices": [
+      "RS 4 (B5)",
+      "RS 2 Avant",
+      "S2 Coupé",
+      "S4 (C4)"
+    ],
+    "answerIndex": 1,
+    "explanation": "RS 2 Avant est citée comme point de départ RS.",
+    "source": "Audi MediaCenter (PDF) – Basisinfo RS 4 Avant"
+  },
+  {
+    "id": "q0095",
+    "theme": "Sport (RS)",
+    "question": "Quelle année de présentation de la RS 2 est utilisée dans la publication RS ?",
+    "choices": [
+      "1992",
+      "1993",
+      "1994",
+      "1995"
+    ],
+    "answerIndex": 2,
+    "explanation": "RS 2 : 1994.",
+    "source": "Audi MediaCenter (PDF) – Basisinfo RS 4 Avant"
+  },
+  {
+    "id": "q0096",
+    "theme": "Sport (RS)",
+    "question": "Quel couple (approx.) est indiqué pour la RS 2 dans la publication RS ?",
+    "choices": [
+      "350 Nm",
+      "410 Nm",
+      "450 Nm",
+      "520 Nm"
+    ],
+    "answerIndex": 1,
+    "explanation": "La publication indique ~410 Nm.",
+    "source": "Audi MediaCenter (PDF) – Basisinfo RS 4 Avant"
+  },
+  {
+    "id": "q0097",
+    "theme": "Sites",
+    "question": "Quelle entité est décrite comme née à Neckarsulm (origine du nom NSU) ?",
+    "choices": [
+      "Une fonderie automobile",
+      "Un fabricant de bicyclettes/motos devenu constructeur",
+      "Un constructeur poids lourds",
+      "Une marque d’avions"
+    ],
+    "answerIndex": 1,
+    "explanation": "NSU est décrite via son histoire (bicyclette/moto puis automobile).",
+    "source": "Audi MediaCenter – The traditional NSU brand and the Audi Neckarsulm site"
+  },
+  {
+    "id": "q0098",
+    "theme": "Personnages",
+    "question": "Quel lien est explicitement fait entre August Horch et la ville de Zwickau dans l’histoire Audi ?",
+    "choices": [
+      "Il y fonde Audi",
+      "Il y fonde DKW",
+      "Il y fonde NSU",
+      "Il y fonde Wanderer"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi est fondée à Zwickau.",
+    "source": "Audi MediaCenter (PDF) – The book on 30 years of Audi Sport",
+    "mnemonic": "Horch → Audi (latin 'écoute !') ; Audi fondée à Zwickau (1909)."
+  },
+  {
+    "id": "q0099",
+    "theme": "Personnages",
+    "question": "Quel élément linguistique explique le passage de « Horch » à « Audi » ?",
+    "choices": [
+      "Traduction italienne",
+      "Traduction latine",
+      "Traduction grecque",
+      "Traduction allemande"
+    ],
+    "answerIndex": 1,
+    "explanation": "Audi = traduction latine de l’impératif « écoute ! ».",
+    "source": "Audi MediaCenter (PDF) – The book on 30 years of Audi Sport"
+  },
+  {
+    "id": "q0100",
+    "theme": "Personnages",
+    "question": "Quel constructeur est explicitement cité comme ayant déjà sollicité Ferdinand Porsche dès 1931 ?",
+    "choices": [
+      "Horch",
+      "Wanderer",
+      "DKW",
+      "Audi (pré-1932)"
+    ],
+    "answerIndex": 1,
+    "explanation": "Wanderer est cité pour Porsche dès 1931.",
+    "source": "Audi MediaCenter – History of the Four Rings"
+  },
+  {
+    "id": "q0101",
+    "theme": "Personnages",
+    "question": "Quelle année est donnée pour l’accord visant à développer une voiture de Grand Prix Auto Union (Porsche) ?",
+    "choices": [
+      "1931",
+      "1932",
+      "1933",
+      "1934"
+    ],
+    "answerIndex": 2,
+    "explanation": "Accord en 1933.",
+    "source": "Audi MediaCenter – History of the Four Rings"
+  },
+  {
+    "id": "q0102",
+    "theme": "Compétition (Auto Union)",
+    "question": "Quel est le surnom de la série de voitures Auto Union GP dans l’histoire (d’où vient la légende) ?",
+    "choices": [
+      "Black Arrows",
+      "Silver Arrows",
+      "Red Arrows",
+      "Golden Arrows"
+    ],
+    "answerIndex": 1,
+    "explanation": "Silver Arrows (Flèches d’argent).",
+    "source": "Audi MediaCenter – How the “Silver Arrow” legend was born"
+  },
+  {
+    "id": "q0103",
+    "theme": "Compétition (Auto Union)",
+    "question": "Dans l’article Silver Arrows, quel couple (Nm) est cité comme valeur repère pour le Type C ?",
+    "choices": [
+      "~420 Nm",
+      "~640 Nm",
+      "~850 Nm",
+      "~1 100 Nm"
+    ],
+    "answerIndex": 1,
+    "explanation": "Le texte met en avant ~640 Nm.",
+    "source": "Audi MediaCenter – How the “Silver Arrow” legend was born"
+  },
+  {
+    "id": "q0104",
+    "theme": "Compétition (Auto Union)",
+    "question": "Quel avantage technique est mentionné comme très important sur l’AVUS pour la voiture Auto Union (article Silver Arrows) ?",
+    "choices": [
+      "Freins carbone",
+      "Aérodynamique et vitesse de pointe",
+      "4 roues motrices",
+      "Boîte double embrayage"
+    ],
+    "answerIndex": 1,
+    "explanation": "Le contexte AVUS met l’accent sur l’aéro et la vitesse.",
+    "source": "Audi MediaCenter – How the “Silver Arrow” legend was born"
+  },
+  {
+    "id": "q0105",
+    "theme": "Compétition (Le Mans)",
+    "question": "Quelle dénomination du modèle est utilisée dans le communiqué 2013 :",
+    "choices": [
+      "R18 TDI",
+      "R18 e-tron quattro",
+      "R10 TDI",
+      "R8"
+    ],
+    "answerIndex": 1,
+    "explanation": "Le communiqué 2013 mentionne R18 e-tron quattro.",
+    "source": "Audi MediaCenter – e-tron quattro wins again at Le Mans (2013)"
+  },
+  {
+    "id": "q0106",
+    "theme": "Concepts",
+    "question": "Sur activesphere concept, quelle caractéristique de carrosserie est mise en avant (concept de transformation) ?",
+    "choices": [
+      "Toit en verre électrochrome",
+      "Transformation en pick-up (plateau) via éléments mobiles",
+      "Portes suicide uniquement",
+      "Capot coulissant"
+    ],
+    "answerIndex": 1,
+    "explanation": "Activesphere est présenté comme transformable (coupé-crossover / pick-up).",
+    "source": "Audi France – Communiqué activesphere concept",
+    "mnemonic": "Active = 4,98 m / 2,97 m → '98' et '97' (facile à confondre, retenir le couple)."
+  },
+  {
+    "id": "q0107",
+    "theme": "Concepts",
+    "question": "Quel ordre de grandeur de variation d’empattement est associé à skysphere ?",
+    "choices": [
+      "+150 mm",
+      "+200 mm",
+      "+250 mm",
+      "+300 mm"
+    ],
+    "answerIndex": 2,
+    "explanation": "Skysphere : +250 mm.",
+    "source": "Audi.com – Audi skysphere concept",
+    "mnemonic": "Sky = 4,94 ↔ 5,19 (+25 cm) → 494/519 + 250 mm."
+  },
+  {
+    "id": "q0108",
+    "theme": "Concepts",
+    "question": "Quel ordre de grandeur de variation de garde au sol est associé à skysphere ?",
+    "choices": [
+      "±5 mm",
+      "±10 mm",
+      "±15 mm",
+      "±20 mm"
+    ],
+    "answerIndex": 1,
+    "explanation": "Skysphere : ±10 mm.",
+    "source": "Audi.com – Audi skysphere concept",
+    "mnemonic": "Sky = 4,94 ↔ 5,19 (+25 cm) → 494/519 + 250 mm."
+  },
+  {
+    "id": "q0109",
+    "theme": "Concepts",
+    "question": "Quel modèle ‘sphere’ est le plus long parmi ces choix ?",
+    "choices": [
+      "skysphere",
+      "activesphere",
+      "grandsphere",
+      "urbansphere"
+    ],
+    "answerIndex": 3,
+    "explanation": "Urbansphere est le plus long (5,51 m).",
+    "source": "Audi.com – pages concepts sphere (dimensions)"
+  },
+  {
+    "id": "q0110",
+    "theme": "Concepts",
+    "question": "Quel modèle ‘sphere’ affiche l’empattement le plus long parmi ces choix ?",
+    "choices": [
+      "activesphere (2,97 m)",
+      "grandsphere (3,19 m)",
+      "urbansphere (3,40 m)",
+      "skysphere (2,97 m)"
+    ],
+    "answerIndex": 1,
+    "explanation": "Grandsphere : 3,19 m.",
+    "source": "Audi.com / Audi Technology Portal – grandsphere (dimensions)"
+  },
+  {
+    "id": "q0111",
+    "theme": "Compétition (Le Mans)",
+    "question": "Quelle année est associée à l’article « Audi with hybrid drive at Le Mans for the first time » ?",
+    "choices": [
+      "2010",
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "answerIndex": 2,
+    "explanation": "Le premier engagement mis en avant pour hybrid drive est associé à 2012.",
+    "source": "Audi MediaCenter – Audi with hybrid drive at Le Mans for the first time"
+  },
+  {
+    "id": "q0112",
+    "theme": "Compétition (Le Mans)",
+    "question": "Dans le dossier “innovation boost”, quel jalon est associé à 2006 ?",
+    "choices": [
+      "Première victoire diesel",
+      "Première victoire VTG",
+      "Première victoire FSI",
+      "Première victoire hybride"
+    ],
+    "answerIndex": 0,
+    "explanation": "2006 : première victoire diesel (R10 TDI).",
+    "source": "Audi MediaCenter – Audi with innovation boost at Le Mans"
+  },
+  {
+    "id": "q0113",
+    "theme": "TT",
+    "question": "Quel duo (Coupé/ Roadster) est explicitement donné pour la première génération TT (années de prod) ?",
+    "choices": [
+      "1998–2006 / 1999–2006",
+      "1998–2005 / 1999–2005",
+      "1999–2006 / 1998–2006",
+      "1998–2007 / 1999–2007"
+    ],
+    "answerIndex": 0,
+    "explanation": "Coupé : 1998–2006 (mi-2006), Roadster : 1999–2006.",
+    "source": "Audi MediaCenter – A timeless design icon: The Audi TT turns 25"
+  },
+  {
+    "id": "q0114",
+    "theme": "Compétition (Le Mans)",
+    "question": "Quelle technologie est mise en avant dans l’article flashback 2006 (en plus du diesel) ?",
+    "choices": [
+      "Hybrid drive",
+      "FSI essence",
+      "TDI en endurance et efficacité",
+      "Traction avant"
+    ],
+    "answerIndex": 2,
+    "explanation": "Le récit met en avant l’efficacité et la percée du TDI en endurance.",
+    "source": "Audi MediaCenter – Flashback Le Mans 2006 (first diesel success)"
+  },
+  {
+    "id": "q0115",
+    "theme": "Compétition (Le Mans)",
+    "question": "Quel thème technologique relie explicitement les jalons 2001 / 2006 / 2010 / 2012 dans le dossier “innovation boost” ?",
+    "choices": [
+      "Allègement carbone",
+      "Technologies moteur et efficience en endurance",
+      "Freins céramique",
+      "Transmission quattro mécanique"
+    ],
+    "answerIndex": 1,
+    "explanation": "Le dossier enchaîne des jalons technologiques liés à motorisation/efficience.",
+    "source": "Audi MediaCenter – Audi with innovation boost at Le Mans"
+  },
+  {
+    "id": "q0116",
+    "theme": "Concepts",
+    "question": "Parmi ces valeurs, laquelle correspond à la largeur de l’activesphere ?",
+    "choices": [
+      "2,00 m",
+      "2,01 m",
+      "2,07 m",
+      "2,10 m"
+    ],
+    "answerIndex": 2,
+    "explanation": "Activesphere : 2,07 m.",
+    "source": "Audi France – Communiqué activesphere concept",
+    "mnemonic": "Active = 4,98 m / 2,97 m → '98' et '97' (facile à confondre, retenir le couple)."
+  },
+  {
+    "id": "q0117",
+    "theme": "Concepts",
+    "question": "Parmi ces valeurs, laquelle correspond à la hauteur de l’activesphere ?",
+    "choices": [
+      "1,50 m",
+      "1,55 m",
+      "1,60 m",
+      "1,65 m"
+    ],
+    "answerIndex": 2,
+    "explanation": "Activesphere : 1,60 m.",
+    "source": "Audi France – Communiqué activesphere concept",
+    "mnemonic": "Active = 4,98 m / 2,97 m → '98' et '97' (facile à confondre, retenir le couple)."
+  },
+  {
+    "id": "q0118",
+    "theme": "Concepts",
+    "question": "Parmi ces valeurs, laquelle correspond à l’empattement de l’activesphere ?",
+    "choices": [
+      "2,87 m",
+      "2,97 m",
+      "3,07 m",
+      "3,19 m"
+    ],
+    "answerIndex": 1,
+    "explanation": "Activesphere : 2,97 m.",
+    "source": "Audi France – Communiqué activesphere concept",
+    "mnemonic": "Active = 4,98 m / 2,97 m → '98' et '97' (facile à confondre, retenir le couple)."
+  },
+  {
+    "id": "q0119",
+    "theme": "Concepts",
+    "question": "Parmi ces valeurs, laquelle correspond à la longueur de l’activesphere ?",
+    "choices": [
+      "4,88 m",
+      "4,98 m",
+      "5,08 m",
+      "5,18 m"
+    ],
+    "answerIndex": 1,
+    "explanation": "Activesphere : 4,98 m.",
+    "source": "Audi France – Communiqué activesphere concept",
+    "mnemonic": "Active = 4,98 m / 2,97 m → '98' et '97' (facile à confondre, retenir le couple)."
+  },
+  {
+    "id": "q0120",
+    "theme": "Personnages",
+    "question": "Dans l’article Silver Arrows, Ferdinand Porsche est décrit comme :",
+    "choices": [
+      "Le pilote principal Auto Union",
+      "Le cerveau derrière les voitures de course Auto Union",
+      "Le créateur des quatre anneaux",
+      "Le fondateur de DKW"
+    ],
+    "answerIndex": 1,
+    "explanation": "Il est présenté comme ‘the brain behind the Auto Union racing cars’.",
+    "source": "Audi MediaCenter – How the “Silver Arrow” legend was born"
+  }
+]
