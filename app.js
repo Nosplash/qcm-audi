@@ -18,6 +18,8 @@ const feedbackEl = document.getElementById("feedback");
 const scoreEl = document.getElementById("score");
 const reviewEl = document.getElementById("review");
 
+const REMAINING_KEY = "qcm_audi_remaining_ids_v1";
+
 const SESSION_SIZE = 30;
 const TIME_PER_Q = 30;
 
@@ -68,6 +70,24 @@ function saveSeenIds(seenSet) {
   const trimmed = arr.slice(Math.max(0, arr.length - HISTORY_MAX));
   localStorage.setItem(HISTORY_KEY, JSON.stringify(trimmed));
 }
+function loadRemainingIds() {
+  try {
+    const arr = JSON.parse(localStorage.getItem(REMAINING_KEY) || "[]");
+    return Array.isArray(arr) ? arr : [];
+  } catch {
+    return [];
+  }
+}
+
+function saveRemainingIds(ids) {
+  localStorage.setItem(REMAINING_KEY, JSON.stringify(ids));
+}
+
+function resetRemainingIds() {
+  const ids = shuffle(allQuestions.map(q => q.id));
+  saveRemainingIds(ids);
+  return ids;
+}
 
 async function loadQuestions() {
   const res = await fetch("questions.json", { cache: "no-store" });
@@ -79,16 +99,27 @@ async function loadQuestions() {
 
 function pickSession() {
   if (allQuestions.length < SESSION_SIZE) {
-    alert(`Ajoute des questions dans questions.json : il en faut au moins ${SESSION_SIZE} (actuellement ${allQuestions.length}).`);
+    alert(`Il faut au moins ${SESSION_SIZE} questions (actuellement ${allQuestions.length}).`);
     return null;
   }
 
-  const seen = loadSeenIds();
+  // Pile "restant à poser" (anti-répétition stricte)
+  let remaining = loadRemainingIds();
 
+  // Si pile vide ou insuffisante pour 30 → nouveau cycle complet
+  if (!remaining || remaining.length < SESSION_SIZE) {
+    remaining = resetRemainingIds();
+  }
+
+  const byId = new Map(allQuestions.map(q => [q.id, q]));
+  const remainingQuestions = remaining.map(id => byId.get(id)).filter(Boolean);
+
+  // Buckets sur les questions restantes
   const buckets = { competition: [], concepts: [], origines: [], autres: [] };
 
-  for (const q of allQuestions) {
+  for (const q of remainingQuestions) {
     const t = (q.theme || "").toLowerCase();
+
     if (t.includes("compétition") || t.includes("competition") || t.includes("le mans") || t.includes("rallye")) {
       buckets.competition.push(q);
     } else if (t.includes("concept")) {
@@ -100,26 +131,36 @@ function pickSession() {
     }
   }
 
-  const pick = (arr, n) => shuffle(arr).slice(0, Math.min(n, arr.length));
-
   const target = { competition: 8, concepts: 8, origines: 7, autres: 7 };
 
-  let chosen = [
-    ...pick(buckets.competition, target.competition),
-    ...pick(buckets.concepts, target.concepts),
-    ...pick(buckets.origines, target.origines),
-    ...pick(buckets.autres, target.autres)
-  ];
+  const chosenSet = new Set();
+  let chosen = [];
 
+  const take = (arr, n) => {
+    const pool = arr.filter(q => !chosenSet.has(q.id));
+    const part = shuffle(pool).slice(0, Math.min(n, pool.length));
+    part.forEach(q => chosenSet.add(q.id));
+    chosen = chosen.concat(part);
+  };
+
+  // Respect du mix autant que possible
+  take(buckets.competition, target.competition);
+  take(buckets.concepts, target.concepts);
+  take(buckets.origines, target.origines);
+  take(buckets.autres, target.autres);
+
+  // Complète à 30 avec le reste des questions restantes (toujours sans répétition)
   if (chosen.length < SESSION_SIZE) {
-    const already = new Set(chosen.map(x => x.id));
-    const remaining = shuffle(allQuestions).filter(q => !already.has(q.id));
-    chosen = chosen.concat(remaining.slice(0, SESSION_SIZE - chosen.length));
+    const pool = remainingQuestions.filter(q => !chosenSet.has(q.id));
+    const fill = shuffle(pool).slice(0, SESSION_SIZE - chosen.length);
+    fill.forEach(q => chosenSet.add(q.id));
+    chosen = chosen.concat(fill);
   }
 
-  // Priorise non-vues (puis mélange final)
-  chosen = shuffle(chosen).sort((a, b) => (seen.has(a.id) ? 1 : 0) - (seen.has(b.id) ? 1 : 0));
-  chosen = chosen.slice(0, SESSION_SIZE);
+  // Retire de remaining les IDs utilisés
+  const usedIds = new Set(chosen.map(q => q.id));
+  const newRemaining = remaining.filter(id => !usedIds.has(id));
+  saveRemainingIds(newRemaining);
 
   return shuffle(chosen);
 }
@@ -273,11 +314,6 @@ async function startNewSession() {
   current = 0;
   score = 0;
   wrongAnswers = [];
-
-  // anti-repeat history
-  const seen = loadSeenIds();
-  session.forEach(q => seen.add(q.id));
-  saveSeenIds(seen);
 
   show("quiz");
   renderQuestion();
