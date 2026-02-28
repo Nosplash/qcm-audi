@@ -14,43 +14,53 @@
       <p class="sub">Session : <b>30 questions</b> • Timer : <b>30 s</b></p>
     </header>
 
+    <!-- HOME -->
     <section id="screen-home" class="card">
       <p>Mode Sprint : 30 questions mélangées, 30 secondes par question.</p>
       <div class="row">
         <button id="btn-start" class="btn primary">Démarrer</button>
         <button id="btn-install" class="btn" hidden>Installer l’appli</button>
       </div>
-      <p class="hint">Les questions sont dans <code>questions.json</code>.</p>
     </section>
 
+    <!-- QUIZ -->
     <section id="screen-quiz" class="card" hidden>
       <div class="topbar">
         <div>Question <b id="q-index">1</b>/30</div>
-        <div class="timer">⏱️ <b id="time-left">15</b>s</div>
+        <div class="timer">⏱️ <b id="time-left">30</b>s</div>
       </div>
 
       <h2 id="question" class="question"></h2>
       <div id="choices" class="choices"></div>
-      <div id="feedback" class="feedback" hidden></div>
-      <div class="footer">
-  <button id="btn-skip" class="btn">Passer</button>
-  <button id="btn-next" class="btn primary" hidden>Suivant</button>
-</div>
 
+      <div id="feedback" class="feedback" hidden></div>
+
+      <div class="footer">
+        <button id="btn-skip" class="btn">Passer</button>
+        <button id="btn-next" class="btn primary" hidden>Suivant</button>
+      </div>
+    </section>
+
+    <!-- RESULT -->
     <section id="screen-result" class="card" hidden>
       <h2>Résultats</h2>
       <p>Bonnes réponses : <b id="score"></b>/30</p>
+
       <div class="row">
         <button id="btn-retry" class="btn primary">Nouvelle session</button>
         <button id="btn-review" class="btn">Voir les erreurs</button>
       </div>
+
       <div id="review" class="review" hidden></div>
     </section>
 
-    <footer class="small">PWA • 30Q/15s</footer>
+    <!-- footer supprimé comme tu voulais -->
   </div>
 
   <script src="app.js"></script>
- <!-- Service worker désactivé pendant le dev -->
+  <script>
+    // laisse activé si tu veux PWA/offline sur GitHub Pages
+    if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
+  </script>
 </body>
 </html>

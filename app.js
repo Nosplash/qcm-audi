@@ -4,10 +4,9 @@ const RESULT = document.getElementById("screen-result");
 
 const btnStart = document.getElementById("btn-start");
 const btnSkip = document.getElementById("btn-skip");
+const btnNext = document.getElementById("btn-next");
 const btnRetry = document.getElementById("btn-retry");
 const btnReview = document.getElementById("btn-review");
-const feedbackEl = document.getElementById("feedback");
-const btnNext = document.getElementById("btn-next");
 const installBtn = document.getElementById("btn-install");
 
 const qIndexEl = document.getElementById("q-index");
@@ -15,18 +14,30 @@ const timeLeftEl = document.getElementById("time-left");
 const questionEl = document.getElementById("question");
 const choicesEl = document.getElementById("choices");
 
+const feedbackEl = document.getElementById("feedback");
 const scoreEl = document.getElementById("score");
 const reviewEl = document.getElementById("review");
 
 const SESSION_SIZE = 30;
 const TIME_PER_Q = 30;
 
+const HISTORY_KEY = "qcm_audi_seen_ids_v1";
+const HISTORY_MAX = 300; // ~10 sessions
+
+// 🔊 Bip (doit exister dans le dossier)
+const beep = new Audio("beep.mp3");
+beep.volume = 0.8;
+beep.preload = "auto";
+
 let allQuestions = [];
 let session = [];
 let current = 0;
 let score = 0;
+
 let timer = null;
+let timeLeft = TIME_PER_Q;
 let answered = false;
+
 let wrongAnswers = []; // { q, chosenIndex }
 
 function show(screen) {
@@ -44,10 +55,26 @@ function shuffle(arr) {
   return a;
 }
 
+function loadSeenIds() {
+  try {
+    return new Set(JSON.parse(localStorage.getItem(HISTORY_KEY) || "[]"));
+  } catch {
+    return new Set();
+  }
+}
+
+function saveSeenIds(seenSet) {
+  const arr = Array.from(seenSet);
+  const trimmed = arr.slice(Math.max(0, arr.length - HISTORY_MAX));
+  localStorage.setItem(HISTORY_KEY, JSON.stringify(trimmed));
+}
+
 async function loadQuestions() {
   const res = await fetch("questions.json", { cache: "no-store" });
   if (!res.ok) throw new Error("Impossible de charger questions.json");
-  allQuestions = await res.json();
+  const data = await res.json();
+  if (!Array.isArray(data)) throw new Error("questions.json doit contenir un tableau JSON.");
+  allQuestions = data;
 }
 
 function pickSession() {
@@ -56,17 +83,12 @@ function pickSession() {
     return null;
   }
 
-  // Catégorisation “souple” par mots-clés dans theme
-  const buckets = {
-    competition: [],
-    concepts: [],
-    origines: [],
-    autres: []
-  };
+  const seen = loadSeenIds();
+
+  const buckets = { competition: [], concepts: [], origines: [], autres: [] };
 
   for (const q of allQuestions) {
     const t = (q.theme || "").toLowerCase();
-
     if (t.includes("compétition") || t.includes("competition") || t.includes("le mans") || t.includes("rallye")) {
       buckets.competition.push(q);
     } else if (t.includes("concept")) {
@@ -80,13 +102,7 @@ function pickSession() {
 
   const pick = (arr, n) => shuffle(arr).slice(0, Math.min(n, arr.length));
 
-  // Quotas pour 30 questions
-  const target = {
-    competition: 8,
-    concepts: 8,
-    origines: 7,
-    autres: 7
-  };
+  const target = { competition: 8, concepts: 8, origines: 7, autres: 7 };
 
   let chosen = [
     ...pick(buckets.competition, target.competition),
@@ -95,63 +111,57 @@ function pickSession() {
     ...pick(buckets.autres, target.autres)
   ];
 
-  // Compléter si un bucket est trop petit
   if (chosen.length < SESSION_SIZE) {
     const already = new Set(chosen.map(x => x.id));
     const remaining = shuffle(allQuestions).filter(q => !already.has(q.id));
     chosen = chosen.concat(remaining.slice(0, SESSION_SIZE - chosen.length));
   }
 
-  // Si on a trop (rare), on tronque
-  chosen = shuffle(chosen).slice(0, SESSION_SIZE);
+  // Priorise non-vues (puis mélange final)
+  chosen = shuffle(chosen).sort((a, b) => (seen.has(a.id) ? 1 : 0) - (seen.has(b.id) ? 1 : 0));
+  chosen = chosen.slice(0, SESSION_SIZE);
 
-  return chosen;
+  return shuffle(chosen);
 }
-
-let timeLeft = TIME_PER_Q;
-function startTimer() {
-  stopTimer();
-  timeLeft = TIME_PER_Q;
-  timeLeftEl.textContent = timeLeft;
-timer = setInterval(() => {
-  timeLeft--;
-  timeLeftEl.textContent = timeLeft;
-
-  // ✅ Bip sur les 5 dernières secondes (5,4,3,2,1)
-  if (timeLeft <= 5 && timeLeft > 0) {
-    try {
-      beep.currentTime = 0;
-      beep.play();
-    } catch (e) {}
-  }
-
-  if (timeLeft <= 0) {
-    stopTimer();
-    if (!answered) lockAndNext(null);
-  }
-}, 1000);
-
-}
-
-  timer = setInterval(() => {
-    timeLeft--;
-    timeLeftEl.textContent = timeLeft;
-    if (timeLeft <= 0) {
-      stopTimer();
-      if (!answered) lockAndNext(null);
-    }
-  }, 1000);
 
 function stopTimer() {
   if (timer) clearInterval(timer);
   timer = null;
 }
 
+function startTimer() {
+  stopTimer();
+  timeLeft = TIME_PER_Q;
+  timeLeftEl.textContent = String(timeLeft);
+
+  timer = setInterval(() => {
+    timeLeft--;
+    timeLeftEl.textContent = String(timeLeft);
+
+    // bip sur 5 dernières secondes (5,4,3,2,1)
+    if (timeLeft <= 5 && timeLeft > 0) {
+      try {
+        beep.currentTime = 0;
+        beep.play();
+      } catch (e) {}
+    }
+
+    if (timeLeft <= 0) {
+      stopTimer();
+      if (!answered) lockAndNext(null);
+    }
+  }, 1000);
+}
+
 function renderQuestion() {
-  answered = false;btnNext.hidden = true;
-btnSkip.disabled = false;
-feedbackEl.hidden = true;
-feedbackEl.innerHTML = "";
+  answered = false;
+
+  // reset UI feedback
+  btnNext.hidden = true;
+  btnSkip.disabled = false;
+  feedbackEl.hidden = true;
+  feedbackEl.innerHTML = "";
+
   const q = session[current];
 
   qIndexEl.textContent = String(current + 1);
@@ -191,6 +201,15 @@ function showFeedback(q, chosenIndex) {
     <div class="meta"><b>Mnémotechnique :</b> ${q.mnemonic || "—"}</div>
   `;
 }
+
+function endSession() {
+  stopTimer();
+  show("result");
+  scoreEl.textContent = String(score);
+  reviewEl.hidden = true;
+  reviewEl.innerHTML = "";
+}
+
 function lockAndNext(chosenIndex) {
   if (answered) return;
   answered = true;
@@ -204,28 +223,20 @@ function lockAndNext(chosenIndex) {
   const isCorrect = chosenIndex === correctIndex;
   if (isCorrect) {
     score++;
-    // Bonne réponse -> enchaîne rapidement
     setTimeout(() => {
       current++;
       if (current >= SESSION_SIZE) endSession();
       else renderQuestion();
-    }, 450);
+    }, 350);
     return;
   }
 
-  // Mauvaise réponse (ou pas de réponse) -> on affiche correction + bouton "Suivant"
+  // erreur / aucune réponse -> feedback + attendre "Suivant"
   wrongAnswers.push({ q, chosenIndex });
   showFeedback(q, chosenIndex);
 
   btnNext.hidden = false;
   btnSkip.disabled = true;
-}
-
-function endSession() {
-  show("result");
-  scoreEl.textContent = String(score);
-  reviewEl.hidden = true;
-  reviewEl.innerHTML = "";
 }
 
 function buildReview() {
@@ -246,13 +257,14 @@ function buildReview() {
       <div class="meta">Ta réponse : <u>${chosen}</u></div>
       <div class="meta">Bonne réponse : <b>${correct}</b></div>
       <div class="meta">Explication : ${q.explanation || "—"}</div>
+      <div class="meta">Mnémotechnique : ${q.mnemonic || "—"}</div>
       <div class="meta">Source : ${q.source || "—"}</div>
     `;
     reviewEl.appendChild(div);
   });
 }
 
-btnStart.onclick = async () => {
+async function startNewSession() {
   await loadQuestions();
   const s = pickSession();
   if (!s) return;
@@ -262,11 +274,35 @@ btnStart.onclick = async () => {
   score = 0;
   wrongAnswers = [];
 
+  // anti-repeat history
+  const seen = loadSeenIds();
+  session.forEach(q => seen.add(q.id));
+  saveSeenIds(seen);
+
   show("quiz");
   renderQuestion();
+}
+
+/* ====== HANDLERS ====== */
+
+btnStart.onclick = async () => {
+  try {
+    await startNewSession();
+  } catch (e) {
+    alert("Erreur : " + e.message);
+  }
+};
+
+btnRetry.onclick = async () => {
+  try {
+    await startNewSession();
+  } catch (e) {
+    alert("Erreur : " + e.message);
+  }
 };
 
 btnSkip.onclick = () => lockAndNext(null);
+
 btnNext.onclick = () => {
   btnNext.hidden = true;
   btnSkip.disabled = false;
@@ -277,7 +313,7 @@ btnNext.onclick = () => {
   if (current >= SESSION_SIZE) endSession();
   else renderQuestion();
 };
-btnRetry.onclick = () => show("home");
+
 btnReview.onclick = () => {
   reviewEl.hidden = !reviewEl.hidden;
   if (!reviewEl.hidden) buildReview();
