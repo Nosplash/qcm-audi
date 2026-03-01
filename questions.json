@@ -2359,48 +2359,6 @@
     "mnemonic": "CA 2016 + SM 2017 → 16/17."
   },
   {
-    "id": 1047,
-    "theme": "audi_cinema",
-    "question": "Quel est le nom du concept-car virtuel Audi créé pour le film d’animation Les Incognitos (Spies in Disguise) ?",
-    "choices": [
-      "Audi RSQ e-tron",
-      "Audi RS e-tron GT",
-      "Audi AI:TRAIL",
-      "Audi PB18 e-tron"
-    ],
-    "answerIndex": 0,
-    "explanation": "Audi France présente la RSQ e-tron comme concept-car virtuel conçu pour Les Incognitos (Spies in Disguise).",
-    "mnemonic": "RSQ + e-tron = RSQ modernisée."
-  },
-  {
-    "id": 1048,
-    "theme": "audi_cinema",
-    "question": "Dans Les Incognitos (Spies in Disguise), quel personnage est associé à l’Audi RSQ e-tron selon Audi France ?",
-    "choices": [
-      "Le super espion Lance Sterling",
-      "Le scientifique Walter Beckett",
-      "Le détective Del Spooner",
-      "Le pilote Ken Block"
-    ],
-    "answerIndex": 0,
-    "explanation": "Audi France associe la RSQ e-tron au super espion Lance Sterling (voix : Will Smith).",
-    "mnemonic": "Sterling = “argent” → Audi."
-  },
-  {
-    "id": 1049,
-    "theme": "audi_cinema",
-    "question": "Audi France décrit la RSQ e-tron (Les Incognitos) comme…",
-    "choices": [
-      "Un concept-car virtuel, électrique et entièrement automatisé",
-      "Un SUV thermique V8",
-      "Un break Diesel quattro",
-      "Une supercar hybride rechargeable non autonome"
-    ],
-    "answerIndex": 0,
-    "explanation": "Le communiqué Audi France parle d’un concept-car virtuel, électrique et entièrement automatisé (IA).",
-    "mnemonic": "e-tron = électrique + autonome."
-  },
-  {
     "id": 1050,
     "theme": "audi_f1",
     "question": "À partir de quelle saison Audi entre-t-elle en Formule 1 en tant qu’équipe d’usine (factory team) ?",
@@ -2527,5 +2485,1945 @@
   "explanation": "Audi MediaCenter explique qu’en plus d’une nouvelle livrée, Ken Block a imaginé un gimmick : dans une scène, les essieux avant et arrière motricent en directions opposées, et la S1 Hoonitron disparaît dans un grand nuage blanc alors qu’elle est à l’arrêt.",
   "source": "Audi MediaCenter — “Electrikhana 2: final drift video with Ken Block released” (06/12/2023)",
   "mnemonic": "EV-only = moteurs AV/AR indépendants → opposés."
-}
+},
+  {
+    "id": "qH2001",
+    "theme": "Origines",
+    "question": "Selon Audi Tradition, à quelle date August Horch fonde-t-il A. Horch & Cie. à Cologne ?",
+    "choices": ["14 novembre 1899", "14 novembre 1909", "29 juin 1932", "3 septembre 1949"],
+    "answerIndex": 0,
+    "explanation": "Audi Tradition indique que la fondation d’A. Horch & Cie. à Cologne date du 14/11/1899.",
+    "source": "Audi.com (Audi Tradition) — The history of AUDI AG",
+    "mnemonic": "Horch = fin XIXe → 1899."
+  },
+  {
+    "id": "qH2002",
+    "theme": "Origines",
+    "question": "D’après Audi MediaCenter (Horch), quel jour en 1902 l’entreprise est-elle installée à Reichenbach ?",
+    "choices": ["3 mars 1902", "10 mai 1904", "16 juillet 1909", "10 avril 1910"],
+    "answerIndex": 0,
+    "explanation": "La chronologie Horch (Audi MediaCenter) mentionne Reichenbach au 03/03/1902.",
+    "source": "Audi MediaCenter — Horch: Dates in history (2170)",
+    "mnemonic": "03/03 → facile à retenir."
+  },
+  {
+    "id": "qH2003",
+    "theme": "Origines",
+    "question": "Selon Audi MediaCenter (Horch), à quelle date est créée « August Horch Motorwagenwerke AG » à Zwickau ?",
+    "choices": ["10 mai 1904", "14 novembre 1899", "16 juillet 1909", "21 janvier 1915"],
+    "answerIndex": 0,
+    "explanation": "La page Horch « Dates in history » donne le 10/05/1904 à Zwickau.",
+    "source": "Audi MediaCenter — Horch: Dates in history (2170)",
+    "mnemonic": "05/1904 = Zwickau."
+  },
+  {
+    "id": "qH2004",
+    "theme": "Origines",
+    "question": "Toujours selon Audi MediaCenter (Horch), en quelle année August Horch se retire-t-il de l’entreprise ?",
+    "choices": ["1909", "1904", "1910", "1918"],
+    "answerIndex": 0,
+    "explanation": "La chronologie Horch indique le retrait d’August Horch en 1909.",
+    "source": "Audi MediaCenter — Horch: Dates in history (2170)",
+    "mnemonic": "1909 = rupture."
+  },
+  {
+    "id": "qH2005",
+    "theme": "Origines",
+    "question": "Selon Audi MediaCenter (Horch), à quelle date Horchwerke AG Zwickau est-elle renommée (et avec quel capital) ?",
+    "choices": ["16 février 1918 (3 millions de marks)", "21 janvier 1915 (1,5 million de marks)", "10 avril 1910 (3 millions de marks)", "29 juin 1932 (5 millions de RM)"],
+    "answerIndex": 0,
+    "explanation": "La page Horch précise : 16/02/1918, renommage en Horchwerke AG Zwickau, capital 3 millions de marks.",
+    "source": "Audi MediaCenter — Horch: Dates in history (2170)",
+    "mnemonic": "16/02/1918 = 3M."
+  },
+  {
+    "id": "qH2006",
+    "theme": "Origines",
+    "question": "Entre 1920 et la liquidation de 1932, à quel groupe Horch appartient-elle selon Audi MediaCenter (Horch) ?",
+    "choices": ["Argus-Flugmotorenwerke (Berlin)", "Daimler-Benz", "Volkswagenwerk AG", "Auto Union GmbH (Ingolstadt)"],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter (Horch) indique l’appartenance à Argus-Flugmotorenwerke à Berlin sur la période.",
+    "source": "Audi MediaCenter — Horch: Dates in history (2170)",
+    "mnemonic": "Argus = moteurs (Berlin)."
+  },
+  {
+    "id": "qH2007",
+    "theme": "Origines",
+    "question": "Selon Audi MediaCenter (Horch), où se trouve la direction Horch à Berlin pendant la période Argus ?",
+    "choices": ["Mittelstrasse 15", "Unter den Linden 1", "Kurfürstendamm 7", "Potsdamer Platz 3"],
+    "answerIndex": 0,
+    "explanation": "La page Horch cite Mittelstrasse 15 comme adresse de la direction pendant cette période.",
+    "source": "Audi MediaCenter — Horch: Dates in history (2170)",
+    "mnemonic": "Mittel = milieu → 15."
+  },
+  {
+    "id": "qH2008",
+    "theme": "Origines",
+    "question": "Toujours selon Audi MediaCenter (Horch), quel capital est indiqué pendant cette période (Argus / direction à Berlin) ?",
+    "choices": ["5 millions de RM", "5 millions de marks", "2,6 millions de RM", "10 millions de RM"],
+    "answerIndex": 0,
+    "explanation": "La chronologie mentionne un capital de 5 millions de RM.",
+    "source": "Audi MediaCenter — Horch: Dates in history (2170)",
+    "mnemonic": "5M RM = Berlin."
+  },
+
+  {
+    "id": "qH2009",
+    "theme": "Origines",
+    "question": "Selon Audi MediaCenter (Audi), à quelle date est créée August Horch Automobilwerke GmbH à Zwickau ?",
+    "choices": ["16 juillet 1909", "10 mai 1904", "10 avril 1910", "29 juin 1932"],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter (Audi - Dates in history) donne le 16/07/1909.",
+    "source": "Audi MediaCenter — Audi: Dates in history (2168)",
+    "mnemonic": "16/07/1909 = nouvelle start."
+  },
+  {
+    "id": "qH2010",
+    "theme": "Origines",
+    "question": "Après le litige sur la marque « Horch », à quelle date la société prend-elle le nom « AUDI Werke GmbH » ?",
+    "choices": ["10 avril 1910", "16 juillet 1909", "21 janvier 1915", "20/21 août 1928"],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter indique le changement de nom au 10/04/1910.",
+    "source": "Audi MediaCenter — Audi: Dates in history (2168)",
+    "mnemonic": "10/04/1910 = Audi."
+  },
+  {
+    "id": "qH2011",
+    "theme": "Origines",
+    "question": "En 1915, Audi MediaCenter cite quel changement de statut et quel capital pour Audiwerke AG ?",
+    "choices": ["21 janvier 1915, 1 500 000 marks", "21 janvier 1915, 3 000 000 marks", "16 février 1918, 1 500 000 marks", "22 décembre 1923, 1 500 000 marks"],
+    "answerIndex": 0,
+    "explanation": "La chronologie Audi mentionne le passage à Audiwerke AG le 21/01/1915 avec 1,5 million de marks.",
+    "source": "Audi MediaCenter — Audi: Dates in history (2168)",
+    "mnemonic": "21/01/1915 = 1,5M."
+  },
+  {
+    "id": "qH2012",
+    "theme": "Origines",
+    "question": "Selon Audi MediaCenter, qui prend une participation majoritaire dans AUDI Werke AG les 20/21 août 1928 ?",
+    "choices": ["J. S. Rasmussen", "Ferdinand Porsche", "Ludwig Kraus", "Hans-Joachim Stuck"],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter (Audi - Dates in history) cite J. S. Rasmussen.",
+    "source": "Audi MediaCenter — Audi: Dates in history (2168)",
+    "mnemonic": "Rasmussen = DKW."
+  },
+  {
+    "id": "qH2013",
+    "theme": "Origines",
+    "question": "Toujours selon Audi MediaCenter, quelle « equity value » est indiquée lors du rachat du solde des parts en 1929 ?",
+    "choices": ["2,6 millions de RM", "5 millions de RM", "10 millions de RM", "1 million de RM"],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter (Audi - Dates in history) mentionne 2,6 millions de RM.",
+    "source": "Audi MediaCenter — Audi: Dates in history (2168)",
+    "mnemonic": "2,6 = 1929."
+  },
+  {
+    "id": "qH2014",
+    "theme": "Origines",
+    "question": "Selon Audi MediaCenter, à quelle date Audiwerke AG est-elle liquidée et intégrée à Auto Union AG ?",
+    "choices": ["29 juin 1932", "21 juin 2022", "3 septembre 1949", "10 mars 1969"],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter indique le 29/06/1932 pour l’intégration dans Auto Union AG.",
+    "source": "Audi MediaCenter — Audi: Dates in history (2168)",
+    "mnemonic": "29/06/1932 = 4 anneaux."
+  },
+
+  {
+    "id": "qH2015",
+    "theme": "Origines",
+    "question": "Les quatre anneaux symbolisent (selon Audi MediaCenter) la fusion du 29 juin 1932 de quelles marques ?",
+    "choices": ["Audi, DKW, Horch, Wanderer", "Audi, NSU, Horch, DKW", "Audi, Porsche, NSU, Horch", "DKW, BMW, Horch, Wanderer"],
+    "answerIndex": 0,
+    "explanation": "Le communiqué Audi MediaCenter cite Audi, DKW, Horch et Wanderer.",
+    "source": "Audi MediaCenter — How the four rings became the Audi trademark… (21/06/2022)",
+    "mnemonic": "4 anneaux = 4 marques."
+  },
+  {
+    "id": "qH2016",
+    "theme": "Origines",
+    "question": "Sur l’initiative de quelle institution la fusion du 29 juin 1932 est-elle réalisée selon Audi MediaCenter ?",
+    "choices": ["La State Bank of Saxony", "La Deutsche Reichsbank", "Volkswagenwerk AG", "Daimler-Benz"],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter cite l’initiative de la State Bank of Saxony.",
+    "source": "Audi MediaCenter — How the four rings became the Audi trademark… (21/06/2022)",
+    "mnemonic": "Saxe → banque de Saxe."
+  },
+  {
+    "id": "qH2017",
+    "theme": "Origines",
+    "question": "Selon Audi MediaCenter, où se situe le siège (headquarters) d’Auto Union AG en 1932 ?",
+    "choices": ["Chemnitz", "Zwickau", "Ingolstadt", "Neckarsulm"],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter indique Chemnitz comme siège du nouveau groupe.",
+    "source": "Audi MediaCenter — How the four rings became the Audi trademark… (21/06/2022)",
+    "mnemonic": "Chemnitz = HQ Auto Union."
+  },
+  {
+    "id": "qH2018",
+    "theme": "Origines",
+    "question": "Selon Audi MediaCenter, où se trouve l’administration d’Auto Union AG jusqu’en 1936 ?",
+    "choices": ["À l’usine DKW de Zschopau", "À l’usine Horch de Zwickau", "Au siège Audi de Cologne", "Au site NSU de Neckarsulm"],
+    "answerIndex": 0,
+    "explanation": "Le communiqué précise que l’administration est à l’usine DKW de Zschopau jusqu’en 1936.",
+    "source": "Audi MediaCenter — How the four rings became the Audi trademark… (21/06/2022)",
+    "mnemonic": "Zschopau = DKW."
+  },
+  {
+    "id": "qH2019",
+    "theme": "Origines",
+    "question": "Dans la répartition des segments Auto Union (1932) décrite par Audi, quelle marque est associée au « deluxe mid-size segment » ?",
+    "choices": ["Audi", "DKW", "Horch", "Wanderer"],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter explique : Audi = deluxe mid-size, Horch = luxe, Wanderer = mid-size, DKW = motos/small cars.",
+    "source": "Audi MediaCenter — How the four rings became the Audi trademark… (21/06/2022)",
+    "mnemonic": "Audi = “deluxe”."
+  },
+  {
+    "id": "qH2020",
+    "theme": "Origines",
+    "question": "Après sa création, Auto Union AG est décrite par Audi comme…",
+    "choices": ["Le 2e plus grand groupe automobile allemand", "Le plus grand constructeur mondial", "Une simple filiale de Volkswagen", "Un groupe uniquement moto"],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter indique qu’Auto Union devient le 2e plus grand groupe de véhicules motorisés en Allemagne.",
+    "source": "Audi MediaCenter — How the four rings became the Audi trademark… (21/06/2022)",
+    "mnemonic": "2e = quatre anneaux."
+  },
+
+  {
+    "id": "qH2021",
+    "theme": "Origines",
+    "question": "Selon Audi MediaCenter (DKW), en quelle année la marque DKW est-elle déposée (registered) pour moteurs et motos ?",
+    "choices": ["1922", "1921", "1923", "1928"],
+    "answerIndex": 0,
+    "explanation": "La page « Dates in the history of DKW » indique 1922 pour l’enregistrement de la marque.",
+    "source": "Audi MediaCenter — Dates in the history of DKW (2169)",
+    "mnemonic": "22 = marque déposée."
+  },
+  {
+    "id": "qH2022",
+    "theme": "Origines",
+    "question": "D’après Audi MediaCenter (DKW), à quelle date est fondée Zschopauer Motorenwerke J. S. Rasmussen AG ?",
+    "choices": ["22 décembre 1923", "29 juin 1932", "20/21 août 1928", "21 janvier 1915"],
+    "answerIndex": 0,
+    "explanation": "La chronologie DKW mentionne le 22/12/1923.",
+    "source": "Audi MediaCenter — Dates in the history of DKW (2169)",
+    "mnemonic": "22/12/1923 = DKW AG."
+  },
+  {
+    "id": "qH2023",
+    "theme": "Origines",
+    "question": "Selon Audi MediaCenter (DKW), quel capital est cité pour 1924, et à combien monte-t-il en 1929 ?",
+    "choices": ["1 million de RM (1924) → 10 millions de RM (1929)", "2,6 millions de RM → 5 millions de RM", "5 millions de RM → 10 millions de RM", "1,5 million de marks → 3 millions de marks"],
+    "answerIndex": 0,
+    "explanation": "La page DKW indique 1 million RM (1924), puis 10 millions RM (1929).",
+    "source": "Audi MediaCenter — Dates in the history of DKW (2169)",
+    "mnemonic": "1 → 10 (DKW grandit)."
+  },
+  {
+    "id": "qH2024",
+    "theme": "Origines",
+    "question": "Dans la chronologie DKW (Audi MediaCenter), le mini moteur 2-temps de 25 cc surnommé « Des Knaben Wunsch » apparaît en…",
+    "choices": ["1919", "1916", "1921", "1922"],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter (DKW) liste 1919 pour le 25 cc « Des Knaben Wunsch ».",
+    "source": "Audi MediaCenter — Dates in the history of DKW (2169)",
+    "mnemonic": "19 = mini moteur."
+  },
+  {
+    "id": "qH2025",
+    "theme": "Origines",
+    "question": "Toujours selon Audi MediaCenter (DKW), « Das kleine Wunder » correspond à…",
+    "choices": ["Le premier moteur auxiliaire de vélo (1921)", "La marque déposée DKW (1922)", "Le début de l’auto (1928)", "La fusion Auto Union (1932)"],
+    "answerIndex": 0,
+    "explanation": "La chronologie DKW associe 1921 au premier moteur auxiliaire de vélo « Das kleine Wunder ».",
+    "source": "Audi MediaCenter — Dates in the history of DKW (2169)",
+    "mnemonic": "Wunder = 1921."
+  },
+  {
+    "id": "qH2026",
+    "theme": "Origines",
+    "question": "Selon Audi MediaCenter (DKW), quel jalon est attribué à 1928 ?",
+    "choices": ["Plus grand constructeur de motos + début de la production automobile", "Marque déposée pour moteurs et motos", "Fusion en Auto Union AG", "Création de DKW en AG"],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter indique qu’en 1928 DKW devient le plus grand fabricant de motos et démarre l’automobile.",
+    "source": "Audi MediaCenter — Dates in the history of DKW (2169)",
+    "mnemonic": "28 = motos + autos."
+  },
+
+  {
+    "id": "qH2027",
+    "theme": "Origines",
+    "question": "Selon Audi MediaCenter (Wanderer), à quelle date est fondé « Chemnitzer-Velociped-Depot Winklhofer & Jaenicke » ?",
+    "choices": ["26 février 1885", "4 janvier 1887", "5 mai 1896", "15 janvier 1908"],
+    "answerIndex": 0,
+    "explanation": "La chronologie Wanderer donne le 26/02/1885.",
+    "source": "Audi MediaCenter — Dates in the history of Wanderer (2204)",
+    "mnemonic": "26/02/1885 = début."
+  },
+  {
+    "id": "qH2028",
+    "theme": "Origines",
+    "question": "Selon Audi MediaCenter (Wanderer), quand le nom « WANDERER » est-il adopté pour les bicyclettes ?",
+    "choices": ["4 janvier 1887", "26 février 1885", "5 mai 1896", "5 mai 1900"],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter indique le 04/01/1887.",
+    "source": "Audi MediaCenter — Dates in the history of Wanderer (2204)",
+    "mnemonic": "04/01/1887 = le nom."
+  },
+  {
+    "id": "qH2029",
+    "theme": "Origines",
+    "question": "Selon Audi MediaCenter (Wanderer), à quelle date le nom devient-il « WANDERER Fahrradwerke AG » ?",
+    "choices": ["5 mai 1896", "4 janvier 1887", "26 février 1885", "15 janvier 1908"],
+    "answerIndex": 0,
+    "explanation": "La chronologie cite le 05/05/1896.",
+    "source": "Audi MediaCenter — Dates in the history of Wanderer (2204)",
+    "mnemonic": "05/05/1896 = AG."
+  },
+  {
+    "id": "qH2030",
+    "theme": "Origines",
+    "question": "Selon Audi MediaCenter (Wanderer), quelle production démarre en 1900 ?",
+    "choices": ["Les machines-outils (machine tools)", "Les motos", "Les autos", "Les machines à écrire"],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter place le démarrage des machines-outils en 1900.",
+    "source": "Audi MediaCenter — Dates in the history of Wanderer (2204)",
+    "mnemonic": "1900 = machine tools."
+  },
+  {
+    "id": "qH2031",
+    "theme": "Origines",
+    "question": "Dans la chronologie Wanderer (Audi MediaCenter), la production moto débute en…",
+    "choices": ["1902", "1900", "1904", "1913"],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter liste 1902 pour le démarrage des motos (Wanderer).",
+    "source": "Audi MediaCenter — Dates in the history of Wanderer (2204)",
+    "mnemonic": "02 = moto."
+  },
+  {
+    "id": "qH2032",
+    "theme": "Origines",
+    "question": "Selon Audi MediaCenter (Wanderer), la production des machines à écrire « Continental » commence en…",
+    "choices": ["1904", "1902", "1908", "1913"],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter indique 1904 pour les machines à écrire « Continental ».",
+    "source": "Audi MediaCenter — Dates in the history of Wanderer (2204)",
+    "mnemonic": "04 = Continental."
+  },
+  {
+    "id": "qH2033",
+    "theme": "Origines",
+    "question": "Dans la chronologie Wanderer, la première expérimentation de design automobile est datée de…",
+    "choices": ["1905", "1904", "1908", "1913"],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter (Wanderer) place les premiers essais auto en 1905.",
+    "source": "Audi MediaCenter — Dates in the history of Wanderer (2204)",
+    "mnemonic": "05 = essais."
+  },
+  {
+    "id": "qH2034",
+    "theme": "Origines",
+    "question": "Selon Audi MediaCenter (Wanderer), quel événement commence le 15 janvier 1908 (et quel capital est cité) ?",
+    "choices": ["WANDERER Werke AG; capital 1,6 M marks", "WANDERER Fahrradwerke AG; capital 5,25 M marks", "Début autos; capital 1,6 M marks", "Début motos; capital 1,6 M marks"],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter mentionne : à partir du 15/01/1908, WANDERER Werke AG, capital 1,6 million de marks.",
+    "source": "Audi MediaCenter — Dates in the history of Wanderer (2204)",
+    "mnemonic": "15/01/1908 = 1,6M."
+  },
+  {
+    "id": "qH2035",
+    "theme": "Origines",
+    "question": "Selon Audi MediaCenter (Wanderer), quand démarre la production automobile Wanderer ?",
+    "choices": ["1913", "1905", "1908", "1918"],
+    "answerIndex": 0,
+    "explanation": "La chronologie Wanderer indique : début de la production auto en 1913.",
+    "source": "Audi MediaCenter — Dates in the history of Wanderer (2204)",
+    "mnemonic": "13 = auto."
+  },
+
+  {
+    "id": "qH2036",
+    "theme": "Origines",
+    "question": "Dans la chronologie Wanderer (Audi MediaCenter), en 1918, quels volumes « dépassés » sont cités ?",
+    "choices": [">10 000 motos et >2 000 autos", ">2 000 motos et >10 000 autos", ">70 000 moteurs 8cyl", ">1 000 moteurs 2-temps"],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter (Wanderer) indique qu’en 1918, on dépasse 10 000 motos et 2 000 automobiles.",
+    "source": "Audi MediaCenter — Dates in the history of Wanderer (2204)",
+    "mnemonic": "10k/2k = 1918."
+  },
+  {
+    "id": "qH2037",
+    "theme": "Origines",
+    "question": "Selon Audi MediaCenter (Wanderer), quel couple de prix est associé à 1918 ?",
+    "choices": ["Moto 1,5 hp ≈ 750 marks; Puppchen ≈ 4 000 marks", "Moto 30 hp ≈ 750 marks; Puppchen ≈ 4 000 marks", "Moto 1,5 hp ≈ 4 000 marks; Puppchen ≈ 750 marks", "Moto 25 cc ≈ 750 marks; Puppchen ≈ 4 000 RM"],
+    "answerIndex": 0,
+    "explanation": "La chronologie cite ~750 marks pour la moto 1,5 hp et 4 000 marks pour la Puppchen.",
+    "source": "Audi MediaCenter — Dates in the history of Wanderer (2204)",
+    "mnemonic": "750/4000 = 1918."
+  },
+  {
+    "id": "qH2038",
+    "theme": "Origines",
+    "question": "Dans la chronologie Wanderer, quel modèle arrive en 1926 et avec quelle configuration moteur ?",
+    "choices": ["Wanderer W10, 4-cyl 30 hp", "Wanderer W11, 6-cyl", "Wanderer Puppchen, 8-cyl", "Wanderer W10, 6-cyl 30 hp"],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter indique : en 1926, le W10 arrive avec un 4-cylindres de 30 hp.",
+    "source": "Audi MediaCenter — Dates in the history of Wanderer (2204)",
+    "mnemonic": "W10 = 30 hp."
+  },
+  {
+    "id": "qH2039",
+    "theme": "Origines",
+    "question": "Selon Audi MediaCenter (Wanderer), où la production automobile est-elle déplacée en 1927 ?",
+    "choices": ["Vers l’usine de Siegmar (suburb de Chemnitz)", "Vers Zschopau", "Vers Zwickau", "Vers Neckarsulm"],
+    "answerIndex": 0,
+    "explanation": "La chronologie cite un transfert vers une nouvelle usine à Siegmar, près de Chemnitz.",
+    "source": "Audi MediaCenter — Dates in the history of Wanderer (2204)",
+    "mnemonic": "Siegmar = 1927."
+  },
+  {
+    "id": "qH2040",
+    "theme": "Origines",
+    "question": "Selon Audi MediaCenter (Wanderer), quel modèle introduit un 6-cylindres en 1928 ?",
+    "choices": ["Wanderer Type W11", "Wanderer Type W10", "Wanderer Type UW", "Wanderer Type 32"],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter indique : en 1928, le Type W11 (6-cyl) élargit la gamme.",
+    "source": "Audi MediaCenter — Dates in the history of Wanderer (2204)",
+    "mnemonic": "W11 = 6 cylindres."
+  },
+  {
+    "id": "qH2041",
+    "theme": "Origines",
+    "question": "Selon Audi MediaCenter (Wanderer), que devient l’outil de production moto en 1929 ?",
+    "choices": ["Vendu à NSU et à la société tchèque Janacek; création de JAWA à Prague", "Intégré à Auto Union immédiatement", "Détruit pendant la crise de 1929", "Transféré à Ingolstadt"],
+    "answerIndex": 0,
+    "explanation": "La chronologie cite la vente à NSU et Janacek, et la création de JAWA (Janacek/Wanderer).",
+    "source": "Audi MediaCenter — Dates in the history of Wanderer (2204)",
+    "mnemonic": "JAWA = Janacek/Wanderer."
+  },
+  {
+    "id": "qH2042",
+    "theme": "Origines",
+    "question": "Selon Audi MediaCenter (Wanderer), quel ingénieur développe en 1931 une génération moderne de 6-cylindres pour Wanderer ?",
+    "choices": ["Ferdinand Porsche", "August Horch", "J. S. Rasmussen", "Ferdinand Piëch"],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter (Wanderer) cite Ferdinand Porsche pour 1931.",
+    "source": "Audi MediaCenter — Dates in the history of Wanderer (2204)",
+    "mnemonic": "Porsche → 6-cyl."
+  },
+  {
+    "id": "qH2043",
+    "theme": "Origines",
+    "question": "Selon Audi MediaCenter (Wanderer), que se passe-t-il en 1932 concernant la division automobile ?",
+    "choices": ["La division auto est vendue à Auto Union AG", "Wanderer absorbe Audiwerke AG", "Fusion directe avec NSU", "Création de Wanderer Motorenwerke AG"],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter précise : la division auto est vendue à Auto Union AG en 1932.",
+    "source": "Audi MediaCenter — Dates in the history of Wanderer (2204)",
+    "mnemonic": "32 = vente à Auto Union."
+  },
+
+  {
+    "id": "qH2044",
+    "theme": "Origines",
+    "question": "Selon Audi Tradition (via Audi MediaCenter), les racines de NSU remontent à quelle année ?",
+    "choices": ["1873", "1886", "1900", "1906"],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter rappelle que les racines de NSU remontent à 1873.",
+    "source": "Audi MediaCenter — The traditional NSU brand… (27/02/2023)",
+    "mnemonic": "NSU = 1873."
+  },
+  {
+    "id": "qH2045",
+    "theme": "Origines",
+    "question": "Selon Audi MediaCenter, quelle est la raison historique du nom « NSU » ?",
+    "choices": ["Il vient de Neckarsulm (rivières Neckar et Sulm)", "Il vient de « Neue Sport-Union »", "Il vient de « Nord Süd Union »", "Il vient du nom de Christian Schmidt"],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter précise que NSU est lié à Neckarsulm, dérivé de Neckar et Sulm.",
+    "source": "Audi MediaCenter — The traditional NSU brand… (27/02/2023)",
+    "mnemonic": "N+S = Neckar/Sulm."
+  },
+  {
+    "id": "qH2046",
+    "theme": "Autres",
+    "question": "Dans la timeline « Audi at the Neckarsulm site: History », que produisent Christian Schmidt et Heinrich Stoll en 1873 ?",
+    "choices": ["Des machines à tricoter (knitting machines)", "Des bicyclettes", "Des moteurs 2-temps", "Des automobiles"],
+    "answerIndex": 0,
+    "explanation": "La timeline Neckarsulm mentionne un atelier de machines à tricoter en 1873.",
+    "source": "Audi MediaCenter — Audi at the Neckarsulm site: History (as of 18/03/2025)",
+    "mnemonic": "1873 = tricot."
+  },
+  {
+    "id": "qH2047",
+    "theme": "Autres",
+    "question": "Selon la timeline Neckarsulm (Audi MediaCenter), quand l’entreprise se relocalise-t-elle à Neckarsulm ?",
+    "choices": ["1880", "1873", "1886", "1900"],
+    "answerIndex": 0,
+    "explanation": "La timeline indique un déménagement à Neckarsulm en 1880.",
+    "source": "Audi MediaCenter — Audi at the Neckarsulm site: History (as of 18/03/2025)",
+    "mnemonic": "1880 = Neckarsulm."
+  },
+  {
+    "id": "qH2048",
+    "theme": "Autres",
+    "question": "Dans la timeline Neckarsulm, quand la production de bicyclettes commence-t-elle ?",
+    "choices": ["1886", "1880", "1873", "1900"],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter (Neckarsulm: History) situe le début des bicyclettes en 1886.",
+    "source": "Audi MediaCenter — Audi at the Neckarsulm site: History (as of 18/03/2025)",
+    "mnemonic": "86 = vélo."
+  },
+  {
+    "id": "qH2049",
+    "theme": "Autres",
+    "question": "Dans la timeline Neckarsulm, quand la production de motos commence-t-elle ?",
+    "choices": ["1900", "1886", "1906", "1901"],
+    "answerIndex": 0,
+    "explanation": "La timeline Neckarsulm indique : la production de motos commence en 1900.",
+    "source": "Audi MediaCenter — Audi at the Neckarsulm site: History (as of 18/03/2025)",
+    "mnemonic": "1900 = motos."
+  },
+  {
+    "id": "qH2050",
+    "theme": "Autres",
+    "question": "Selon la timeline Neckarsulm, quand la production d’automobiles débute-t-elle (Original Neckarsulmer Motorwagen) ?",
+    "choices": ["1906", "1900", "1886", "1913"],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter (Neckarsulm: History) mentionne 1906 pour le début des autos.",
+    "source": "Audi MediaCenter — Audi at the Neckarsulm site: History (as of 18/03/2025)",
+    "mnemonic": "06 = motorwagen."
+  },
+  {
+    "id": "qH2051",
+    "theme": "Autres",
+    "question": "Selon la timeline Neckarsulm, quand la production automobile s’arrête-t-elle et que l’usine de Heilbronn est vendue ?",
+    "choices": ["1928", "1929", "1933", "1958"],
+    "answerIndex": 0,
+    "explanation": "La timeline Neckarsulm indique : fin de la production auto en 1928 et vente du site de Heilbronn.",
+    "source": "Audi MediaCenter — Audi at the Neckarsulm site: History (as of 18/03/2025)",
+    "mnemonic": "28 = stop auto."
+  },
+  {
+    "id": "qH2052",
+    "theme": "Autres",
+    "question": "Selon la timeline Neckarsulm, quel projet de Ferdinand Porsche (1933) est cité comme précurseur de la Coccinelle ?",
+    "choices": ["NSU/Porsche Type 32", "Audi Front Type UW", "Wanderer W11", "DKW F 5"],
+    "answerIndex": 0,
+    "explanation": "La timeline Neckarsulm cite le NSU/Porsche Type 32 comme prédécesseur de la VW Beetle.",
+    "source": "Audi MediaCenter — Audi at the Neckarsulm site: History (as of 18/03/2025)",
+    "mnemonic": "Type 32 → Beetle."
+  },
+  {
+    "id": "qH2053",
+    "theme": "Autres",
+    "question": "Selon la timeline Neckarsulm, en quelle année NSU Werke AG est-elle « la plus grande usine de motos au monde » ?",
+    "choices": ["1955", "1958", "1949", "1964"],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter (Neckarsulm: History) indique 1955.",
+    "source": "Audi MediaCenter — Audi at the Neckarsulm site: History (as of 18/03/2025)",
+    "mnemonic": "55 = motos."
+  },
+
+  {
+    "id": "qH2054",
+    "theme": "Autres",
+    "question": "Selon Audi Tradition (audi.com), à quelle date Auto Union GmbH est-elle fondée à Ingolstadt ?",
+    "choices": ["3 septembre 1949", "29 juin 1932", "10 mars 1969", "10 avril 1910"],
+    "answerIndex": 0,
+    "explanation": "Audi Tradition indique la création d’Auto Union GmbH à Ingolstadt le 03/09/1949.",
+    "source": "Audi.com (Audi Tradition) — The history of AUDI AG",
+    "mnemonic": "03/09/1949 = nouveau départ."
+  },
+  {
+    "id": "qH2055",
+    "theme": "Autres",
+    "question": "Selon Audi Tradition (audi.com), en quelle année Auto Union GmbH est-elle reprise par Volkswagenwerk AG ?",
+    "choices": ["1965", "1963", "1969", "1972"],
+    "answerIndex": 0,
+    "explanation": "Audi Tradition précise que Volkswagenwerk AG reprend Auto Union GmbH en 1965.",
+    "source": "Audi.com (Audi Tradition) — The history of AUDI AG",
+    "mnemonic": "65 = VW takeover."
+  },
+  {
+    "id": "qH2056",
+    "theme": "Autres",
+    "question": "Toujours selon Audi Tradition (audi.com), quel modèle DKW lancé en 1963 est cité comme base d’intégration du 4-temps (projet Ludwig Kraus) ?",
+    "choices": ["DKW F 102", "DKW F 5", "DKW RT 125 W", "DKW Munga"],
+    "answerIndex": 0,
+    "explanation": "Audi Tradition cite le DKW F 102 (lancé en 1963) comme contexte de l’adaptation du 4-temps.",
+    "source": "Audi.com (Audi Tradition) — The history of AUDI AG",
+    "mnemonic": "F102 = 1963."
+  },
+  {
+    "id": "qH2057",
+    "theme": "Autres",
+    "question": "Selon Audi Tradition (audi.com), en quelle année le nom « Audi » est-il réutilisé pour le premier modèle post-guerre 4-temps ?",
+    "choices": ["1965", "1968", "1969", "1971"],
+    "answerIndex": 0,
+    "explanation": "Audi Tradition explique que le modèle apparaît en 1965 et que le nom Audi est « ressuscité » à ce moment.",
+    "source": "Audi.com (Audi Tradition) — The history of AUDI AG",
+    "mnemonic": "Audi revient en 65."
+  },
+  {
+    "id": "qH2058",
+    "theme": "Autres",
+    "question": "Selon Audi Tradition (audi.com), quel est le code interne de la série dérivée du « Type Audi » (1965) et produite jusqu’en 1972 ?",
+    "choices": ["F 103", "Type 32", "C 20", "W 10"],
+    "answerIndex": 0,
+    "explanation": "Audi Tradition précise que la série issue du Type Audi porte la désignation interne F 103 et va jusqu’en 1972.",
+    "source": "Audi.com (Audi Tradition) — The history of AUDI AG",
+    "mnemonic": "F103 = post-65."
+  },
+  {
+    "id": "qH2059",
+    "theme": "Autres",
+    "question": "Selon Audi Tradition (audi.com), en quel mois/année l’Audi 100 est-elle présentée à la presse internationale à Ingolstadt ?",
+    "choices": ["Novembre 1968", "Janvier 1971", "Mars 1980", "Septembre 1949"],
+    "answerIndex": 0,
+    "explanation": "Audi Tradition indique une présentation à la presse à Ingolstadt en novembre 1968 (développement mené par Ludwig Kraus).",
+    "source": "Audi.com (Audi Tradition) — The history of AUDI AG",
+    "mnemonic": "68 = Audi 100."
+  },
+  {
+    "id": "qH2060",
+    "theme": "Autres",
+    "question": "Selon Audi Tradition (audi.com), la fusion Auto Union + NSU donne naissance à quelle dénomination en 1969 ?",
+    "choices": ["AUDI NSU AUTO UNION AG", "AUTO UNION AUDI AG", "NSU AUDI MOTORWERKE AG", "AUDI AUTO UNION GmbH"],
+    "answerIndex": 0,
+    "explanation": "Audi Tradition indique que la fusion de 1969 donne « AUDI NSU AUTO UNION AG ».",
+    "source": "Audi.com (Audi Tradition) — The history of AUDI AG",
+    "mnemonic": "1969 = Audi NSU Auto Union."
+  },
+  {
+    "id": "qH2061",
+    "theme": "Autres",
+    "question": "Selon Audi France, quand le slogan « Vorsprung durch Technik » apparaît-il pour la première fois dans une publicité grand format ?",
+    "choices": ["Janvier 1971", "Janvier 1970", "Mars 1980", "Juillet 1972"],
+    "answerIndex": 0,
+    "explanation": "Audi France indique une première apparition en janvier 1971.",
+    "source": "Audi France Media — 50 ans Vorsprung durch Technik (08/07/2021)",
+    "mnemonic": "Vorsprung → 01/1971."
+  },
+  {
+    "id": "qH2062",
+    "theme": "Autres",
+    "question": "Selon Audi Tradition (audi.com), le slogan « Vorsprung durch Technik » est inspiré par la technologie innovante de quel modèle ?",
+    "choices": ["NSU Ro 80", "Audi quattro", "Audi 100 (C1)", "Audi V8 quattro"],
+    "answerIndex": 0,
+    "explanation": "Audi Tradition cite explicitement l’inspiration par la technologie du NSU Ro 80.",
+    "source": "Audi.com (Audi Tradition) — The history of AUDI AG",
+    "mnemonic": "Ro 80 → slogan."
+  },
+  {
+    "id": "qH2063",
+    "theme": "Compétition",
+    "question": "Selon Audi Tradition (audi.com), où l’Audi quattro est-elle dévoilée en mars 1980 ?",
+    "choices": ["Salon de Genève", "Salon de Francfort (IAA)", "Salon de Paris", "Salon de Berlin (février)"],
+    "answerIndex": 0,
+    "explanation": "Audi Tradition indique un dévoilement au Geneva Motor Show en mars 1980.",
+    "source": "Audi.com (Audi Tradition) — The history of AUDI AG",
+    "mnemonic": "Quattro = Genève 1980."
+  },
+  {
+    "id": "qH2064",
+    "theme": "Compétition",
+    "question": "Selon Audi Tradition (audi.com), quels éléments accompagnent la transmission intégrale permanente du quattro 1980 ?",
+    "choices": ["Deux différentiels verrouillables manuellement", "Un différentiel avant soudé", "Un seul différentiel arrière verrouillable", "Un coupleur Haldex uniquement"],
+    "answerIndex": 0,
+    "explanation": "Audi Tradition mentionne la transmission intégrale permanente et deux différentiels verrouillables manuellement.",
+    "source": "Audi.com (Audi Tradition) — The history of AUDI AG",
+    "mnemonic": "2 verrous = 2 diffs."
+  },
+  {
+    "id": "qH2065",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (Neckarsulm: History), quand démarre la production de l’Audi e-tron GT quattro (100% électrique) ?",
+    "choices": ["2020", "2019", "2021", "2022"],
+    "answerIndex": 0,
+    "explanation": "La timeline Neckarsulm indique : début de production de l’Audi e-tron GT quattro en 2020.",
+    "source": "Audi MediaCenter — Audi at the Neckarsulm site: History (as of 18/03/2025)",
+    "mnemonic": "e-tron GT = 2020."
+  },
+  {
+    "id": "qTD3001",
+    "theme": "Concepts",
+    "question": "Selon audi.com (quattro), quel est le couple de répartition « normal » du différentiel central autobloquant (moteur longitudinal) ?",
+    "choices": ["50:50", "40:60 (AV:AR)", "60:40 (AV:AR)", "30:70 (AV:AR)"],
+    "answerIndex": 1,
+    "explanation": "Audi précise que le différentiel central autobloquant envoie normalement le couple à l’avant/arrière dans un ratio 40:60.",
+    "source": "Audi.com — Innovation: quattro (self-locking centre differential; 40:60)",
+    "mnemonic": "quattro « sportif » → plus vers l’arrière : 40/60."
+  },
+  {
+    "id": "qTD3002",
+    "theme": "Concepts",
+    "question": "Toujours selon audi.com (quattro), la technologie du différentiel central autobloquant est basée sur quel type d’engrenage ?",
+    "choices": ["Train épicycloïdal (epicyclic gear)", "Chaîne de transmission (chain drive)", "Coupleur visco (viscous coupling)", "Haldex piloté uniquement"],
+    "answerIndex": 0,
+    "explanation": "Audi indique qu’il s’agit d’un différentiel central purement mécanique utilisant un train épicycloïdal.",
+    "source": "Audi.com — Innovation: quattro (epicyclic gear / self-locking centre differential)",
+    "mnemonic": "Épi-cyclique = « planétaires » = quattro longitudinal."
+  },
+  {
+    "id": "qTD3003",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (PPE), quelle architecture est citée comme « facteur clé » pour permettre jusqu’à 270 kW de puissance de charge ?",
+    "choices": ["800 volts", "400 volts", "48 volts", "1 000 volts"],
+    "answerIndex": 0,
+    "explanation": "Audi explique que l’architecture 800V (PPE) est un facteur clé pour les puissances de charge jusqu’à 270 kW.",
+    "source": "Audi MediaCenter — Press kit: Premium Platform Electric (PPE) (13/05/2024)",
+    "mnemonic": "270 kW → Audi insiste sur 800V."
+  },
+  {
+    "id": "qTD3004",
+    "theme": "Concepts",
+    "question": "D’après le dossier Q6 e-tron (Audi MediaCenter), combien de kilomètres peuvent être récupérés en ~10 minutes à une borne HPC (conditions adaptées) ?",
+    "choices": ["255 km", "180 km", "310 km", "120 km"],
+    "answerIndex": 0,
+    "explanation": "Audi annonce jusqu’à 255 km récupérés en dix minutes pour le Q6 e-tron à une borne HPC appropriée.",
+    "source": "Audi MediaCenter — The Audi Q6 e-tron: electric mobility on a new level (28/06/2024)",
+    "mnemonic": "2-5-5 → « Q6 » recharge vite."
+  },
+  {
+    "id": "qTD3005",
+    "theme": "Concepts",
+    "question": "Toujours selon Audi MediaCenter (Q6 e-tron), combien de temps faut-il pour passer d’environ 10% à 80% de charge (SoC) ?",
+    "choices": ["21 min", "30 min", "15 min", "45 min"],
+    "answerIndex": 0,
+    "explanation": "Audi indique un 10→80% (SoC) en 21 minutes pour le Q6 e-tron (borne HPC adaptée).",
+    "source": "Audi MediaCenter — The Audi Q6 e-tron: electric mobility on a new level (28/06/2024)",
+    "mnemonic": "10–80 = 21 min (facile à retenir)."
+  },
+  {
+    "id": "qTD3006",
+    "theme": "Concepts",
+    "question": "Dans le dossier Q6 e-tron (Audi MediaCenter), quelle nouvelle architecture électronique est citée ?",
+    "choices": ["E3 1.2", "MIB 2.0", "E2 3.0", "E4 2.1"],
+    "answerIndex": 0,
+    "explanation": "Audi cite l’architecture électronique « E3 1.2 » comme nouveauté introduite avec le Q6 e-tron.",
+    "source": "Audi MediaCenter — The Audi Q6 e-tron: electric mobility on a new level (28/06/2024)",
+    "mnemonic": "E3.1.2 = « nouvelle génération »."
+  },
+  {
+    "id": "qTD3007",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (Q6L e-tron), la batterie est décrite comme composée de…",
+    "choices": ["12 modules et 192 cellules prismatiques", "8 modules et 160 cellules cylindriques", "10 modules et 180 cellules pouch", "16 modules et 256 cellules prismatiques"],
+    "answerIndex": 0,
+    "explanation": "Audi décrit une batterie « 12 modules / 192 cellules prismatiques » pour le Q6L e-tron.",
+    "source": "Audi MediaCenter — Press kit: Audi Q6L e-tron (24/04/2024)",
+    "mnemonic": "12 / 192 → duo clé Q6L."
+  },
+  {
+    "id": "qTD3008",
+    "theme": "Concepts",
+    "question": "Toujours selon Audi MediaCenter (Q6L e-tron), quelle capacité brute totale est indiquée ?",
+    "choices": ["107 kWh", "95 kWh", "77 kWh", "120 kWh"],
+    "answerIndex": 0,
+    "explanation": "Audi annonce une capacité brute de 107 kWh sur le Q6L e-tron.",
+    "source": "Audi MediaCenter — Press kit: Audi Q6L e-tron (24/04/2024)",
+    "mnemonic": "Q6L = gros pack → 107."
+  },
+  {
+    "id": "qTD3009",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (A6 e-tron), comment la batterie 800V est-elle « divisée électriquement » pour optimiser la charge ?",
+    "choices": ["En deux bancs de 400 V", "En quatre bancs de 200 V", "En un banc unique de 800 V seulement", "En deux bancs de 48 V + un convertisseur"],
+    "answerIndex": 0,
+    "explanation": "Audi explique que la batterie 800V est divisée en deux bancs de 400V pouvant charger en parallèle.",
+    "source": "Audi MediaCenter — Audi A6 e-tron: new standards for range (03/12/2024)",
+    "mnemonic": "800 = 2×400."
+  },
+  {
+    "id": "qTD3010",
+    "theme": "Concepts",
+    "question": "Toujours selon Audi MediaCenter (A6 e-tron), quelle puissance peut atteindre chaque moitié (en charge parallèle) ?",
+    "choices": ["Jusqu’à 135 kW chacune", "Jusqu’à 80 kW chacune", "Jusqu’à 200 kW chacune", "Jusqu’à 50 kW chacune"],
+    "answerIndex": 0,
+    "explanation": "Audi indique que chaque moitié peut charger en parallèle jusqu’à 135 kW (soit 270 kW au total).",
+    "source": "Audi MediaCenter — Audi A6 e-tron: new standards for range (03/12/2024)",
+    "mnemonic": "135×2 = 270."
+  },
+  {
+    "id": "qTD3011",
+    "theme": "Concepts",
+    "question": "Dans le dossier A6 e-tron (Audi MediaCenter), quelle est la puissance DC max « standard » citée (hors variante d’entrée) ?",
+    "choices": ["270 kW", "225 kW", "150 kW", "310 kW"],
+    "answerIndex": 0,
+    "explanation": "Audi indique une charge DC standard jusqu’à 270 kW (225 kW pour la variante d’entrée).",
+    "source": "Audi MediaCenter — The Audi A6 e-tron: the new electric avant garde (PDF / 2024)",
+    "mnemonic": "Standard = 270, entrée = 225."
+  },
+  {
+    "id": "qTD3012",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (A8), de quel pourcentage de pièces aluminium le corps suit-il le principe ASF ?",
+    "choices": ["58%", "42%", "65%", "75%"],
+    "answerIndex": 0,
+    "explanation": "Audi explique que la carrosserie suit le principe ASF avec 58% de pièces en aluminium.",
+    "source": "Audi MediaCenter — Press release: Enhanced Audi A8 (2022)",
+    "mnemonic": "A8 = 58% alu (chiffre clé)."
+  },
+  {
+    "id": "qTD3013",
+    "theme": "Concepts",
+    "question": "Dans le communiqué A8 (Audi MediaCenter), quel matériau est cité pour le panneau arrière ultra-rigide (rear panel) ?",
+    "choices": ["CFRP (polymère renforcé fibre de carbone)", "Titane", "Magnésium moulé", "Kevlar uniquement"],
+    "answerIndex": 0,
+    "explanation": "Audi mentionne un panneau arrière très rigide en CFRP (carbone) dans le concept de construction légère.",
+    "source": "Audi MediaCenter — Press release: Enhanced Audi A8 (2022)",
+    "mnemonic": "Carbone = rigidité = A8."
+  },
+  {
+    "id": "qTD3014",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (Neckarsulm: History), quel jalon 1994 est cité pour l’Audi A8 ?",
+    "choices": [
+      "Première voiture de série au monde avec carrosserie entièrement aluminium (ASF)",
+      "Première Audi hybride rechargeable",
+      "Première Audi 100% électrique produite en Allemagne",
+      "Première Audi avec phares Matrix LED"
+    ],
+    "answerIndex": 0,
+    "explanation": "La timeline Neckarsulm indique : 1994, début de production de l’A8, première voiture de série au monde avec carrosserie entièrement aluminium (ASF).",
+    "source": "Audi MediaCenter — Neckarsulm: History (18/03/2025)",
+    "mnemonic": "1994 = A8 = ASF."
+  },
+  {
+    "id": "qTD3015",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (Neckarsulm: History), quel modèle démarre sa production en 2000 comme « première grande série aluminium » ?",
+    "choices": ["Audi A2", "Audi A8", "Audi TT", "Audi A6"],
+    "answerIndex": 0,
+    "explanation": "La timeline Neckarsulm cite 2000 : début de production de l’Audi A2, première voiture aluminium de grande série.",
+    "source": "Audi MediaCenter — Neckarsulm: History (18/03/2025)",
+    "mnemonic": "A2 = alu grand volume."
+  },
+  {
+    "id": "qTD3016",
+    "theme": "Concepts",
+    "question": "D’après Audi MediaCenter (Neckarsulm: History), quel événement 2001 est associé au FSI (injection directe essence) ?",
+    "choices": [
+      "Victoire au Mans avec FSI nouvellement développé à Neckarsulm",
+      "Lancement du premier TDI de série",
+      "Première Audi avec boîte S tronic",
+      "Première Audi avec quattro"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi cite 2001 : victoire au Mans avec le FSI direct fuel injection, développé à Neckarsulm.",
+    "source": "Audi MediaCenter — Neckarsulm: History (18/03/2025)",
+    "mnemonic": "FSI = Mans (2001)."
+  },
+  {
+    "id": "qTD3017",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (tag), que signifie l’acronyme TFSI ?",
+    "choices": ["Turbo Fuel Stratified Injection", "Twin Fuel Sequential Injection", "Turbo Forced Spark Ignition", "Traction Fuel Stratified Injection"],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter précise : TFSI = “turbo fuel stratified injection”.",
+    "source": "Audi MediaCenter — Tag: TFSI",
+    "mnemonic": "T + FSI = turbo + injection stratifiée."
+  },
+  {
+    "id": "qTD3018",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (tag), que signifie l’acronyme TDI ?",
+    "choices": ["Turbocharged Direct Injection", "Twin Diesel Injection", "Turbo Dynamic Ignition", "Traction Direct Injection"],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter précise : TDI = “turbocharged direct injection”.",
+    "source": "Audi MediaCenter — Tag: TDI",
+    "mnemonic": "TDI = Turbo + Direct Injection."
+  },
+  {
+    "id": "qTD3019",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter, quelle affirmation décrit correctement la production de l’Audi e-tron GT ?",
+    "choices": [
+      "C’est la première Audi 100% électrique construite en Allemagne, à Böllinger Höfe",
+      "Elle est assemblée uniquement à Bruxelles",
+      "Elle est produite uniquement à Győr",
+      "Elle est assemblée uniquement au Mexique (San José Chiapa)"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter indique que l’e-tron GT est la première Audi 100% électrique construite en Allemagne et sort de Böllinger Höfe.",
+    "source": "Audi MediaCenter — e-tron GT experience: Production (12/05/2023)",
+    "mnemonic": "e-tron GT = Allemagne (Böllinger)."
+  },
+  {
+    "id": "qTD3020",
+    "theme": "Concepts",
+    "question": "Dans le contexte Böllinger Höfe (Audi MediaCenter), quelle combinaison énergie/chaleur est citée pour une production « carbon-neutral » ?",
+    "choices": [
+      "100% électricité verte + chaleur via CHP au biogaz",
+      "Charbon + compensation uniquement",
+      "Électricité mix + chauffage au fioul",
+      "Nucléaire + chauffage au gaz fossile"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi indique l’usage de 100% d’électricité verte et une centrale CHP alimentée au biogaz pour la chaleur.",
+    "source": "Audi MediaCenter — Craftsmanship meets the smart factory (03/03/2021)",
+    "mnemonic": "Bio-gaz = chaleur, éco-élec = courant."
+  },
+
+  {
+    "id": "qTD3021",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter (Ingolstadt), quels modèles ont l’intégralité du processus de production sur site (de l’idée à la voiture finie) ?",
+    "choices": [
+      "Audi Q2, Audi A3, Audi A6 e-tron, Audi Q6 e-tron",
+      "Audi A8, Audi TT, Audi Q8 e-tron, Audi R8",
+      "Audi Q5, Audi A4, Audi e-tron GT, Audi Q4 e-tron",
+      "Audi A1, Audi Q3, Audi A2, Audi RSQ"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter précise que l’ensemble du process (de bout en bout) pour Q2, A3, A6 e-tron et Q6 e-tron se déroule à Ingolstadt.",
+    "source": "Audi MediaCenter — Audi in Ingolstadt (18/03/2025)",
+    "mnemonic": "Ingolstadt = Q2/A3 + A6e/Q6e."
+  },
+  {
+    "id": "qTD3022",
+    "theme": "Autres",
+    "question": "Toujours selon Audi MediaCenter (Ingolstadt), combien d’employés environ travaillent sur le site (au 31/12/2024) ?",
+    "choices": ["Environ 40 000", "Environ 15 515", "Environ 9 000", "Environ 170 000"],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter indique ~40 000 employés à Ingolstadt (au 31 décembre 2024).",
+    "source": "Audi MediaCenter — Audi in Ingolstadt (18/03/2025)",
+    "mnemonic": "Ingolstadt = « 40k »."
+  },
+  {
+    "id": "qTD3023",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter, à quelle date l’usine d’Ingolstadt a-t-elle commencé une production net carbon-neutral ?",
+    "choices": ["1er janvier 2024", "1er janvier 2025", "1er janvier 2020", "1er janvier 2018"],
+    "answerIndex": 0,
+    "explanation": "Audi annonce le passage d’Ingolstadt à une production net carbon-neutral au 01/01/2024.",
+    "source": "Audi MediaCenter — Press release: Ingolstadt net carbon-neutral since Jan 2024 (31/01/2024)",
+    "mnemonic": "01/01/24 = Ingolstadt."
+  },
+  {
+    "id": "qTD3024",
+    "theme": "Autres",
+    "question": "Dans Mission:Zero (Audi MediaCenter), quelles sont les 4 aires d’action mises en avant ?",
+    "choices": [
+      "Décarbonation, eau, efficacité ressources, biodiversité",
+      "Design, sport, finance, RH",
+      "Confort, performance, prix, réseau",
+      "Batterie, pneus, freins, sièges"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi liste quatre axes Mission:Zero : décarbonation (production/logistique), usage de l’eau, efficacité des ressources, biodiversité.",
+    "source": "Audi MediaCenter — Production and supply chain / Mission:Zero (2025)",
+    "mnemonic": "Eau + CO2 + ressources + nature."
+  },
+  {
+    "id": "qTD3025",
+    "theme": "Autres",
+    "question": "Selon la page Mission:Zero (Audi MediaCenter), quels 2 sites sont cités comme ayant réalisé les « dernières étapes » vers le net carbon-neutral global (début 2025) ?",
+    "choices": ["Neckarsulm et San José Chiapa", "Bruxelles et Győr", "Ingolstadt et Martorell", "Changchun et Zwickau"],
+    "answerIndex": 0,
+    "explanation": "Audi écrit que les dernières étapes ont été prises à Neckarsulm et à San José Chiapa (Mexique).",
+    "source": "Audi MediaCenter — Mission:Zero (2025)",
+    "mnemonic": "N + SJC = « final steps »."
+  },
+  {
+    "id": "qTD3026",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter (Brussels), quelle surface de panneaux photovoltaïques est citée sur le site, et quelle énergie annuelle environ ?",
+    "choices": ["107 000 m² et ~9 000 MWh/an", "23 000 m² et ~3 000 MWh/an", "300 000 m² et ~20 000 MWh/an", "10 700 m² et ~900 MWh/an"],
+    "answerIndex": 0,
+    "explanation": "Audi cite ~107 000 m² de PV produisant environ 9 000 MWh/an sur le site de Bruxelles.",
+    "source": "Audi MediaCenter — Q8 e-tron: Sustainable production (19/12/2022)",
+    "mnemonic": "107k / 9k → chiffres jumeaux."
+  },
+  {
+    "id": "qTD3027",
+    "theme": "Autres",
+    "question": "Toujours selon Audi MediaCenter (Brussels), quel gain CO₂ annuel est cité grâce au rail (Hongrie→Bruxelles) pour des composants batterie ?",
+    "choices": ["~2 600 tonnes/an", "~260 tonnes/an", "~12 000 tonnes/an", "~900 tonnes/an"],
+    "answerIndex": 0,
+    "explanation": "Audi mentionne environ 2 600 t de CO₂ évitées par an en passant du camion au fret ferroviaire sur ~1 300 km.",
+    "source": "Audi MediaCenter — Q8 e-tron: Sustainable production (19/12/2022)",
+    "mnemonic": "2 600 = « 26 » → grosse économie."
+  },
+  {
+    "id": "qTD3028",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter (Győr), quel ordre de grandeur est donné pour la production annuelle de véhicules Audi sur le site ?",
+    "choices": ["Plus de 170 000/an", "Environ 68 000/an", "Environ 40 000/an", "Plus de 900 000/an"],
+    "answerIndex": 0,
+    "explanation": "Audi indique que le site de Győr produit plus de 170 000 véhicules Audi par an.",
+    "source": "Audi MediaCenter — Audi at the Győr site (18/03/2025)",
+    "mnemonic": "Győr = 170k."
+  },
+  {
+    "id": "qTD3029",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter (Martorell), quand débute la production de l’Audi A1 Sportback sur le site ?",
+    "choices": ["Octobre 2018", "Septembre 1995", "Janvier 2024", "Été 2018"],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter indique : production de l’A1 Sportback à Martorell à partir d’octobre 2018.",
+    "source": "Audi MediaCenter — Audi at the Martorell site (18/03/2025)",
+    "mnemonic": "A1 = 10/2018."
+  },
+  {
+    "id": "qTD3030",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter (Neckarsulm), quelles sont les séries actuellement produites sur le site ?",
+    "choices": [
+      "A5, A6, A8, e-tron GT",
+      "Q2, A3, Q6 e-tron, A6 e-tron",
+      "Q8 e-tron uniquement",
+      "A1 uniquement"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter liste à Neckarsulm : A5, A6, A8 et e-tron GT.",
+    "source": "Audi MediaCenter — Audi at the Neckarsulm site (18/03/2025)",
+    "mnemonic": "Neckarsulm = haut de gamme + GT."
+  },
+
+  {
+    "id": "qTD3031",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter (Frascella), depuis quelle année Marc Lichte dirigeait-il Audi Design ?",
+    "choices": ["Depuis 2014", "Depuis 2004", "Depuis 2020", "Depuis 1998"],
+    "answerIndex": 0,
+    "explanation": "Le communiqué indique que Marc Lichte était Head of Design depuis 2014.",
+    "source": "Audi MediaCenter — Massimo Frascella becomes new Head of Design (15/02/2024)",
+    "mnemonic": "2014 → 10 ans → 2024."
+  },
+  {
+    "id": "qTD3032",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter (Marc Lichte interview), combien de véhicules environ a-t-il conçus (sur ~28 ans) ?",
+    "choices": ["Plus de 150", "Environ 50", "Plus de 300", "Environ 20"],
+    "answerIndex": 0,
+    "explanation": "Audi indique qu’il a conçu plus de 150 véhicules sur les 28 dernières années.",
+    "source": "Audi MediaCenter — Marc Lichte: “Good design…” (01/06/2024)",
+    "mnemonic": "150+ = énorme portfolio."
+  },
+  {
+    "id": "qTD3033",
+    "theme": "Autres",
+    "question": "Dans le communiqué Audi MediaCenter (Marc Lichte), quel champ est explicitement cité comme relevant aussi de ses responsabilités (en plus intérieur/extérieur et racecars) ?",
+    "choices": ["UI/UX design", "Suspension tuning", "Procurement", "Homologation WLTP"],
+    "answerIndex": 0,
+    "explanation": "Audi mentionne explicitement la responsabilité UI/UX design (de plus en plus critique avec les véhicules connectés).",
+    "source": "Audi MediaCenter — Marc Lichte: “Good design…” (01/06/2024)",
+    "mnemonic": "Design moderne = UI/UX."
+  },
+  {
+    "id": "qTD3034",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter, à quelle date Massimo Frascella est-il programmé pour succéder à Marc Lichte à la tête du design ?",
+    "choices": ["1er juin 2024", "15 février 2024", "1er janvier 2024", "1er juin 2025"],
+    "answerIndex": 0,
+    "explanation": "Audi indique que Frascella est prévu pour succéder à Lichte le 1er juin 2024.",
+    "source": "Audi MediaCenter — Massimo Frascella becomes new Head of Design (15/02/2024)",
+    "mnemonic": "1/6/24 = passation."
+  },
+  {
+    "id": "qTD3035",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter (TT 25 ans), quel designer est crédité du concept TT Coupé, sous la direction de quel Head of Design ?",
+    "choices": [
+      "Freeman Thomas, sous Peter Schreyer",
+      "Marc Lichte, sous Walter De Silva",
+      "Giorgetto Giugiaro, sous Ferdinand Piëch",
+      "Massimo Frascella, sous Peter Schreyer"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi cite l’Américain Freeman Thomas, sous le Head of Design Peter Schreyer, pour le TT Coupé.",
+    "source": "Audi MediaCenter — The Audi TT turns 25 (02/05/2023)",
+    "mnemonic": "FT + PS = TT."
+  },
+  {
+    "id": "qTD3036",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter (TT 25 ans), à quel salon et quel mois/année l’étude TT est-elle présentée ?",
+    "choices": [
+      "IAA Francfort, septembre 1995",
+      "Genève, mars 1994",
+      "Los Angeles, novembre 2014",
+      "Tokyo, octobre 1993"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi indique que l’étude TT est présentée à l’IAA de Francfort en septembre 1995.",
+    "source": "Audi MediaCenter — The Audi TT turns 25 (02/05/2023)",
+    "mnemonic": "IAA 09/95 = TT."
+  },
+  {
+    "id": "qTD3037",
+    "theme": "Autres",
+    "question": "Toujours selon Audi MediaCenter (TT 25 ans), quand la décision de lancer la TT en production de série est-elle prise ?",
+    "choices": ["Décembre 1995", "Décembre 1998", "Septembre 1995", "Novembre 1996"],
+    "answerIndex": 0,
+    "explanation": "Audi indique que la décision de produire la TT est prise en décembre 1995.",
+    "source": "Audi MediaCenter — The Audi TT turns 25 (02/05/2023)",
+    "mnemonic": "09/95 = showcar, 12/95 = go série."
+  },
+  {
+    "id": "qTD3038",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter (TT 25 ans), quel schéma logistique « unique » est décrit entre Ingolstadt et Győr pour la TT ?",
+    "choices": [
+      "Carrosseries peintes expédiées de nuit par rail Ingolstadt→Győr pour assemblage final",
+      "Assemblage final à Ingolstadt puis peinture à Győr",
+      "Moteurs de Győr expédiés à Martorell pour montage",
+      "Batteries expédiées de Bruxelles vers Ingolstadt par avion"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi décrit le transport nocturne par rail des carrosseries peintes d’Ingolstadt vers Győr, où l’assemblage final a lieu.",
+    "source": "Audi MediaCenter — The Audi TT turns 25 (02/05/2023)",
+    "mnemonic": "TT = rail de nuit."
+  },
+  {
+    "id": "qTD3039",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter (R8: a captivating legend), l’Audi RSQ Concept (I, Robot) a été dessinée par l’équipe design sous quel Head of Design ?",
+    "choices": ["Walter De Silva", "Peter Schreyer", "Marc Lichte", "Massimo Frascella"],
+    "answerIndex": 0,
+    "explanation": "Audi indique que la RSQ Concept a été conçue par l’équipe design sous le Head of Design Walter De Silva.",
+    "source": "Audi MediaCenter — The Audi R8: a captivating legend (15/11/2024)",
+    "mnemonic": "RSQ (Robot) → De Silva (époque)."
+  },
+  {
+    "id": "qTD3040",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter (TT 25 ans), le nom « TT » fait référence notamment à quel événement historique ?",
+    "choices": [
+      "Tourist Trophy (Isle of Man)",
+      "24 Heures du Mans",
+      "Rallye Monte-Carlo",
+      "Pikes Peak International Hill Climb"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi rappelle que « TT » renvoie au Tourist Trophy sur l’Isle of Man (et évoque aussi NSU/DKW et le NSU TT).",
+    "source": "Audi MediaCenter — The Audi TT turns 25 (02/05/2023)",
+    "mnemonic": "TT = Tourist Trophy."
+  },
+  {
+    "id": "qTECH4101",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (PPE HV battery), la batterie HV « 100 kWh » du PPE est composée de…",
+    "choices": ["10 modules et 150 cellules", "12 modules et 180 cellules", "16 modules et 192 cellules", "8 modules et 160 cellules"],
+    "answerIndex": 1,
+    "explanation": "Audi indique : 12 modules et 180 cellules pour la batterie PPE de 100 kWh (94,9 kWh net).",
+    "source": "Audi MediaCenter — High-voltage battery for PPE (18/03/2024)",
+    "mnemonic": "PPE 100 = 12 / 180."
+  },
+  {
+    "id": "qTECH4102",
+    "theme": "Concepts",
+    "question": "Toujours selon Audi MediaCenter (PPE HV battery), quelle capacité est donnée pour la batterie PPE « 100 kWh » (brut / net) ?",
+    "choices": ["100 kWh / 94,9 kWh", "105 kWh / 97 kWh", "114 kWh / 106 kWh", "93 kWh / 84 kWh"],
+    "answerIndex": 0,
+    "explanation": "Audi annonce 100 kWh brut et 94,9 kWh net pour la batterie PPE.",
+    "source": "Audi MediaCenter — High-voltage battery for PPE (18/03/2024)",
+    "mnemonic": "100 / 94,9 = PPE."
+  },
+  {
+    "id": "qTECH4103",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (PPE HV battery), combien de cellules (électrochimiques) sont connectées en série par module ?",
+    "choices": ["12", "15", "18", "20"],
+    "answerIndex": 1,
+    "explanation": "Audi précise : 15 cellules électrochimiques connectées en série par module.",
+    "source": "Audi MediaCenter — High-voltage battery for PPE (18/03/2024)",
+    "mnemonic": "Module PPE = 15 en série."
+  },
+  {
+    "id": "qTECH4104",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (PPE HV battery), la variante 83 kWh (Q6 e-tron) se compose de…",
+    "choices": ["10 modules et 150 cellules", "12 modules et 180 cellules", "8 modules et 120 cellules", "12 modules et 150 cellules"],
+    "answerIndex": 0,
+    "explanation": "Audi indique : variante 83 kWh = 10 modules et 150 cellules.",
+    "source": "Audi MediaCenter — High-voltage battery for PPE (18/03/2024)",
+    "mnemonic": "83 = 10 / 150."
+  },
+  {
+    "id": "qTECH4105",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (PPE HV battery), quelle puissance de charge maximale est associée à la batterie 100 kWh ?",
+    "choices": ["170 kW", "225 kW", "270 kW", "320 kW"],
+    "answerIndex": 2,
+    "explanation": "Audi annonce une puissance maximale de charge de 270 kW pour la batterie 100 kWh (PPE).",
+    "source": "Audi MediaCenter — High-voltage battery for PPE (18/03/2024)",
+    "mnemonic": "PPE = 270."
+  },
+  {
+    "id": "qTECH4106",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (PPE HV battery), comment Audi nomme le contrôleur central de gestion de batterie ?",
+    "choices": ["BMC", "SACID", "CMS", "HCP4"],
+    "answerIndex": 0,
+    "explanation": "Audi nomme le contrôleur central : Battery Management Controller (BMC).",
+    "source": "Audi MediaCenter — High-voltage battery for PPE (18/03/2024)",
+    "mnemonic": "BMC = Boss de la batterie."
+  },
+  {
+    "id": "qTECH4107",
+    "theme": "Concepts",
+    "question": "Dans la batterie PPE 100 kWh, combien de contrôleurs de module (CMS) envoient les données au BMC ?",
+    "choices": ["10", "12", "6", "16"],
+    "answerIndex": 1,
+    "explanation": "Audi précise : les 12 cell module controllers (CMS) envoient les données au BMC.",
+    "source": "Audi MediaCenter — High-voltage battery for PPE (18/03/2024)",
+    "mnemonic": "12 modules = 12 CMS."
+  },
+  {
+    "id": "qTECH4108",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (PPE HV battery), le BMC envoie notamment les infos SoC vers quel ordinateur haute performance (HCP) ?",
+    "choices": ["HCP4", "HCP3", "HCP2", "HCP6"],
+    "answerIndex": 0,
+    "explanation": "Audi cite le HCP4 (partie de la nouvelle architecture E³ 1.2) comme récepteur des infos.",
+    "source": "Audi MediaCenter — High-voltage battery for PPE (18/03/2024)",
+    "mnemonic": "BMC → HCP4."
+  },
+  {
+    "id": "qTECH4109",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (PPE), comment s’appelle l’unité de communication qui fait l’interface borne ↔ prise de charge, et transmet les infos au HCP5 ?",
+    "choices": ["SACID", "BMC", "DMD", "ASF"],
+    "answerIndex": 0,
+    "explanation": "Audi appelle cette interface Smart Actuator Charging Interface Device (SACID).",
+    "source": "Audi MediaCenter — PPE press release (13/05/2024)",
+    "mnemonic": "SA-CID = « Socket ↔ Charger ID »."
+  },
+  {
+    "id": "qTECH4110",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (PPE HV battery), que signifie « bank-charging » pour une borne 400 V ?",
+    "choices": [
+      "La batterie 800 V est automatiquement divisée en 2×400 V, charge en parallèle jusqu’à 135 kW",
+      "La batterie 400 V est élevée à 800 V via un booster externe",
+      "La charge est limitée à 50 kW",
+      "Les deux moteurs servent de générateurs"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi décrit : division automatique en deux batteries à tension égale (2×400 V) pouvant charger en parallèle (jusqu’à 135 kW).",
+    "source": "Audi MediaCenter — High-voltage battery for PPE (18/03/2024)",
+    "mnemonic": "800 = 2×400 → 135×2."
+  },
+  {
+    "id": "qTECH4111",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (PPE), sur Q6 e-tron, quel temps est annoncé pour passer d’environ 10% à 80% (borne HPC adaptée) ?",
+    "choices": ["18 min", "21 min", "28 min", "31 min"],
+    "answerIndex": 1,
+    "explanation": "Audi annonce 21 minutes pour 10→80% sur Q6 e-tron (PPE).",
+    "source": "Audi MediaCenter — PPE press release (13/05/2024)",
+    "mnemonic": "10–80 = 21."
+  },
+  {
+    "id": "qTECH4112",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (PPE), combien de kilomètres peuvent être récupérés en 10 minutes (Q6 e-tron, conditions idéales) ?",
+    "choices": ["123 km", "255 km", "280 km", "104 km"],
+    "answerIndex": 1,
+    "explanation": "Audi cite jusqu’à 255 km récupérés en 10 minutes à 270 kW (conditions idéales).",
+    "source": "Audi MediaCenter — PPE press release (13/05/2024)",
+    "mnemonic": "255 = chiffre clé PPE."
+  },
+  {
+    "id": "qTECH4113",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (PPE), quelle évolution de pompe à chaleur est citée dans la gestion thermique du véhicule ?",
+    "choices": [
+      "La pompe eau-glycol est complétée par une pompe à chaleur à air",
+      "Suppression totale de la pompe à chaleur",
+      "Pompe à chaleur uniquement sur l’essieu arrière",
+      "Pompe à chaleur remplacée par un chauffage PTC seul"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi explique que la pompe à chaleur eau-glycol est complétée par une pompe à chaleur à air (utilisation air ambiant).",
+    "source": "Audi MediaCenter — PPE press release (13/05/2024)",
+    "mnemonic": "Air + eau-glycol = PPE."
+  },
+  {
+    "id": "qTECH4114",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (Digital Matrix LED), que signifie DMD dans le contexte des phares Digital Matrix LED ?",
+    "choices": ["Digital Micromirror Device", "Dynamic Motor Differential", "Digital Multi-Drive", "Dynamic Matrix Distribution"],
+    "answerIndex": 0,
+    "explanation": "Audi précise : DMD = Digital Micromirror Device (puce à micromiroirs).",
+    "source": "Audi MediaCenter — Technology lexicon: Lighting (25/11/2025)",
+    "mnemonic": "DMD = miroir-miroir."
+  },
+  {
+    "id": "qTECH4115",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter, combien de micromiroirs environ contient la puce DMD d’un phare Digital Matrix LED ?",
+    "choices": ["Environ 300 000", "Environ 1,3 million", "Environ 3,2 millions", "Environ 13 millions"],
+    "answerIndex": 1,
+    "explanation": "Audi cite environ 1,3 million de micromiroirs par phare (DMD).",
+    "source": "Audi MediaCenter — Technology lexicon: Lighting (25/11/2025)",
+    "mnemonic": "1,3M = DMD."
+  },
+  {
+    "id": "qTECH4116",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter, à quelle fréquence maximale chaque micromiroir peut-il basculer (tilt) ?",
+    "choices": ["500 fois/s", "5 000 fois/s", "50 000 fois/s", "50 fois/s"],
+    "answerIndex": 1,
+    "explanation": "Audi indique : chaque micromiroir peut basculer jusqu’à 5 000 fois par seconde.",
+    "source": "Audi MediaCenter — Technology lexicon: Lighting (25/11/2025)",
+    "mnemonic": "5 000 = ultra-rapide."
+  },
+  {
+    "id": "qTECH4117",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (Q6 e-tron lighting), la 2e génération de feux arrière digital OLED utilise…",
+    "choices": ["6 panneaux / 360 segments au total", "8 panneaux / 396 segments au total", "2 panneaux / 198 segments au total", "4 panneaux / 200 segments au total"],
+    "answerIndex": 0,
+    "explanation": "Audi décrit 6 panneaux OLED totalisant 360 segments sur Q6 e-tron.",
+    "source": "Audi MediaCenter — World first in lighting technology (28/06/2024)",
+    "mnemonic": "6×60 = 360."
+  },
+  {
+    "id": "qTECH4118",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (Q6 e-tron lighting), à quel intervalle une nouvelle image est-elle générée par les OLED (active digital light signature) ?",
+    "choices": ["Toutes les 100 ms", "Toutes les 10 ms", "Toutes les 1 ms", "Toutes les 500 ms"],
+    "answerIndex": 1,
+    "explanation": "Audi précise : 360 segments génèrent une nouvelle image toutes les 10 millisecondes via un algorithme.",
+    "source": "Audi MediaCenter — World first in lighting technology (28/06/2024)",
+    "mnemonic": "10 ms = « vivant »."
+  },
+  {
+    "id": "qTECH4119",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (Q6 e-tron lighting), la signature active à l’avant est créée par l’interaction de l’algorithme avec combien de segments qui « dim up/down » ?",
+    "choices": ["8", "12", "60", "70"],
+    "answerIndex": 1,
+    "explanation": "Audi indique : à l’avant, l’interaction se fait avec 12 segments qui s’illuminent/baissent.",
+    "source": "Audi MediaCenter — World first in lighting technology (28/06/2024)",
+    "mnemonic": "Avant = 12."
+  },
+  {
+    "id": "qTECH4120",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (Q6 e-tron lighting), combien de signatures lumineuses digitales « au total » sont possibles (selon équipement) ?",
+    "choices": ["Jusqu’à 4", "Jusqu’à 6", "Jusqu’à 8", "Jusqu’à 10"],
+    "answerIndex": 2,
+    "explanation": "Audi mentionne jusqu’à 8 signatures digitales (DRL + OLED 2.0), selon équipement.",
+    "source": "Audi MediaCenter — World first in lighting technology (28/06/2024)",
+    "mnemonic": "8 = personnalisation max."
+  },
+  {
+    "id": "qTECH4121",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (Q8 e-tron), quelle est la tension indiquée pour la batterie lithium-ion de la version Q8 50 e-tron ?",
+    "choices": ["800 V", "396 V", "400 V", "48 V"],
+    "answerIndex": 1,
+    "explanation": "Audi indique une batterie lithium-ion à 396 volts pour Q8 50 e-tron.",
+    "source": "Audi MediaCenter — The facts (Q8 e-tron) (19/12/2022)",
+    "mnemonic": "Q8 50 = 396V."
+  },
+  {
+    "id": "qTECH4122",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (Q8 e-tron), quelle capacité est donnée pour la batterie Q8 50 e-tron (net / brut) ?",
+    "choices": ["89 kWh net / 95 kWh brut", "94,9 kWh net / 100 kWh brut", "97 kWh net / 105 kWh brut", "106 kWh net / 114 kWh brut"],
+    "answerIndex": 0,
+    "explanation": "Audi indique 89 kWh net (95 kWh brut) pour Q8 50 e-tron.",
+    "source": "Audi MediaCenter — The facts (Q8 e-tron) (19/12/2022)",
+    "mnemonic": "50 = 89/95."
+  },
+  {
+    "id": "qTECH4123",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (Q8 e-tron), quelle capacité est donnée pour la batterie Q8 55 e-tron (net / brut) ?",
+    "choices": ["89/95", "106/114", "84/93", "97/105"],
+    "answerIndex": 1,
+    "explanation": "Audi indique 106 kWh net (114 kWh brut) pour Q8 55 e-tron.",
+    "source": "Audi MediaCenter — Battery (Q8 e-tron) (19/12/2022)",
+    "mnemonic": "55 = 106/114."
+  },
+  {
+    "id": "qTECH4124",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (Q8 e-tron), quelle puissance de charge DC max est annoncée pour Q8 50 e-tron ?",
+    "choices": ["150 kW", "170 kW", "270 kW", "320 kW"],
+    "answerIndex": 0,
+    "explanation": "Audi annonce 150 kW max pour Q8 50 e-tron.",
+    "source": "Audi MediaCenter — Battery (Q8 e-tron) (19/12/2022)",
+    "mnemonic": "50 = 150."
+  },
+  {
+    "id": "qTECH4125",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (Q8 e-tron), quelle puissance de charge DC max est annoncée pour Q8 55 e-tron et SQ8 e-tron ?",
+    "choices": ["150 kW", "170 kW", "225 kW", "320 kW"],
+    "answerIndex": 1,
+    "explanation": "Audi cite jusqu’à 170 kW pour Q8 55 e-tron et SQ8 e-tron.",
+    "source": "Audi MediaCenter — Battery (Q8 e-tron) (19/12/2022)",
+    "mnemonic": "55/SQ8 = 170."
+  },
+  {
+    "id": "qTECH4126",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (Q8 e-tron), quel temps de charge (10→80%) est cité pour la « petite » batterie (environ) ?",
+    "choices": ["18 min", "21 min", "28 min", "31 min"],
+    "answerIndex": 2,
+    "explanation": "Audi indique ~28 minutes pour 10→80% sur la plus petite des deux batteries.",
+    "source": "Audi MediaCenter — Battery (Q8 e-tron) (19/12/2022)",
+    "mnemonic": "Petite = 28."
+  },
+  {
+    "id": "qTECH4127",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (Q8 e-tron), quel temps de charge (10→80%) est cité pour la « grande » batterie (environ) ?",
+    "choices": ["18 min", "21 min", "28 min", "31 min"],
+    "answerIndex": 3,
+    "explanation": "Audi indique ~31 minutes pour 10→80% sur la batterie de plus grande capacité.",
+    "source": "Audi MediaCenter — Battery (Q8 e-tron) (19/12/2022)",
+    "mnemonic": "Grande = 31."
+  },
+  {
+    "id": "qTECH4128",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (Q8 e-tron), combien de km sont récupérés en 10 minutes (HPC) pour Q8 50 e-tron et Q8 55 e-tron ?",
+    "choices": ["104 km", "123 km", "255 km", "280 km"],
+    "answerIndex": 1,
+    "explanation": "Audi indique 123 km récupérés en 10 minutes pour Q8 50 et Q8 55 e-tron.",
+    "source": "Audi MediaCenter — Battery (Q8 e-tron) (19/12/2022)",
+    "mnemonic": "Q8 = 123 (10 min)."
+  },
+  {
+    "id": "qTECH4129",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (Q8 e-tron), combien de km sont récupérés en 10 minutes (HPC) pour SQ8 e-tron ?",
+    "choices": ["104 km", "123 km", "255 km", "280 km"],
+    "answerIndex": 0,
+    "explanation": "Audi cite 104 km récupérés en 10 minutes pour SQ8 e-tron.",
+    "source": "Audi MediaCenter — Battery (Q8 e-tron) (19/12/2022)",
+    "mnemonic": "SQ8 = 104."
+  },
+  {
+    "id": "qTECH4130",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (Q8 e-tron), quelle plage de température est citée comme « optimum efficiency range » pour la batterie grâce à la gestion thermique ?",
+    "choices": ["15–25 °C", "20–30 °C", "25–35 °C", "30–50 °C"],
+    "answerIndex": 2,
+    "explanation": "Audi indique une plage optimale de 25 à 35 °C.",
+    "source": "Audi MediaCenter — Battery (Q8 e-tron) (19/12/2022)",
+    "mnemonic": "25–35 = sweet spot."
+  },
+  {
+    "id": "qTECH4131",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (e-tron GT 2021), quelle énergie la batterie peut-elle stocker (net / brut) ?",
+    "choices": ["84 kWh net / 93 kWh brut", "97 / 105", "106 / 114", "94,9 / 100"],
+    "answerIndex": 0,
+    "explanation": "Audi indique 84 kWh net et 93 kWh brut (e-tron GT / RS e-tron GT, dossier 2021).",
+    "source": "Audi MediaCenter — Battery and thermal management (03/03/2021)",
+    "mnemonic": "GT 2021 = 84/93."
+  },
+  {
+    "id": "qTECH4132",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (e-tron GT 2021), combien de modules et de cellules par module compose la batterie ?",
+    "choices": ["12 modules × 15 cellules", "33 modules × 12 cellules pouch", "10 modules × 15 cellules", "8 modules × 20 cellules prismatiques"],
+    "answerIndex": 1,
+    "explanation": "Audi indique 33 modules, chacun contenant 12 cellules pouch (peau externe flexible).",
+    "source": "Audi MediaCenter — Battery and thermal management (03/03/2021)",
+    "mnemonic": "33×12 = 396."
+  },
+  {
+    "id": "qTECH4133",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (e-tron GT 2021), quel est le nombre total de cellules (pouch) si l’on multiplie modules × cellules/module ?",
+    "choices": ["180", "360", "396", "450"],
+    "answerIndex": 2,
+    "explanation": "33 modules × 12 cellules = 396 cellules pouch.",
+    "source": "Audi MediaCenter — Battery and thermal management (03/03/2021)",
+    "mnemonic": "33×12 = 396."
+  },
+  {
+    "id": "qTECH4134",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (e-tron GT 2021), que fait chaque module au niveau électronique ?",
+    "choices": [
+      "Chaque module a son ordinateur qui surveille température et tension",
+      "Un seul ordinateur pour toute la batterie",
+      "Chaque module ne surveille que la vitesse des moteurs",
+      "Chaque module surveille uniquement la pression des pneus"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi précise : chaque module est équipé d’un ordinateur qui surveille température et tension.",
+    "source": "Audi MediaCenter — Battery and thermal management (03/03/2021)",
+    "mnemonic": "1 module = 1 cerveau."
+  },
+  {
+    "id": "qTECH4135",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (e-tron GT 2021), quelle architecture de tension est mise en avant pour raccourcir la durée de charge ?",
+    "choices": ["48 V", "396 V", "Environ 800 V", "1 000 V"],
+    "answerIndex": 2,
+    "explanation": "Audi met en avant une tension système d’environ 800 V sur e-tron GT.",
+    "source": "Audi MediaCenter — Battery and thermal management (03/03/2021)",
+    "mnemonic": "GT = 800V."
+  },
+  {
+    "id": "qTECH4136",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (nouvelle e-tron GT 2024), quelle capacité de batterie est annoncée (brut / net) ?",
+    "choices": ["105 / 97 kWh", "93 / 84 kWh", "114 / 106 kWh", "100 / 94,9 kWh"],
+    "answerIndex": 0,
+    "explanation": "Audi annonce 105 kWh brut (97 kWh net) pour la nouvelle e-tron GT family (2024).",
+    "source": "Audi MediaCenter — The new Audi e-tron GT (18/06/2024)",
+    "mnemonic": "2024 = 105/97."
+  },
+  {
+    "id": "qTECH4137",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (nouvelle e-tron GT 2024), quel est le poids de la batterie HV et de combien a-t-elle été réduite ?",
+    "choices": ["625 kg, -9 kg", "625 kg, -2,3 kg", "700 kg, -9 kg", "600 kg, -9 kg"],
+    "answerIndex": 0,
+    "explanation": "Audi indique : -9 kg pour arriver à 625 kg.",
+    "source": "Audi MediaCenter — The new Audi e-tron GT (18/06/2024)",
+    "mnemonic": "625, et -9."
+  },
+  {
+    "id": "qTECH4138",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (nouvelle e-tron GT 2024), la récupération max (regenerative braking) passe de…",
+    "choices": ["170→270 kW", "290→400 kW", "255→280 kW", "225→320 kW"],
+    "answerIndex": 1,
+    "explanation": "Audi indique que la récupération disponible a augmenté de 290 à 400 kW.",
+    "source": "Audi MediaCenter — The new Audi e-tron GT (18/06/2024)",
+    "mnemonic": "290 → 400."
+  },
+  {
+    "id": "qTECH4139",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (nouvelle e-tron GT 2024), quelle puissance de charge max DC est annoncée ?",
+    "choices": ["270 kW", "320 kW", "170 kW", "225 kW"],
+    "answerIndex": 1,
+    "explanation": "Audi indique une puissance de charge max portée à 320 kW.",
+    "source": "Audi MediaCenter — The new Audi e-tron GT (18/06/2024)",
+    "mnemonic": "GT 2024 = 320."
+  },
+  {
+    "id": "qTECH4140",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (nouvelle e-tron GT 2024), quel temps est annoncé pour charger 10→80% (conditions idéales) ?",
+    "choices": ["18 min", "21 min", "28 min", "31 min"],
+    "answerIndex": 0,
+    "explanation": "Audi annonce 10→80% en 18 minutes sur e-tron GT family (2024) dans des conditions idéales.",
+    "source": "Audi MediaCenter — The new Audi e-tron GT (18/06/2024)",
+    "mnemonic": "GT 2024 = 18."
+  },
+  {
+    "id": "qTECH4141",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (nouvelle e-tron GT 2024), combien de km (jusqu’à) peut-on récupérer en 10 minutes ?",
+    "choices": ["123 km", "255 km", "280 km", "104 km"],
+    "answerIndex": 2,
+    "explanation": "Audi cite jusqu’à 280 km récupérés en 10 minutes (conditions idéales).",
+    "source": "Audi MediaCenter — The new Audi e-tron GT (18/06/2024)",
+    "mnemonic": "GT 2024 = 280."
+  },
+  {
+    "id": "qTECH4142",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (nouvelle e-tron GT 2024), à quelle valeur Audi dit-elle avoir augmenté les courants max de charge/décharge ?",
+    "choices": ["270 A", "320 A", "400 A", "500 A"],
+    "answerIndex": 2,
+    "explanation": "Audi indique avoir porté les courants max à 400 A via un flux de courant accru dans les cellules.",
+    "source": "Audi MediaCenter — The new Audi e-tron GT (18/06/2024)",
+    "mnemonic": "400 A = GT 2024."
+  },
+  {
+    "id": "qTECH4143",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (nouvelle e-tron GT 2024), quel allègement est annoncé pour le « combined booster converter » du système de charge ?",
+    "choices": ["-9 kg", "-2,3 kg", "-1,3 kg", "-5 kg"],
+    "answerIndex": 1,
+    "explanation": "Audi indique une réduction de masse de 2,3 kg pour le système de charge (booster converter).",
+    "source": "Audi MediaCenter — The new Audi e-tron GT (18/06/2024)",
+    "mnemonic": "Booster = -2,3."
+  },
+  {
+    "id": "qTECH4144",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (electric drives lexicon), à quelle échelle de temps l’e-quattro peut-il réguler la distribution du couple entre essieux ?",
+    "choices": [
+      "À des intervalles de quelques dixièmes de seconde",
+      "À des intervalles de quelques centièmes de seconde",
+      "À des intervalles de quelques millièmes de seconde",
+      "Uniquement au-delà de 1 seconde"
+    ],
+    "answerIndex": 2,
+    "explanation": "Audi indique des intervalles de « quelques millièmes de seconde » pour la régulation du couple (electric all-wheel drive).",
+    "source": "Audi MediaCenter — Technology lexicon: Electric drives (25/11/2025)",
+    "mnemonic": "Millièmes = e-quattro."
+  },
+  {
+    "id": "qTECH4145",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (world premiere e-tron), combien de temps environ s’écoule entre détection de situation et effet du couple des moteurs électriques ?",
+    "choices": ["~300 ms", "~30 ms", "~3 ms", "~3 s"],
+    "answerIndex": 1,
+    "explanation": "Audi indique environ 30 millisecondes (très rapide car distribution de courant plutôt qu’embrayage mécanique).",
+    "source": "Audi MediaCenter — Audi e-tron World Premiere (PDF)",
+    "mnemonic": "30 ms = éclair."
+  },
+  {
+    "id": "qTECH4146",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (e-tron S), comment se caractérise le torque vectoring électrique à l’arrière ?",
+    "choices": [
+      "Répartition du couple entre roues arrière en quelques millisecondes",
+      "Répartition uniquement via différentiel mécanique Torsen",
+      "Répartition uniquement par freinage ABS",
+      "Répartition en 1 seconde minimum"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi décrit un torque vectoring électrique avec une distribution entre roues arrière « within milliseconds ».",
+    "source": "Audi MediaCenter — e-tron S press kit (PDF)",
+    "mnemonic": "E-motors = millisecondes."
+  },
+  {
+    "id": "qTECH4147",
+    "theme": "Concepts",
+    "question": "Toujours selon Audi MediaCenter (e-tron S), le décalage temporel vs un système mécanique est…",
+    "choices": [
+      "Plus court d’un facteur 4",
+      "Plus long d’un facteur 4",
+      "Identique",
+      "Plus court d’un facteur 2"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi indique que le décalage temporel est plus court d’un facteur quatre que sur un système mécanique.",
+    "source": "Audi MediaCenter — e-tron S press kit (PDF)",
+    "mnemonic": "×4 plus rapide."
+  },
+  {
+    "id": "qTECH4148",
+    "theme": "Concepts",
+    "question": "Selon Audi MediaCenter (e-tron Recuperation/Drive), en situation dangereuse, le système de freinage intégré construit la pression…",
+    "choices": ["Deux fois plus vite qu’un système conventionnel", "Deux fois moins vite qu’un système conventionnel", "À la même vitesse qu’un système conventionnel", "Uniquement via récupération (pas de pression hydraulique)"],
+    "answerIndex": 0,
+    "explanation": "Audi indique : la pression de freinage peut monter environ deux fois plus vite qu’un freinage conventionnel.",
+    "source": "Audi MediaCenter — Audi e-tron Recuperation & Drive (PDF)",
+    "mnemonic": "Danger = ×2."
+  },
+  {
+    "id": "qTECH4149",
+    "theme": "Concepts",
+    "question": "Selon audi.com (quattro), quel est le ratio « normal » du différentiel central autobloquant (moteur longitudinal) ?",
+    "choices": ["50:50", "40:60 (AV:AR)", "60:40 (AV:AR)", "30:70 (AV:AR)"],
+    "answerIndex": 1,
+    "explanation": "Audi indique une répartition normale 40:60 (avant:arrière).",
+    "source": "Audi.com — quattro (Innovation / product innovation)",
+    "mnemonic": "quattro « pousse arrière » → 40/60."
+  },
+  {
+    "id": "qTECH4150",
+    "theme": "Concepts",
+    "question": "Selon audi.com (quattro), le différentiel central autobloquant est basé sur quel type d’engrenage ?",
+    "choices": ["Train épicycloïdal (epicyclic gear)", "Coupleur visco", "Chaîne", "Haldex arrière uniquement"],
+    "answerIndex": 0,
+    "explanation": "Audi précise : différentiel central autobloquant = train épicycloïdal purement mécanique.",
+    "source": "Audi.com — quattro (Innovation / product innovation)",
+    "mnemonic": "Épi-cyclique = longitudinal."
+  },
+  {
+    "id": "qTECH4151",
+    "theme": "Concepts",
+    "question": "Selon audi.com (quattro), quelle année Audi remplace le différentiel central verrouillable manuel (1ère génération) par un Torsen ?",
+    "choices": ["1984", "1986", "2005", "1990"],
+    "answerIndex": 1,
+    "explanation": "Audi indique : remplacement par Torsen en 1986.",
+    "source": "Audi.com — quattro (Innovation / product innovation)",
+    "mnemonic": "Torsen = 86."
+  },
+  {
+    "id": "qTECH4152",
+    "theme": "Concepts",
+    "question": "Selon audi.com (quattro), l’épicycloïdal à répartition asymétrique-dynamique (basic distribution) arrive en…",
+    "choices": ["1994", "2005", "2015", "1980"],
+    "answerIndex": 1,
+    "explanation": "Audi cite 2005 pour l’arrivée de l’épicycloïdal à répartition asymétrique-dynamique.",
+    "source": "Audi.com — quattro (Innovation / product innovation)",
+    "mnemonic": "Épicycloïdal moderne = 2005."
+  },
+  {
+    "id": "qTECH4153",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter (Ingolstadt), quelle date marque le début de la production « net carbon-neutral » à Ingolstadt ?",
+    "choices": ["1er janvier 2024", "1er janvier 2025", "1er janvier 2020", "1er janvier 2018"],
+    "answerIndex": 0,
+    "explanation": "Audi indique qu’Ingolstadt commence la production net carbon-neutral le 01/01/2024.",
+    "source": "Audi MediaCenter — Audi in Ingolstadt (18/03/2025)",
+    "mnemonic": "Ingolstadt = 01/01/24."
+  },
+  {
+    "id": "qTECH4154",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter (Ingolstadt), Ingolstadt est le 3e site net carbon-neutral après…",
+    "choices": ["Bruxelles (2018) et Győr (2020)", "Győr (2018) et Bruxelles (2020)", "Neckarsulm (2018) et Zwickau (2020)", "San José Chiapa (2018) et Martorell (2020)"],
+    "answerIndex": 0,
+    "explanation": "Audi cite Bruxelles (2018) puis Győr (2020), avant Ingolstadt (2024).",
+    "source": "Audi MediaCenter — Audi in Ingolstadt (18/03/2025)",
+    "mnemonic": "BE 18 → HU 20 → DE 24."
+  },
+  {
+    "id": "qTECH4155",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter (Ingolstadt), quels modèles sont cités comme produits à Böllinger Höfe avec net zero emissions depuis 2020 ?",
+    "choices": ["Audi R8 et Audi e-tron GT quattro", "Audi Q8 e-tron et Audi Q4 e-tron", "Audi A8 et Audi A6", "Audi Q5 et Audi Q3"],
+    "answerIndex": 0,
+    "explanation": "Audi indique que les Audi R8 et e-tron GT quattro sont construits à Böllinger Höfe avec net zero emissions depuis 2020.",
+    "source": "Audi MediaCenter — Audi in Ingolstadt (18/03/2025)",
+    "mnemonic": "Böllinger = R8 + GT."
+  },
+  {
+    "id": "qTECH4156",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter (Mission:Zero), depuis quand tous les sites de production Audi dans le monde fabriquent-ils en net carbon-neutral ?",
+    "choices": ["Début 2025", "Début 2024", "Début 2020", "Début 2018"],
+    "answerIndex": 0,
+    "explanation": "Audi annonce : depuis le début de 2025, tous les sites de production mondiaux sont net carbon-neutral.",
+    "source": "Audi MediaCenter — Mission:Zero",
+    "mnemonic": "2025 = global."
+  },
+  {
+    "id": "qTECH4157",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter (Neckarsulm – engagement & environment), depuis quand tous les véhicules à Neckarsulm sont-ils produits en net carbon-neutral ?",
+    "choices": ["Depuis 2025", "Depuis 2024", "Depuis 2020", "Depuis 2018"],
+    "answerIndex": 0,
+    "explanation": "Audi indique : depuis 2025, tous les véhicules à Neckarsulm sont produits avec net carbon neutrality.",
+    "source": "Audi MediaCenter — Neckarsulm: Engagement & environment (18/03/2025)",
+    "mnemonic": "Neckarsulm = 2025."
+  },
+  {
+    "id": "qTECH4158",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter (Neckarsulm – engagement & environment), l’énergie électricité + chaleur provient…",
+    "choices": ["Exclusivement de sources renouvelables", "Exclusivement du gaz fossile", "D’un mix charbon + nucléaire", "Uniquement de certificats sans énergie renouvelable"],
+    "answerIndex": 0,
+    "explanation": "Audi précise : toute l’énergie (électricité + chaleur) provient de sources renouvelables.",
+    "source": "Audi MediaCenter — Neckarsulm: Engagement & environment (18/03/2025)",
+    "mnemonic": "Neckarsulm = renewables."
+  },
+  {
+    "id": "qTECH4159",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter (Neckarsulm – engagement & environment), quel standard de compensation est cité (exemple) pour les émissions résiduelles ?",
+    "choices": ["Gold Standard", "EURO 7", "WLTP", "ISO 9001"],
+    "answerIndex": 0,
+    "explanation": "Audi cite l’achat de certificats de compensation de très haute qualité, par exemple « Gold Standard ».",
+    "source": "Audi MediaCenter — Neckarsulm: Engagement & environment (18/03/2025)",
+    "mnemonic": "Or = Gold Standard."
+  },
+  {
+    "id": "qTECH4160",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter (Production & supply chain), à partir de 2025, l’atelier peinture rénové de Neckarsulm est décrit comme…",
+    "choices": ["L’un des plus modernes de l’industrie automobile", "L’un des plus anciens encore en service", "Un atelier 100% manuel sans robot", "Un atelier dédié uniquement aux prototypes"],
+    "answerIndex": 0,
+    "explanation": "Audi indique : dès 2025, l’atelier peinture rénové sera l’un des plus modernes du secteur automobile.",
+    "source": "Audi MediaCenter — Production and supply chain (21/06/2024)",
+    "mnemonic": "2025 = paint shop top."
+  },
+  {
+    "id": "qTECH4161",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter (Győr profile), combien d’employés Audi Hungaria compte-t-elle au 31/12/2024 ?",
+    "choices": ["11 930", "15 515", "40 000", "3 500"],
+    "answerIndex": 0,
+    "explanation": "Audi indique 11 930 employés au 31 décembre 2024.",
+    "source": "Audi MediaCenter — Győr: Profile of location (18/03/2025)",
+    "mnemonic": "Győr = 11 930."
+  },
+  {
+    "id": "qTECH4162",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter (Győr profile), combien de groupes motopropulseurs (powertrains) sont produits à Győr en 2024 ?",
+    "choices": ["1 580 991", "1 114 473", "179 710", "144 223"],
+    "answerIndex": 0,
+    "explanation": "Audi indique 1 580 991 powertrains produits en 2024 à Győr.",
+    "source": "Audi MediaCenter — Győr: Profile of location (18/03/2025)",
+    "mnemonic": "1,58 M = powertrains."
+  },
+  {
+    "id": "qTECH4163",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter (Győr profile), ces 1 580 991 powertrains de 2024 alimentent combien de sites de production du groupe VW ?",
+    "choices": ["35 sites", "25 sites", "40 sites", "12 sites"],
+    "answerIndex": 0,
+    "explanation": "Audi précise : livrés à 35 sites de production VW Group.",
+    "source": "Audi MediaCenter — Győr: Profile of location (18/03/2025)",
+    "mnemonic": "Győr → 35 sites."
+  },
+  {
+    "id": "qTECH4164",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter (Győr profile), combien de moteurs essence 5 cylindres sont produits à Győr en 2024 ?",
+    "choices": ["13 332", "67 724", "228 719", "3 728"],
+    "answerIndex": 0,
+    "explanation": "Audi indique 13 332 moteurs essence 5 cylindres produits en 2024.",
+    "source": "Audi MediaCenter — Győr: Profile of location (18/03/2025)",
+    "mnemonic": "5 cylindres = 13 332."
+  },
+  {
+    "id": "qTECH4165",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter (Győr profile), combien de véhicules Audi sont produits à Győr en 2024 (record cité) ?",
+    "choices": ["179 710", "170 000", "144 223", "99 288"],
+    "answerIndex": 0,
+    "explanation": "Audi indique un record 2024 de 179 710 modèles Audi produits à Győr.",
+    "source": "Audi MediaCenter — Győr: Profile of location (18/03/2025)",
+    "mnemonic": "179 710 = record."
+  },
+  {
+    "id": "qTECH4166",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter (Győr profile), combien de TT « iconiques » au total sont attribuées à l’héritage de production (fin en 2023) ?",
+    "choices": ["662 762", "662 276", "627 662", "762 662"],
+    "answerIndex": 0,
+    "explanation": "Audi indique 662 762 véhicules TT produits (héritage, production arrêtée en 2023).",
+    "source": "Audi MediaCenter — Győr: Profile of location (18/03/2025)",
+    "mnemonic": "66-27-62 → TT."
+  },
+  {
+    "id": "qTECH4167",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter (Győr solar park), quelle surface de PV est citée comme installée sur le toit du centre logistique en 2020 ?",
+    "choices": ["160 000 m²", "107 000 m²", "85 000 m²", "75 000 m²"],
+    "answerIndex": 0,
+    "explanation": "Audi indique 160 000 m² de photovoltaïque sur le toit du centre logistique (installation 2020).",
+    "source": "Audi MediaCenter — Audi Hungaria expands its solar park (21/06/2024)",
+    "mnemonic": "Győr = 160k m²."
+  },
+  {
+    "id": "qTECH4168",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter (Győr solar park), quelle puissance est citée pour cette nouvelle installation (et quelle durée de fourniture est mentionnée) ?",
+    "choices": ["18 MW sur 25 ans", "9 MW sur 10 ans", "18 MW sur 10 ans", "30 MW sur 25 ans"],
+    "answerIndex": 0,
+    "explanation": "Audi mentionne une installation 18 MW fournissant de l’énergie renouvelable sur 25 ans.",
+    "source": "Audi MediaCenter — Audi Hungaria expands its solar park (21/06/2024)",
+    "mnemonic": "18 MW / 25 ans."
+  },
+  {
+    "id": "qTECH4169",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter (Győr solar park), combien d’énergie en plus (≈) la technologie « solar tracking » peut-elle produire sur une même surface ?",
+    "choices": ["Environ 30% de plus", "Environ 10% de plus", "Environ 50% de plus", "Aucun gain"],
+    "answerIndex": 0,
+    "explanation": "Audi indique que cette technologie peut produire presque 30% de plus sur la même surface.",
+    "source": "Audi MediaCenter — Audi Hungaria expands its solar park (21/06/2024)",
+    "mnemonic": "Tracking ≈ +30%."
+  },
+  {
+    "id": "qTECH4170",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter (Győr solar park), quelles surfaces supplémentaires sont annoncées (assemblage + zone verte) ?",
+    "choices": ["85 000 m² + 75 000 m²", "107 000 m² + 23 000 m²", "160 000 m² + 85 000 m²", "75 000 m² + 25 000 m²"],
+    "answerIndex": 0,
+    "explanation": "Audi indique 85 000 m² sur le toit du hall d’assemblage et ~75 000 m² sur un espace vert.",
+    "source": "Audi MediaCenter — Audi Hungaria expands its solar park (21/06/2024)",
+    "mnemonic": "85 + 75."
+  },
+  {
+    "id": "qTECH4171",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter (San José Chiapa profile), à quelle altitude est situé le site (High-tech at an altitude of…) ?",
+    "choices": ["2 400 m", "1 300 m", "3 600 m", "800 m"],
+    "answerIndex": 0,
+    "explanation": "Audi précise une altitude de 2 400 mètres pour San José Chiapa.",
+    "source": "Audi MediaCenter — San José Chiapa: Profile of location (18/03/2025)",
+    "mnemonic": "2,4 km = altitude."
+  },
+  {
+    "id": "qTECH4172",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter (San José Chiapa profile), combien de robots environ travaillent dans la carrosserie (body shop) ?",
+    "choices": ["Plus de 800 robots", "Environ 400 robots", "Environ 1 600 robots", "Moins de 100 robots"],
+    "answerIndex": 0,
+    "explanation": "Audi indique : plus de 800 robots modernes dans la body shop (benchmark for robotics).",
+    "source": "Audi MediaCenter — San José Chiapa: Profile of location (18/03/2025)",
+    "mnemonic": "800+ robots."
+  },
+  {
+    "id": "qTECH4173",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter (San José Chiapa profile), combien de véhicules Audi México produit-elle en 2024 ?",
+    "choices": ["144 223", "179 710", "170 000", "99 288"],
+    "answerIndex": 0,
+    "explanation": "Audi indique 144 223 véhicules produits en 2024 à Audi México.",
+    "source": "Audi MediaCenter — San José Chiapa: Profile of location (18/03/2025)",
+    "mnemonic": "México 2024 = 144 223."
+  },
+  {
+    "id": "qTECH4174",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter (San José Chiapa profile), quelle installation « batterie » est citée comme inaugurée en 2024 ?",
+    "choices": ["A71 battery production facility", "HCP4 battery lab", "BMC assembly hall", "SACID production unit"],
+    "answerIndex": 0,
+    "explanation": "Audi mentionne l’inauguration du site de production de batteries « A71 » en 2024.",
+    "source": "Audi MediaCenter — San José Chiapa: Profile of location (18/03/2025)",
+    "mnemonic": "A71 = batteries."
+  },
+  {
+    "id": "qTECH4175",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter (San José Chiapa profile), combien d’employés ont été formés (training center + échanges) pour la production des nouveaux Q5 ?",
+    "choices": ["Plus de 3 500", "Environ 800", "11 930", "23 000"],
+    "answerIndex": 0,
+    "explanation": "Audi indique avoir formé plus de 3 500 employés pour la production des nouveaux Q5.",
+    "source": "Audi MediaCenter — San José Chiapa: Profile of location (18/03/2025)",
+    "mnemonic": "Q5 = 3 500+ formés."
+  },
+  {
+    "id": "qTECH4176",
+    "theme": "Autres",
+    "question": "Selon Audi MediaCenter (Zwickau profile), comment Audi décrit-elle la neutralité CO₂ de l’usine multi-marques en termes de méthode ?",
+    "choices": [
+      "100% électricité verte + compensation des émissions inévitables (ex: Gold Standard) = neutralité bilan",
+      "Compensation uniquement, sans électricité verte",
+      "Charbon + compensation partielle",
+      "Neutralité uniquement sur le chauffage, pas sur l’électricité"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi indique : 100% green electricity + compensation (projets reconnus, ex Gold Standard) = CO₂-neutral « balance sheet ».",
+    "source": "Audi MediaCenter — Zwickau: Profile of location (18/03/2025)",
+    "mnemonic": "Zwickau = green + offsets."
+  },
+  {
+    "id": "qTECH4177",
+    "theme": "Origines",
+    "question": "Selon Audi MediaCenter, depuis quelle année Marc Lichte dirigeait-il Audi Design (Head of Design) ?",
+    "choices": ["Depuis 2014", "Depuis 2004", "Depuis 2020", "Depuis 1995"],
+    "answerIndex": 0,
+    "explanation": "Audi indique que Marc Lichte est Head of Design depuis 2014.",
+    "source": "Audi MediaCenter — Massimo Frascella becomes new Head of Design (15/02/2024)",
+    "mnemonic": "2014 → 10 ans → 2024."
+  },
+  {
+    "id": "qTECH4178",
+    "theme": "Origines",
+    "question": "Selon Audi MediaCenter, à quelle date Massimo Frascella est-il prévu qu’il prenne la tête du design Audi ?",
+    "choices": ["1er juin 2024", "15 février 2024", "1er janvier 2024", "1er juin 2025"],
+    "answerIndex": 0,
+    "explanation": "Audi annonce une prise de fonction prévue au 1er juin 2024.",
+    "source": "Audi MediaCenter — Massimo Frascella becomes new Head of Design (15/02/2024)",
+    "mnemonic": "1/6/24 = passation."
+  },
+  {
+    "id": "qTECH4179",
+    "theme": "Origines",
+    "question": "Selon Audi MediaCenter (Marc Lichte), quel domaine est explicitement mentionné comme faisant partie aussi de ses responsabilités ?",
+    "choices": ["UI/UX design", "Homologation WLTP", "Procurement", "Développement batterie PPE"],
+    "answerIndex": 0,
+    "explanation": "Audi cite explicitement la responsabilité UI/UX design (en plus des véhicules int/ext et racecars).",
+    "source": "Audi MediaCenter — Marc Lichte: “Good design…” (01/06/2024)",
+    "mnemonic": "Design moderne = UI/UX."
+  }
 ]
+
