@@ -42,6 +42,13 @@ let answered = false;
 
 let wrongAnswers = []; // { q, chosenIndex }
 
+// ✅ SHUFFLE DES CHOIX (mapping affichage <-> index d'origine)
+let choiceShuffle = {
+  qid: null,   // id de la question pour éviter reshuffle si re-render
+  order: [],   // [origIdx, origIdx, origIdx, origIdx] en ordre d'affichage
+  inv: []      // inv[origIdx] = displayIdx
+};
+
 function show(screen) {
   HOME.hidden = screen !== "home";
   QUIZ.hidden = screen !== "quiz";
@@ -55,6 +62,18 @@ function shuffle(arr) {
     [a[i], a[j]] = [a[j], a[i]];
   }
   return a;
+}
+
+// ✅ génère une permutation stable pour la question courante
+function ensureChoiceShuffleForQuestion(q) {
+  if (choiceShuffle.qid === q.id && choiceShuffle.order.length === 4) return;
+
+  choiceShuffle.qid = q.id;
+  choiceShuffle.order = shuffle([0, 1, 2, 3]); // indices d'origine
+  choiceShuffle.inv = [];
+  choiceShuffle.order.forEach((origIdx, displayIdx) => {
+    choiceShuffle.inv[origIdx] = displayIdx;
+  });
 }
 
 function loadSeenIds() {
@@ -205,31 +224,45 @@ function renderQuestion() {
 
   const q = session[current];
 
+  // ✅ prépare le shuffle pour CETTE question
+  ensureChoiceShuffleForQuestion(q);
+
   qIndexEl.textContent = String(current + 1);
   questionEl.textContent = q.question;
 
   choicesEl.innerHTML = "";
-  q.choices.forEach((text, idx) => {
+
+  // ✅ affichage dans l'ordre mélangé, mais on garde l'index d'origine au click
+  choiceShuffle.order.forEach((origIdx, displayIdx) => {
+    const text = q.choices[origIdx];
+
     const btn = document.createElement("button");
     btn.className = "choice";
-    btn.textContent = `${["A","B","C","D"][idx]}) ${text}`;
-    btn.onclick = () => lockAndNext(idx);
+    btn.textContent = `${["A","B","C","D"][displayIdx]}) ${text}`;
+
+    // IMPORTANT : on passe l'index d'origine à lockAndNext
+    btn.onclick = () => lockAndNext(origIdx);
+
     choicesEl.appendChild(btn);
   });
 
   startTimer();
 }
 
-function lockChoices(correctIndex, chosenIndex) {
+// correctIndex/chosenIndex ici = indices D'AFFICHAGE (0..3)
+function lockChoices(correctDisplayIndex, chosenDisplayIndex) {
   const buttons = [...choicesEl.querySelectorAll("button.choice")];
   buttons.forEach((b, idx) => {
     b.disabled = true;
-    if (idx === correctIndex) b.classList.add("correct");
-    if (chosenIndex !== null && idx === chosenIndex && chosenIndex !== correctIndex) b.classList.add("wrong");
+    if (idx === correctDisplayIndex) b.classList.add("correct");
+    if (chosenDisplayIndex !== null && idx === chosenDisplayIndex && chosenDisplayIndex !== correctDisplayIndex) {
+      b.classList.add("wrong");
+    }
   });
 }
 
 function showFeedback(q, chosenIndex) {
+  // chosenIndex = index d'origine
   const correctText = q.choices[q.answerIndex];
   const chosenText = chosenIndex === null ? "Aucune réponse" : q.choices[chosenIndex];
 
@@ -257,9 +290,17 @@ function lockAndNext(chosenIndex) {
   stopTimer();
 
   const q = session[current];
-  const correctIndex = q.answerIndex;
 
-  lockChoices(correctIndex, chosenIndex);
+  // ✅ sécurité : si déclenché par timeout, on s'assure que le mapping existe
+  ensureChoiceShuffleForQuestion(q);
+
+  const correctIndex = q.answerIndex; // index d'origine
+
+  // ✅ conversion orig -> affichage pour le surlignage des boutons
+  const correctDisplayIndex = choiceShuffle.inv[correctIndex];
+  const chosenDisplayIndex = chosenIndex === null ? null : choiceShuffle.inv[chosenIndex];
+
+  lockChoices(correctDisplayIndex, chosenDisplayIndex);
 
   const isCorrect = chosenIndex === correctIndex;
   if (isCorrect) {
@@ -314,6 +355,11 @@ async function startNewSession() {
   current = 0;
   score = 0;
   wrongAnswers = [];
+
+  // reset shuffle state
+  choiceShuffle.qid = null;
+  choiceShuffle.order = [];
+  choiceShuffle.inv = [];
 
   show("quiz");
   renderQuestion();
