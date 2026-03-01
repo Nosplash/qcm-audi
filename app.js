@@ -3,6 +3,7 @@ const QUIZ = document.getElementById("screen-quiz");
 const RESULT = document.getElementById("screen-result");
 
 const btnStart = document.getElementById("btn-start");
+const btnResume = document.getElementById("btn-resume"); // ✅ nouveau bouton (index.html)
 const btnSkip = document.getElementById("btn-skip");
 const btnNext = document.getElementById("btn-next");
 const btnRetry = document.getElementById("btn-retry");
@@ -25,6 +26,9 @@ const TIME_PER_Q = 30;
 
 const HISTORY_KEY = "qcm_audi_seen_ids_v1";
 const HISTORY_MAX = 300; // ~10 sessions
+
+// ✅ état session en cours (reprendre)
+const SESSION_STATE_KEY = "qcm_audi_session_state_v1";
 
 // 🔊 Bip (doit exister dans le dossier)
 const beep = new Audio("beep.mp3");
@@ -55,10 +59,30 @@ function show(screen) {
   RESULT.hidden = screen !== "result";
 }
 
+/* ========= Random + Shuffle (crypto) ========= */
+function randInt(max) {
+  if (max <= 0) return 0;
+
+  // Aléatoire fort (évite motifs au redémarrage)
+  if (typeof crypto !== "undefined" && crypto.getRandomValues) {
+    const u32 = new Uint32Array(1);
+    const limit = Math.floor(0x100000000 / max) * max; // évite biais modulo
+    let x;
+    do {
+      crypto.getRandomValues(u32);
+      x = u32[0];
+    } while (x >= limit);
+    return x % max;
+  }
+
+  // Fallback
+  return Math.floor(Math.random() * max);
+}
+
 function shuffle(arr) {
   const a = [...arr];
   for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
+    const j = randInt(i + 1);
     [a[i], a[j]] = [a[j], a[i]];
   }
   return a;
@@ -76,6 +100,7 @@ function ensureChoiceShuffleForQuestion(q) {
   });
 }
 
+/* ========= Historique (déjà présent, conservé) ========= */
 function loadSeenIds() {
   try {
     return new Set(JSON.parse(localStorage.getItem(HISTORY_KEY) || "[]"));
@@ -89,6 +114,8 @@ function saveSeenIds(seenSet) {
   const trimmed = arr.slice(Math.max(0, arr.length - HISTORY_MAX));
   localStorage.setItem(HISTORY_KEY, JSON.stringify(trimmed));
 }
+
+/* ========= remaining_ids (sans remise) ========= */
 function loadRemainingIds() {
   try {
     const arr = JSON.parse(localStorage.getItem(REMAINING_KEY) || "[]");
@@ -108,6 +135,86 @@ function resetRemainingIds() {
   return ids;
 }
 
+/* ========= Reprendre session ========= */
+function loadSessionState() {
+  try {
+    const raw = localStorage.getItem(SESSION_STATE_KEY);
+    if (!raw) return null;
+    const s = JSON.parse(raw);
+    if (!s || !Array.isArray(s.sessionIds) || s.sessionIds.length === 0) return null;
+    return s;
+  } catch {
+    return null;
+  }
+}
+
+function saveSessionState() {
+  if (!session || session.length === 0) return;
+
+  const state = {
+    sessionIds: session.map(q => q.id),
+    current,
+    score,
+    wrongAnswers: wrongAnswers.map(({ q, chosenIndex }) => ({ id: q.id, chosenIndex })),
+    savedAt: Date.now()
+  };
+
+  try {
+    localStorage.setItem(SESSION_STATE_KEY, JSON.stringify(state));
+  } catch (e) {}
+}
+
+function clearSessionState() {
+  try {
+    localStorage.removeItem(SESSION_STATE_KEY);
+  } catch (e) {}
+}
+
+function updateResumeButton() {
+  if (!btnResume) return;
+  btnResume.hidden = !loadSessionState();
+}
+
+async function resumeSession() {
+  await loadQuestions();
+
+  const state = loadSessionState();
+  if (!state) return false;
+
+  const byId = new Map(allQuestions.map(q => [q.id, q]));
+  const restored = state.sessionIds.map(id => byId.get(id)).filter(Boolean);
+
+  // Si questions.json a changé (IDs manquants) -> on abandonne la reprise
+  if (restored.length < SESSION_SIZE) {
+    clearSessionState();
+    updateResumeButton();
+    return false;
+  }
+
+  session = restored;
+  current = Math.min(Number(state.current || 0), SESSION_SIZE - 1);
+  score = Number(state.score || 0);
+
+  wrongAnswers = Array.isArray(state.wrongAnswers)
+    ? state.wrongAnswers
+        .map(w => ({ q: byId.get(w.id), chosenIndex: w.chosenIndex }))
+        .filter(x => x.q)
+    : [];
+
+  // reset shuffle state
+  choiceShuffle.qid = null;
+  choiceShuffle.order = [];
+  choiceShuffle.inv = [];
+
+  show("quiz");
+  renderQuestion();
+
+  saveSessionState();
+  updateResumeButton();
+  return true;
+}
+
+/* ========= Questions ========= */
 async function loadQuestions() {
   const res = await fetch("questions.json", { cache: "no-store" });
   if (!res.ok) throw new Error("Impossible de charger questions.json");
@@ -184,6 +291,7 @@ function pickSession() {
   return shuffle(chosen);
 }
 
+/* ========= Timer ========= */
 function stopTimer() {
   if (timer) clearInterval(timer);
   timer = null;
@@ -213,6 +321,7 @@ function startTimer() {
   }, 1000);
 }
 
+/* ========= UI ========= */
 function renderQuestion() {
   answered = false;
 
@@ -238,7 +347,7 @@ function renderQuestion() {
 
     const btn = document.createElement("button");
     btn.className = "choice";
-    btn.textContent = `${["A","B","C","D"][displayIdx]}) ${text}`;
+    btn.textContent = `${["A", "B", "C", "D"][displayIdx]}) ${text}`;
 
     // IMPORTANT : on passe l'index d'origine à lockAndNext
     btn.onclick = () => lockAndNext(origIdx);
@@ -278,6 +387,11 @@ function showFeedback(q, chosenIndex) {
 
 function endSession() {
   stopTimer();
+
+  // ✅ session terminée => on supprime l'état "reprendre"
+  clearSessionState();
+  updateResumeButton();
+
   show("result");
   scoreEl.textContent = String(score);
   reviewEl.hidden = true;
@@ -305,8 +419,12 @@ function lockAndNext(chosenIndex) {
   const isCorrect = chosenIndex === correctIndex;
   if (isCorrect) {
     score++;
+    current++; // ✅ on avance tout de suite pour que la sauvegarde soit fiable
+
+    saveSessionState();
+    updateResumeButton();
+
     setTimeout(() => {
-      current++;
       if (current >= SESSION_SIZE) endSession();
       else renderQuestion();
     }, 350);
@@ -319,6 +437,9 @@ function lockAndNext(chosenIndex) {
 
   btnNext.hidden = false;
   btnSkip.disabled = true;
+
+  saveSessionState();
+  updateResumeButton();
 }
 
 function buildReview() {
@@ -348,6 +469,10 @@ function buildReview() {
 
 async function startNewSession() {
   await loadQuestions();
+
+  // ✅ si on démarre une nouvelle session, on écrase l’ancienne
+  clearSessionState();
+
   const s = pickSession();
   if (!s) return;
 
@@ -363,6 +488,9 @@ async function startNewSession() {
 
   show("quiz");
   renderQuestion();
+
+  saveSessionState();
+  updateResumeButton();
 }
 
 /* ====== HANDLERS ====== */
@@ -374,6 +502,20 @@ btnStart.onclick = async () => {
     alert("Erreur : " + e.message);
   }
 };
+
+if (btnResume) {
+  btnResume.onclick = async () => {
+    try {
+      const ok = await resumeSession();
+      if (!ok) {
+        // rien à reprendre => fallback nouvelle session
+        await startNewSession();
+      }
+    } catch (e) {
+      alert("Erreur : " + e.message);
+    }
+  };
+}
 
 btnRetry.onclick = async () => {
   try {
@@ -392,6 +534,9 @@ btnNext.onclick = () => {
   feedbackEl.innerHTML = "";
 
   current++;
+  saveSessionState();
+  updateResumeButton();
+
   if (current >= SESSION_SIZE) endSession();
   else renderQuestion();
 };
@@ -400,6 +545,18 @@ btnReview.onclick = () => {
   reviewEl.hidden = !reviewEl.hidden;
   if (!reviewEl.hidden) buildReview();
 };
+
+// ✅ sauvegarde quand l’app passe en arrière-plan / fermeture onglet
+window.addEventListener("pagehide", () => {
+  saveSessionState();
+  updateResumeButton();
+});
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "hidden") {
+    saveSessionState();
+    updateResumeButton();
+  }
+});
 
 // PWA install prompt (Android/Chrome)
 let deferredPrompt = null;
@@ -415,3 +572,6 @@ installBtn.onclick = async () => {
   deferredPrompt = null;
   installBtn.hidden = true;
 };
+
+// ✅ au chargement : affiche/masque le bouton “Reprendre”
+updateResumeButton();
