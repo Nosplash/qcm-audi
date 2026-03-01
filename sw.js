@@ -1,4 +1,4 @@
-const CACHE = "qcm-audi-v7";
+const CACHE = "qcm-audi-v8";
 
 const ASSETS = [
   "./",

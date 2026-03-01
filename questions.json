@@ -1713,5 +1713,819 @@
     "answerIndex": 1,
     "explanation": "Il est présenté comme ‘the brain behind the Auto Union racing cars’.",
     "source": "Audi MediaCenter – How the “Silver Arrow” legend was born"
-  }
+  },
+  {
+    "id": 1001,
+    "theme": "competition_rallye",
+    "question": "En janvier 1981, lors de quel rallye l’Audi quattro remporte-t-elle sa victoire de débuts (première sortie) ?",
+    "choices": [
+      "Jänner Rally (Autriche)",
+      "Rallye Monte-Carlo",
+      "Rallye de Suède",
+      "Rallye San Remo"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi indique que la quattro gagne le Jänner Rally en Autriche lors de ses débuts en janvier 1981.",
+    "mnemonic": "Jänner = janvier → débuts."
+  },
+  {
+    "id": 1002,
+    "theme": "competition_rallye",
+    "question": "Quelle est la toute première victoire d’Audi quattro en manche du Championnat du Monde des Rallyes (WRC) en 1981 ?",
+    "choices": [
+      "Rallye de Suède (février)",
+      "Rallye Monte-Carlo",
+      "Rallye Safari (Kenya)",
+      "Rallye San Remo"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi précise qu’en février 1981 Hannu Mikkola/Arne Hertz signent la première victoire WRC en Suède.",
+    "mnemonic": "Suède = neige = quattro."
+  },
+  {
+    "id": 1003,
+    "theme": "competition_rallye",
+    "question": "Quel fait historique est associé à la victoire de Michèle Mouton/Fabrizia Pons au Rallye San Remo 1981 ?",
+    "choices": [
+      "Première victoire d’un équipage féminin en WRC",
+      "Première victoire d’un Diesel en WRC",
+      "Premier titre pilotes d’Audi",
+      "Première victoire d’une voiture à moteur central en WRC"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi souligne qu’avec Mouton/Pons à San Remo 1981, c’est la première victoire d’un équipage féminin en manche WRC.",
+    "mnemonic": "MP = Mouton/Pons → “premières”."
+  },
+  {
+    "id": 1004,
+    "theme": "competition_rallye",
+    "question": "En 1982, quel titre mondial Audi remporte-t-elle pour la première fois grâce à quattro ?",
+    "choices": [
+      "Titre Constructeurs WRC",
+      "Titre Pilotes WRC",
+      "Titre Constructeurs WTCC",
+      "Titre Pilotes DTM"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi indique qu’en 1982 elle décroche pour la première fois le titre Constructeurs (manufacturers’ world title) en WRC.",
+    "mnemonic": "82 = 8-2 → “C-2” = Constructeurs."
+  },
+  {
+    "id": 1005,
+    "theme": "competition_rallye",
+    "question": "Quel duo devient champion du monde en 1983, premier titre Pilotes WRC pour une voiture à 4 roues motrices ?",
+    "choices": [
+      "Hannu Mikkola / Arne Hertz",
+      "Stig Blomqvist / Björn Cederberg",
+      "Walter Röhrl / Christian Geistdörfer",
+      "Michèle Mouton / Fabrizia Pons"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi mentionne qu’en 1983 Mikkola/Hertz deviennent champions du monde, première couronne Pilotes pour une 4RM.",
+    "mnemonic": "Mi+He → “Mille Hertz” = champions."
+  },
+  {
+    "id": 1006,
+    "theme": "competition_rallye",
+    "question": "Quel mois et quelle année Audi lance-t-elle l’Audi Sport quattro (empattement raccourci) ?",
+    "choices": [
+      "Mai 1984",
+      "Mai 1983",
+      "Mars 1984",
+      "Octobre 1984"
+    ],
+    "answerIndex": 0,
+    "explanation": "Selon Audi, l’Audi Sport quattro (empattement raccourci) est lancée en mai 1984.",
+    "mnemonic": "Sport quattro = printemps → mai."
+  },
+  {
+    "id": 1007,
+    "theme": "competition_rallye",
+    "question": "Au lancement de l’Audi Sport quattro (1984), quelle évolution moteur Audi met-elle en avant ?",
+    "choices": [
+      "Nouveau moteur à 4 soupapes par cylindre",
+      "Passage au V8 biturbo",
+      "Passage au Diesel TDI",
+      "Passage au compresseur volumétrique"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi associe l’Audi Sport quattro 1984 à un nouvel moteur à quatre soupapes par cylindre.",
+    "mnemonic": "4 soupapes → Sport quattro 84."
+  },
+  {
+    "id": 1008,
+    "theme": "competition_rallye",
+    "question": "Quel équipage remporte le titre WRC 1984 (Pilotes) chez Audi selon audi.com ?",
+    "choices": [
+      "Stig Blomqvist / Björn Cederberg",
+      "Hannu Mikkola / Arne Hertz",
+      "Walter Röhrl / Christian Geistdörfer",
+      "Michèle Mouton / Fabrizia Pons"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi cite Blomqvist/Cederberg comme vainqueurs du combat pour le titre en 1984.",
+    "mnemonic": "BjörN = “N” → N°1 en 84."
+  },
+  {
+    "id": 1009,
+    "theme": "competition_rallye",
+    "question": "En quelle année Audi remporte-t-elle son 2ᵉ titre Constructeurs WRC (manufacturers’ championship) ?",
+    "choices": [
+      "1984",
+      "1983",
+      "1985",
+      "1982"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi écrit que le championnat Constructeurs revient à Audi pour la seconde fois en 1984.",
+    "mnemonic": "2e titre → 84."
+  },
+  {
+    "id": 1010,
+    "theme": "competition_rallye",
+    "question": "En quelle année débute l’Audi Sport quattro S1 E2 en compétition (aérodynamique spectaculaire) ?",
+    "choices": [
+      "1985",
+      "1984",
+      "1986",
+      "1983"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi situe les débuts de la Sport quattro S1 E2 en 1985.",
+    "mnemonic": "E2 → “85” (5 ressemble à S)."
+  },
+  {
+    "id": 1011,
+    "theme": "competition_rallye",
+    "question": "Quelle victoire WRC Audi met-elle en avant pour Walter Röhrl/Christian Geistdörfer en 1985 ?",
+    "choices": [
+      "Rallye San Remo",
+      "Rallye Monte-Carlo",
+      "Rallye Safari",
+      "Rallye de Suède"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi mentionne la victoire marquante de Röhrl/Geistdörfer au San Remo 1985.",
+    "mnemonic": "RG → “Rallye Groupe” → San Remo."
+  },
+  {
+    "id": 1012,
+    "theme": "competition_rallye",
+    "question": "Combien de victoires en manches du championnat du monde (WRC) Audi totalise-t-elle de l’ère Groupe 4 à la fin du Groupe B ?",
+    "choices": [
+      "23",
+      "19",
+      "27",
+      "31"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi indique un total de 23 victoires en épreuves WRC de Groupe 4 jusqu’à la fin du Groupe B.",
+    "mnemonic": "2+3 = 5 → 5 cylindres quattro."
+  },
+  {
+    "id": 1013,
+    "theme": "competition_rallye",
+    "question": "À Pikes Peak, en quelle année Michèle Mouton obtient-elle la première victoire “au général” pour Audi (avec l’Audi Sport quattro) ?",
+    "choices": [
+      "1985",
+      "1984",
+      "1986",
+      "1987"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi précise : 1984 victoire de classe, puis en 1985 Mouton gagne au général pour la première fois avec cette auto.",
+    "mnemonic": "85 = “au général”."
+  },
+  {
+    "id": 1014,
+    "theme": "competition_rallye",
+    "question": "Qui remporte Pikes Peak en 1986 avec la version E2 (“Race to the Clouds”) ?",
+    "choices": [
+      "Bobby Unser",
+      "Walter Röhrl",
+      "Michèle Mouton",
+      "John Buffum"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi indique qu’en 1986 Bobby Unser gagne à Pikes Peak avec la version E2.",
+    "mnemonic": "Unser = “one year later” (86)."
+  },
+  {
+    "id": 1015,
+    "theme": "competition_rallye",
+    "question": "Quelle marque du chrono record est citée par Audi pour Walter Röhrl à Pikes Peak 1987 ?",
+    "choices": [
+      "10:47.85",
+      "9:59.99",
+      "11:25.39",
+      "10:12.34"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi donne le record de Röhrl à 10 min 47,85 s lors de l’édition 1987.",
+    "mnemonic": "Röhrl → 10:47.85 (R = 10)."
+  },
+  {
+    "id": 1016,
+    "theme": "competition_rallye",
+    "question": "Selon Audi MediaCenter, quelle puissance l’Audi Sport quattro S1 (E2) délivre-t-elle à 8 000 tr/min (Pikes Peak 1987) ?",
+    "choices": [
+      "440 kW (598 ch)",
+      "331 kW (450 ch)",
+      "500 kW (680 ch)",
+      "294 kW (400 ch)"
+    ],
+    "answerIndex": 0,
+    "explanation": "Une fiche Audi MediaCenter indique 440 kW (598 ch) à 8 000 tr/min pour la S1 (E2) utilisée à Pikes Peak 1987.",
+    "mnemonic": "440 kW = “4-4-0” → 4 anneaux, 4 roues, 0 excuses."
+  },
+  {
+    "id": 1017,
+    "theme": "competition_rallye",
+    "question": "Audi rappelle que Pikes Peak culmine à quelle altitude (mètres) ?",
+    "choices": [
+      "4 301 m",
+      "3 801 m",
+      "4 901 m",
+      "4 101 m"
+    ],
+    "answerIndex": 0,
+    "explanation": "Sur audi.com, Pikes Peak est décrit comme un sommet à 4 301 mètres d’altitude.",
+    "mnemonic": "43-01 → “4 3 0 1”."
+  },
+  {
+    "id": 1018,
+    "theme": "competition_rallye",
+    "question": "En 1987, quel modèle Audi est engagé en Groupe A et sert à remporter le Safari Rally (Kenya) avec Mikkola/Hertz ?",
+    "choices": [
+      "Audi 200 quattro",
+      "Audi 80 quattro",
+      "Audi 90 quattro",
+      "Audi Sport quattro S1 E2"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi indique que l’Audi 200 quattro (Groupe A) est utilisée en 1987 et gagne le Safari Rally avec Mikkola/Hertz.",
+    "mnemonic": "200 → “Kenya = long”, donc grande berline."
+  },
+  {
+    "id": 1019,
+    "theme": "competition_dakar",
+    "question": "Quelle capacité de batterie haute tension Audi cite-t-elle pour l’Audi RS Q e-tron (Dakar) ?",
+    "choices": [
+      "52 kWh",
+      "35 kWh",
+      "57,6 kWh",
+      "77 kWh"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi décrit une batterie haute tension de 52 kWh sur l’Audi RS Q e-tron.",
+    "mnemonic": "Dakar 52 = dunes en S (5) + 2 moteurs."
+  },
+  {
+    "id": 1020,
+    "theme": "competition_dakar",
+    "question": "D’où proviennent les MGU (motor-generator units) utilisés sur l’Audi RS Q e-tron selon Audi ?",
+    "choices": [
+      "De la Formula E",
+      "Du WEC (LMP1)",
+      "Du DTM 1990",
+      "De la NASCAR"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi explique que les MGU viennent de la Formula E (un sur chaque essieu, et un en générateur).",
+    "mnemonic": "E = electric → Formula E."
+  },
+  {
+    "id": 1021,
+    "theme": "competition_dakar",
+    "question": "Le “convertisseur d’énergie” du RS Q e-tron est constitué de quel moteur thermique selon Audi ?",
+    "choices": [
+      "Un TFSI issu du DTM",
+      "Un V10 FSI de série",
+      "Un V6 TDI du Touareg",
+      "Un W12 biturbo"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi précise que l’énergie converter associe un TFSI très efficient issu du DTM et un générateur.",
+    "mnemonic": "DTM → TFSI."
+  },
+  {
+    "id": 1022,
+    "theme": "competition_dakar",
+    "question": "Lors de ses débuts au Dakar (janvier 2022), combien de victoires d’étapes Audi revendique-t-elle ?",
+    "choices": [
+      "4",
+      "1",
+      "2",
+      "7"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi indique que l’équipe enregistre quatre victoires d’étapes lors du Dakar 2022 (début du projet).",
+    "mnemonic": "Dakar 22 → 2+2 = 4."
+  },
+  {
+    "id": 1023,
+    "theme": "competition_dakar",
+    "question": "Quelle épreuve Audi cite-t-elle comme première victoire “au général” en rallye-raid (désert) en 2022, et avec quel équipage ?",
+    "choices": [
+      "Abu Dhabi Desert Challenge – Stéphane Peterhansel / Edouard Boulanger",
+      "Dakar – Carlos Sainz / Lucas Cruz",
+      "Baja Aragón – Mattias Ekström / Emil Bergkvist",
+      "Rallye du Maroc – Sébastien Loeb / Fabian Lurquin"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi mentionne l’Abu Dhabi Desert Challenge 2022 (W2RC) remporté par Peterhansel/Boulanger, première victoire globale dans le désert.",
+    "mnemonic": "ADDC = “Abu Dhabi, Double Champion”."
+  },
+  {
+    "id": 1024,
+    "theme": "competition_dakar",
+    "question": "Quel équipage remporte la première victoire d’Audi au Dakar (classement général) en 2024 ?",
+    "choices": [
+      "Carlos Sainz / Lucas Cruz",
+      "Mattias Ekström / Emil Bergkvist",
+      "Stéphane Peterhansel / Edouard Boulanger",
+      "Sébastien Loeb / Fabian Lurquin"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi annonce que Sainz/Cruz offrent à Audi sa première victoire au Dakar en 2024 avec le RS Q e-tron.",
+    "mnemonic": "SC = Sainz/Cruz → “Success Crew”."
+  },
+  {
+    "id": 1025,
+    "theme": "competition_dakar",
+    "question": "D’après Audi, quel est l’écart final (environ) de la victoire Dakar 2024 du RS Q e-tron ?",
+    "choices": [
+      "1 h 20 min (80 min)",
+      "12 min",
+      "2 h 45 min",
+      "38 min"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi communique une avance d’environ 1 h 20 min (80 minutes) pour la victoire 2024.",
+    "mnemonic": "1:20 = 80 min (comme “e-80n”)."
+  },
+  {
+    "id": 1026,
+    "theme": "competition_dakar",
+    "question": "Audi situe la victoire Dakar 2024 après environ quelle distance totale parcourue ?",
+    "choices": [
+      "7 900 km",
+      "6 500 km",
+      "9 800 km",
+      "4 600 km"
+    ],
+    "answerIndex": 0,
+    "explanation": "Le communiqué Audi évoque environ 7 900 km au total pour Dakar 2024.",
+    "mnemonic": "7,9 ≈ “RS”."
+  },
+  {
+    "id": 1027,
+    "theme": "competition_dakar",
+    "question": "Selon Audi, contre quels adversaires “constructeurs/teams” Audi cite-t-elle un duel serré au Dakar 2024 ?",
+    "choices": [
+      "Toyota, Ford et Prodrive",
+      "Hyundai, Citroën et M-Sport",
+      "Mini, Peugeot et X-raid",
+      "KTM, Honda et Yamaha"
+    ],
+    "answerIndex": 0,
+    "explanation": "Sur audi.com, Audi mentionne une lutte face à Toyota, Ford et l’équipe Prodrive lors du Dakar 2024.",
+    "mnemonic": "TFP = Toyota/Ford/Prodrive."
+  },
+  {
+    "id": 1028,
+    "theme": "competition_dakar",
+    "question": "Dans la description Audi du Dakar 2024, quels sont les poursuivants directs cités face à Sainz/Cruz ?",
+    "choices": [
+      "Sébastien Loeb / Fabian Lurquin",
+      "Nasser Al-Attiyah / Mathieu Baumel",
+      "Yazeed Al-Rajhi / Timo Gottschalk",
+      "Giniel de Villiers / Dirk von Zitzewitz"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi cite Loeb/Lurquin comme poursuivants dans la gestion de l’avance vers l’arrivée.",
+    "mnemonic": "LL = “Last Lap” des poursuivants."
+  },
+  {
+    "id": 1029,
+    "theme": "competition_dakar",
+    "question": "Selon audi.com, combien de kilomètres “contre la montre” (spéciales) sont cités pour le Dakar 2024 ?",
+    "choices": [
+      "4 600 km",
+      "7 900 km",
+      "2 400 km",
+      "6 000 km"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi indique environ 4 600 km contre la montre dans le total Dakar 2024.",
+    "mnemonic": "4,6 = “for six” (pour la victoire)."
+  },
+  {
+    "id": 1030,
+    "theme": "audi_hoonitron",
+    "question": "Comment Audi nomme-t-elle le prototype 100% électrique développé “uniquement” pour Ken Block ?",
+    "choices": [
+      "Audi S1 e-tron quattro Hoonitron",
+      "Audi RS e-tron quattro Hoonitron",
+      "Audi Sport quattro S1 Hoonitron",
+      "Audi S1 TFSI quattro Hoonitron"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi présente officiellement l’Audi S1 e-tron quattro Hoonitron comme modèle unique pour Ken Block.",
+    "mnemonic": "S1 + e-tron + quattro → Hoonitron."
+  },
+  {
+    "id": 1031,
+    "theme": "audi_hoonitron",
+    "question": "Où le développement complet (technologie incluse) de la S1 Hoonitron a-t-il été réalisé selon Audi ?",
+    "choices": [
+      "Chez Audi Sport à Neckarsulm",
+      "À Ingolstadt (production)",
+      "À Neuburg an der Donau",
+      "À Hinwil (Suisse)"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi précise que l’intégralité du développement a été menée par Audi Sport sur le site de Neckarsulm.",
+    "mnemonic": "Neckarsulm = “N” comme “Now it’s done”."
+  },
+  {
+    "id": 1032,
+    "theme": "audi_hoonitron",
+    "question": "Quel site Audi est responsable du style (design) de la S1 Hoonitron ?",
+    "choices": [
+      "Audi Design à Ingolstadt",
+      "Audi Sport à Neckarsulm",
+      "Audi Tradition à Ingolstadt",
+      "Sauber à Hinwil"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi indique que le style a été réalisé par Audi Design à Ingolstadt (équipe de Marc Lichte).",
+    "mnemonic": "I’gol’stadt = “I” pour “Idea/design”."
+  },
+  {
+    "id": 1033,
+    "theme": "audi_hoonitron",
+    "question": "Quel est le principe de transmission de la S1 Hoonitron d’après Audi MediaCenter ?",
+    "choices": [
+      "Deux moteurs électriques, transmission intégrale",
+      "Un moteur électrique arrière uniquement",
+      "V10 thermique + quattro",
+      "Hybridation légère 48 V"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi décrit deux moteurs électriques et une transmission intégrale (quattro) pour la Hoonitron.",
+    "mnemonic": "Deux = avant + arrière."
+  },
+  {
+    "id": 1034,
+    "theme": "audi_hoonitron",
+    "question": "Selon Audi, quel type de châssis utilise la S1 Hoonitron ?",
+    "choices": [
+      "Châssis en fibre de carbone",
+      "Châssis en acier embouti",
+      "Monocoque aluminium ASF uniquement",
+      "Châssis tubulaire sans éléments composites"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi mentionne un châssis en fibre de carbone pour la S1 Hoonitron.",
+    "mnemonic": "Carbone = “C” comme “Course”."
+  },
+  {
+    "id": 1035,
+    "theme": "audi_hoonitron",
+    "question": "Dans la fiche technique Audi (Hoonitron), quelle architecture de suspension est indiquée à l’avant et à l’arrière ?",
+    "choices": [
+      "McPherson avant ET arrière",
+      "Double triangulation avant, multibras arrière",
+      "Essieu rigide avant, De Dion arrière",
+      "Multibras avant, essieu rigide arrière"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi indique des jambes McPherson à l’avant et à l’arrière, avec un débattement > 200 mm.",
+    "mnemonic": "McP partout = drift partout."
+  },
+  {
+    "id": 1036,
+    "theme": "audi_hoonitron",
+    "question": "Audi indique qu’un MGU de la Hoonitron pèse combien (avec transmission) ?",
+    "choices": [
+      "55 kg",
+      "35 kg",
+      "75 kg",
+      "95 kg"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi précise que chaque MGU (avec transmission) ne pèse que 55 kg.",
+    "mnemonic": "55 = “double 5” → deux MGUs."
+  },
+  {
+    "id": 1037,
+    "theme": "audi_hoonitron",
+    "question": "Quelle est la capacité totale (et la structure) de batteries haute tension de la Hoonitron selon Audi ?",
+    "choices": [
+      "57,6 kWh (4×14,4 kWh)",
+      "52 kWh (1 pack)",
+      "77 kWh (1 pack)",
+      "35 kWh (2×17,5 kWh)"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi indique 4 batteries de 14,4 kWh issues d’un modèle PHEV, totalisant 57,6 kWh.",
+    "mnemonic": "4×14,4 → 57,6."
+  },
+  {
+    "id": 1038,
+    "theme": "audi_hoonitron",
+    "question": "À quelle tension de fonctionnement Audi annonce-t-elle le système HV de la Hoonitron ?",
+    "choices": [
+      "800 V",
+      "400 V",
+      "48 V",
+      "1 000 V"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi donne une architecture haute tension à 800 volts pour la S1 Hoonitron.",
+    "mnemonic": "800V = e-tron GT style."
+  },
+  {
+    "id": 1039,
+    "theme": "audi_hoonitron",
+    "question": "Quelle valeur de répartition des masses (avant/arrière) Audi donne-t-elle pour la Hoonitron ?",
+    "choices": [
+      "52:48",
+      "60:40",
+      "50:50",
+      "48:52"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi annonce une répartition des masses quasi équilibrée : 52:48.",
+    "mnemonic": "52:48 ≈ presque 50/50."
+  },
+  {
+    "id": 1040,
+    "theme": "audi_hoonitron",
+    "question": "Dans les communiqués Audi, dans quelle ville se déroule le film Electrikhana (1) avec Ken Block et la Hoonitron ?",
+    "choices": [
+      "Las Vegas",
+      "Mexico City",
+      "Monterrey",
+      "Ingolstadt"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi décrit la Hoonitron en drift dans les rues/casinos/parkings de Las Vegas dans Electrikhana.",
+    "mnemonic": "Vegas = V de “Vorsprung”."
+  },
+  {
+    "id": 1041,
+    "theme": "audi_hoonitron",
+    "question": "À quel moment Electrikhana 2 a-t-il été filmé (d’après Audi) ?",
+    "choices": [
+      "Novembre 2022",
+      "Novembre 2021",
+      "Décembre 2023",
+      "Janvier 2023"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi précise qu’Electrikhana 2 a été filmé en novembre 2022.",
+    "mnemonic": "2 → “22”."
+  },
+  {
+    "id": 1042,
+    "theme": "audi_hoonitron",
+    "question": "Quelle est la date de publication (sortie) du film Electrikhana 2 annoncée par Audi MediaCenter ?",
+    "choices": [
+      "6 décembre 2023",
+      "25 octobre 2022",
+      "15 décembre 2021",
+      "19 janvier 2024"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter publie le communiqué de sortie d’Electrikhana 2 le 6 décembre 2023.",
+    "mnemonic": "6/12/23 → “6-12-23”."
+  },
+  {
+    "id": 1043,
+    "theme": "audi_hoonitron",
+    "question": "D’après Audi, quel âge avait Ken Block au moment de son décès (mentionné dans le communiqué Electrikhana 2) ?",
+    "choices": [
+      "55 ans",
+      "49 ans",
+      "60 ans",
+      "57 ans"
+    ],
+    "answerIndex": 0,
+    "explanation": "Le communiqué Audi indique que Ken Block est décédé à l’âge de 55 ans.",
+    "mnemonic": "55 = double 5 → drift en 5e."
+  },
+  {
+    "id": 1044,
+    "theme": "audi_cinema",
+    "question": "Dans le film de science-fiction I, Robot (2004), quel concept-car Audi est cité comme voiture de Del Spooner (Will Smith) ?",
+    "choices": [
+      "Audi RSQ Concept",
+      "Audi TT quattro concept",
+      "Audi Avus quattro",
+      "Audi Le Mans quattro"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter rappelle que Del Spooner conduit une Audi RSQ Concept dans I, Robot (2004).",
+    "mnemonic": "RSQ = Robot Sci-fi Quattro."
+  },
+  {
+    "id": 1045,
+    "theme": "audi_cinema",
+    "question": "Selon Audi, qui a conçu l’Audi RSQ Concept pour le film I, Robot (à l’époque Head of Design) ?",
+    "choices": [
+      "Walter De Silva",
+      "Marc Lichte",
+      "Ferdinand Piëch",
+      "Giorgetto Giugiaro"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi indique que la RSQ Concept a été dessinée par l’équipe design dirigée alors par Walter De Silva.",
+    "mnemonic": "De Silva = design “silver”."
+  },
+  {
+    "id": 1046,
+    "theme": "audi_cinema",
+    "question": "D’après Audi MediaCenter, la 2ᵉ génération d’Audi R8 apparaît notamment dans quels films Marvel ?",
+    "choices": [
+      "Captain America: Civil War (2016) et Spider-Man: Homecoming (2017)",
+      "Iron Man (2008) et Avengers: Endgame (2019)",
+      "Thor (2011) et Black Panther (2018)",
+      "Doctor Strange (2016) et Ant-Man (2015)"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter cite Captain America: Civil War (2016) et Spider-Man: Homecoming (2017) pour la R8 de 2ᵉ génération.",
+    "mnemonic": "CA 2016 + SM 2017 → 16/17."
+  },
+  {
+    "id": 1047,
+    "theme": "audi_cinema",
+    "question": "Quel est le nom du concept-car virtuel Audi créé pour le film d’animation Les Incognitos (Spies in Disguise) ?",
+    "choices": [
+      "Audi RSQ e-tron",
+      "Audi RS e-tron GT",
+      "Audi AI:TRAIL",
+      "Audi PB18 e-tron"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi France présente la RSQ e-tron comme concept-car virtuel conçu pour Les Incognitos (Spies in Disguise).",
+    "mnemonic": "RSQ + e-tron = RSQ modernisée."
+  },
+  {
+    "id": 1048,
+    "theme": "audi_cinema",
+    "question": "Dans Les Incognitos (Spies in Disguise), quel personnage est associé à l’Audi RSQ e-tron selon Audi France ?",
+    "choices": [
+      "Le super espion Lance Sterling",
+      "Le scientifique Walter Beckett",
+      "Le détective Del Spooner",
+      "Le pilote Ken Block"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi France associe la RSQ e-tron au super espion Lance Sterling (voix : Will Smith).",
+    "mnemonic": "Sterling = “argent” → Audi."
+  },
+  {
+    "id": 1049,
+    "theme": "audi_cinema",
+    "question": "Audi France décrit la RSQ e-tron (Les Incognitos) comme…",
+    "choices": [
+      "Un concept-car virtuel, électrique et entièrement automatisé",
+      "Un SUV thermique V8",
+      "Un break Diesel quattro",
+      "Une supercar hybride rechargeable non autonome"
+    ],
+    "answerIndex": 0,
+    "explanation": "Le communiqué Audi France parle d’un concept-car virtuel, électrique et entièrement automatisé (IA).",
+    "mnemonic": "e-tron = électrique + autonome."
+  },
+  {
+    "id": 1050,
+    "theme": "audi_f1",
+    "question": "À partir de quelle saison Audi entre-t-elle en Formule 1 en tant qu’équipe d’usine (factory team) ?",
+    "choices": [
+      "2026",
+      "2025",
+      "2027",
+      "2024"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi annonce une entrée en FIA F1 à partir de 2026 avec une équipe d’usine et son Power Unit.",
+    "mnemonic": "26 = “F1-26”."
+  },
+  {
+    "id": 1051,
+    "theme": "audi_f1",
+    "question": "Dans quelle ville/site Audi développe-t-elle et assemble-t-elle l’intégralité de son Power Unit de F1 ?",
+    "choices": [
+      "Neuburg an der Donau",
+      "Ingolstadt",
+      "Neckarsulm",
+      "Hinwil"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi précise que l’ensemble du Power Unit est développé et construit à Neuburg an der Donau.",
+    "mnemonic": "Neuburg = “new power”."
+  },
+  {
+    "id": 1052,
+    "theme": "audi_f1",
+    "question": "Selon audi.com, où sont développées la voiture et les opérations de course (race operations) du projet F1 à partir de 2026 ?",
+    "choices": [
+      "Hinwil (Suisse)",
+      "Neuburg (Allemagne)",
+      "Ingolstadt (Allemagne)",
+      "Bicester (R.-U.)"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi explique que la voiture est développée en collaboration avec l’usine de Hinwil et que les opérations F1 y sont menées dès 2026.",
+    "mnemonic": "Hinwil = “home of Sauber”."
+  },
+  {
+    "id": 1053,
+    "theme": "audi_f1",
+    "question": "D’après Audi MediaCenter, quelle équipe Audi sélectionne-t-elle comme partenaire stratégique pour son entrée en F1 (confirmé en octobre 2022) ?",
+    "choices": [
+      "Sauber",
+      "Williams",
+      "Haas",
+      "Alpine"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi MediaCenter annonce le choix de Sauber comme partenaire stratégique (accord confirmé en octobre 2022).",
+    "mnemonic": "S pour Sauber, S pour Suisse."
+  },
+  {
+    "id": 1054,
+    "theme": "audi_f1",
+    "question": "Selon audi.com, quand Audi acquiert-elle le Sauber Group “en totalité” (in its entirety) ?",
+    "choices": [
+      "Début 2025",
+      "Début 2024",
+      "Début 2026",
+      "Début 2023"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi indique avoir acquis le Sauber Group en Suisse dans son intégralité au début de 2025.",
+    "mnemonic": "25 = “Full control”."
+  },
+  {
+    "id": 1055,
+    "theme": "audi_f1",
+    "question": "Quel nom d’équipe Audi utilise-t-elle sur audi.com pour la saison de débuts en F1 (2026) ?",
+    "choices": [
+      "Audi Revolut F1 Team",
+      "Audi Sport F1 Team",
+      "Audi quattro F1 Team",
+      "Audi e-tron F1 Team"
+    ],
+    "answerIndex": 0,
+    "explanation": "La page audi.com mentionne la saison 2026 comme début de l’Audi Revolut F1 Team.",
+    "mnemonic": "Revolut → “R” comme Rings."
+  },
+  {
+    "id": 1056,
+    "theme": "audi_f1",
+    "question": "Sur audi.com, pourquoi Audi explique-t-elle avoir acquis Sauber en totalité début 2025 ?",
+    "choices": [
+      "Pour créer les conditions d’entrée d’un investisseur : le fonds souverain du Qatar",
+      "Pour déménager l’usine à Ingolstadt",
+      "Pour abandonner le développement du Power Unit",
+      "Pour redevenir simple motoriste sans châssis"
+    ],
+    "answerIndex": 0,
+    "explanation": "Audi écrit que l’acquisition totale a créé les conditions pour faire entrer le fonds souverain du Qatar comme investisseur.",
+    "mnemonic": "Qatar = “Q” comme quattro."
+  },
+  {
+  "id": "q9001",
+  "theme": "Autres",
+  "question": "Dans Electrikhana (Las Vegas), quel modèle Audi Tradition est explicitement cité par Audi MediaCenter comme « guest appearance » ?",
+  "choices": [
+    "Audi 90 IMSA GTO (1989)",
+    "Audi V8 quattro DTM (1990)",
+    "Audi RS 2 Avant (1994)",
+    "Audi A2 3L (2001)"
+  ],
+  "answerIndex": 0,
+  "explanation": "Audi MediaCenter précise que, en dehors de la S1 Hoonitron, Electrikhana montre brièvement des modèles Audi Tradition, dont l’Audi 90 IMSA GTO (1989) (ainsi que Audi 200 Trans Am 1988, Sport quattro S1 Pikes Peak 1987, quattro Gruppe B A2 1984, R8 LMP, R18 e-tron quattro).",
+  "source": "Audi MediaCenter — “Ken Block and the Audi S1 Hoonitron electrify Las Vegas” (25/10/2022)",
+  "mnemonic": "IMSA = USA → cameo logique dans le film US."
+},
+{
+  "id": "q9002",
+  "theme": "Autres",
+  "question": "Dans Electrikhana 2, quel est le « gimmick » spécial décrit par Audi MediaCenter, possible uniquement sur un véhicule électrique ?",
+  "choices": [
+    "Les essieux avant et arrière tirent en sens opposés à l’arrêt, créant un gros nuage blanc",
+    "Des flammes sortent de l’échappement grâce à un anti-lag",
+    "Le frein à main hydraulique déclenche une marche arrière automatique",
+    "Les pneus se gonflent/dégonflent automatiquement en drift"
+  ],
+  "answerIndex": 0,
+  "explanation": "Audi MediaCenter explique qu’en plus d’une nouvelle livrée, Ken Block a imaginé un gimmick : dans une scène, les essieux avant et arrière motricent en directions opposées, et la S1 Hoonitron disparaît dans un grand nuage blanc alors qu’elle est à l’arrêt.",
+  "source": "Audi MediaCenter — “Electrikhana 2: final drift video with Ken Block released” (06/12/2023)",
+  "mnemonic": "EV-only = moteurs AV/AR indépendants → opposés."
+}
 ]
